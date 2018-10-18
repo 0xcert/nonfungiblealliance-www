@@ -2,7 +2,7 @@
   <section class="introduction">
     <div class="grid-container">
       <div class="grid-x grid-margin-x">
-        <div class="small-12 large-6 cell">
+        <div class="small-12 medium-6 large-6 cell">
           <h1>
             Bringing together the NFT world.
           </h1>
@@ -16,6 +16,10 @@
           <div class="margin-bottom-3">
             <a href="#" v-scroll-to="{el: '#platform'}" class="button primary large margin-right-1 margin-bottom-1">Become a member</a>
           </div>
+        </div>
+
+        <div class="cell show-for-medium large-6 medium-6 align-bottom position-relative">
+          <img class="illustration" src="/images/top-illustration.svg" alt="">
         </div>
       </div>
     </div>
@@ -51,6 +55,14 @@
 
   @include breakpoint(large) {
     min-height: 600px;
+  }
+}
+
+.illustration {
+  position: absolute;
+
+  @include breakpoint(large ) {
+    bottom: -9.5rem;
   }
 }
 
