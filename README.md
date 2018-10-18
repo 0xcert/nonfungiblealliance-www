@@ -1,6 +1,6 @@
-# [0xcert](https://0xcert.org)-www
+# [Non-fungible Alliance](https://nonfungiblealliance.org)-www
 
-This project is the official 0xcert website repository.
+Official The Non-fungible Alliance website
 
 ## Documentation
 
@@ -9,7 +9,6 @@ This project is the official 0xcert website repository.
 
 ## Credits
 
-* Kristijan Sedlak, *author*
 * David Ličen, *author*
 
 ## License (MIT)
