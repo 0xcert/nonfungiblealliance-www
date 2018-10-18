@@ -1,0 +1,30 @@
+[
+  { 
+    "id": "protocol", 
+    "label": "Protocol", 
+    "title": "Certification and verification of assets",
+    "body": "Deploy non-fungible tokens on the blockchain, store them in cryptographic wallets, own or transfer them. Validate their existence, authenticity and ownership without third-party involvement.",
+    "active": true
+  },
+  { 
+    "id": "tools", 
+    "label": "Tools",
+    "title": "A set of functions for developers",
+    "body": "With 0xcert you can create smart contracts for your ICO, utilize our framework for your own token development, and help yourself out with dapp creation methods. The same protocol applies to various fields and industries, enhancing its interoperability.",
+    "active": false 
+  }, 
+  { 
+    "id": "dapps", 
+    "label": "Dapps", 
+    "title": "Decentralized applications",
+    "body": "With our secure blockchain agnostic platform, powerful tools and community embraced conventions for managing non-fungible tokens, 0xcert becomes a pluggable settlement with an advanced integration layer for different dapps and relay applications.",            
+    "active": false 
+  },
+  { 
+    "id": "zxc_token", 
+    "label": "ZXC Token", 
+    "title": "Unique and agnostic",
+    "body": "ZXC utility tokens (fungible ERC-20 tokens) support dapps built on top of the 0xcert protocol with minimum possible fees. 0xcert open source project strives to be community driven, allowing for its decentralized governance. ",            
+    "active": false
+  }
+]

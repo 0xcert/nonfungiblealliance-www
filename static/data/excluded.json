@@ -1,0 +1,19 @@
+{
+  "members": [{
+    "name": "Katja Geršak",
+    "role": "Head of Academic Partnerships",
+    "image": "/team/katja-gersak.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/katja-gersak-591b4a15"
+  }],
+  "advisors": [{
+    "name": "Dr. Daithí Ó Murchú",
+    "roles": [
+      "President RCEEDAO Ireland, Under EU parliament and Commission Appointment",
+      "Founder Member at International Fellow Academy of Ubiquitous Communication Educators international"
+    ],
+    "image": "/advisors/daithi-murchu.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/dr-daith%C3%AD-%C3%B3-murch%C3%BA-57228624"
+  }]
+}

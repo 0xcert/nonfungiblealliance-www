@@ -1,0 +1,417 @@
+[
+  {
+    "category": "tech",
+    "title": "DEX Series #2 - Trading and Exchange",
+    "oneliner": "How are assets traded and exchanged? The second DEX Series post deals with their transfer mechanisms.",
+    "id": "dex-series-2-trading-and-exchange",
+    "publishedDate": "Oct 16, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "0xcert Protocol Solution Presented Live For the 1st Time",
+    "oneliner": "Our solution for educational certificates has been showcased to the top scholars of the EU.",
+    "id": "0xcert-protocol-ijs-k4a-malta",
+    "publishedDate": "Oct 15, 2018",
+    "published": true
+  },
+  {
+    "category": "tech",
+    "title": "DEX Series #1 - Tags & IDs",
+    "oneliner": "In the first post of this series, we are focusing on identities and determiners of assets.",
+    "id": "dex-series-1-tags-and-ids",
+    "publishedDate": "Oct 12, 2018",
+    "published": true
+  },
+  {
+    "category": "tech",
+    "title": "New Blog Series - DEX",
+    "oneliner": "In order to lay a solid foundation for the 0xcert DEX, we're starting a series of DEX-related posts.",
+    "id": "dex-series-intro",
+    "publishedDate": "Oct 10, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "We're back from Malta",
+    "oneliner": "The Delta Summit in Malta was one of the most important blockchain events this season, and we just got back.",
+    "id": "delta-summit-recap",
+    "publishedDate": "Oct 7, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "Bounty Rewards Distribution",
+    "oneliner": "The day has come! Bounty ZXC tokens are coming your way. Plus an added reward!",
+    "id": "bounty-rewards-distribution",
+    "publishedDate": "Sep 28, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "Exciting Times Ahead",
+    "oneliner": "0xcert ICO is well over now. Where are we now and what is to expect next?",
+    "id": "what-comes-next-for-0xcert",
+    "publishedDate": "Sep 25, 2018",
+    "published": true
+  },
+  {
+    "category": "tech",
+    "title": "Token-Curated Registries",
+    "oneliner": "What are Token-Curated Registries, how are they used and what for? Guest post by William Entriken.",
+    "id": "token-curated-registries-william-entriken",
+    "publishedDate": "Sep 21, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Delta Summit - Here We Come",
+    "oneliner": "As one of the core blockchain events of this season, Delta Summit Malta is something not to be missed.",
+    "id": "0xcert-at-delta-summit-malta",
+    "publishedDate": "Sep 17, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "WBF London Recap",
+    "oneliner": "We're back from London, and another great edition of WBF is in 0xcert records.",
+    "id": "wbf-london-recap",
+    "publishedDate": "Sep 8, 2018",
+    "published": true
+  },
+  {
+    "category": "tech",
+    "title": "Bug Bounty Report",
+    "oneliner": "After 60 days of Bug Bounty Program, 0xcert has improved the proposed issues reported by our supporting community",
+    "id": "bug-bounty-report",
+    "publishedDate": "Sep 7, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "ERC721 Validator on Dapp.com",
+    "oneliner": "We have successfully listed our ERC721 Validator on Dapp.com, the go-to platform for decentralized apps",
+    "id": "erc721-validator-on-dapp-com",
+    "publishedDate": "Aug 28, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Meet us at WBF London",
+    "oneliner": "After the WBF New York, 0xcert is attending its London edition to discuss application of non-fungibility accross industries",
+    "id": "0xcert-at-wbf-london",
+    "publishedDate": "Aug 27, 2018",
+    "published": true
+  },
+  {
+    "category": "tech",
+    "title": "ERC-721 Validator",
+    "oneliner": "0xcert's new tool is helping developers and token owners validate their smart contracts and NFTs",
+    "id": "erc721-validator",
+    "publishedDate": "Aug 7, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "0xcert is back from Asia!",
+    "oneliner": "What did we present and who did we 0xcertify - read more in the recap",
+    "id": "asia-tour-recap",
+    "publishedDate": "Jul 30, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "First 0xcert Asia Tour kicking off",
+    "oneliner": "Getting closer to the non-fungible Asian community, come and meet us at events from Singapore to Shenzhen.",
+    "id": "first-0xcert-asia-tour",
+    "publishedDate": "Jul 21, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "0xcert at Wanchain 2.0. and Wanlabs London",
+    "oneliner": "What is 0xcert bringing to Wanchain and what are the mutual benefits? Only one day in London but the whole future ahead.",
+    "id": "wanchain-london-recap",
+    "publishedDate": "Jul 20, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "First gains of Wanchain & 0xcert alliance",
+    "oneliner": "0xcert proudly presenting the newest Advisor before travelling to London to join Wanchain European Tour",
+    "id": "etienne-as-advisor-london-wanchain-tour",
+    "publishedDate": "Jul 18, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Meet us at NIFTY, Hong Kong",
+    "oneliner": "0xcert team will be attending the NIFTY Conference in Hong Kong, along with some of the biggest players in the non-fungible space.",
+    "id": "0xcert-at-nifty-hong-kong",
+    "publishedDate": "Jul 16, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "0xcert and Wanchain enter a strategic alliance ",
+    "oneliner": "0xcert announced today a strategic alliance for the implementation of the non-fungible tokens standard on Wanchain.",
+    "id": "0xcert-and-wanchain-strategic-alliance",
+    "publishedDate": "July 11, 2018",
+    "published": true
+  },
+  {
+    "category": "archive",
+    "title": "0xcert Crowdsale Recap",
+    "oneliner": "Check out the stats, employed procedure, and next steps for 0xcert after Crowdsale.",
+    "id": "crowdsale-recap",
+    "publishedDate": "Jul 8, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "New partnerships for 0xcert",
+    "oneliner": "Building non-fungible future of education, with one institution at a time.",
+    "id": "partnership-for-non-fungible-future-education",
+    "publishedDate": "Jul 6, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "What comes next for 0xcert",
+    "oneliner": "After passing an important milestone, 0xcert is now off to further improving the products and building the community.",
+    "id": "now-the-work-begins",
+    "publishedDate": "Jul 6, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "Thank you note from 0xcert CEO",
+    "oneliner": "Without you, we couldn't have made it.",
+    "id": "thank-you-note-from-ceo",
+    "publishedDate": "Jul 5, 2018",
+    "published": true
+  },
+  {
+    "category": "archive",
+    "title": "A guide for 0xcert public crowdsale",
+    "oneliner": "Everything you need to know for July 4 opening of 0xcert public crowdsale.",
+    "id": "guide-for-crowdsale",
+    "publishedDate": "Jul 4, 2018",
+    "published": true
+  },
+  {
+    "category": "archive",
+    "title": "Highlights of 0xcert Public Pre-sale",
+    "oneliner": "Find out how the first ever Public Pre-Sale using a Erc721 token went.",
+    "id": "public-pre-sale-highlights",
+    "publishedDate": "Jul 3, 2018",
+    "published": true
+  },
+  {
+    "category": "archive",
+    "title": "How to recognize and avoid scams",
+    "oneliner": "0xcert ICO Guide #2 - How to recognize and avoid all sorts of scams",
+    "id": "avoid-scam-guide",
+    "publishedDate": "Jul 2, 2018",
+    "published": true
+  },
+  {
+    "category": "archive",
+    "title": "0xcert Private Presale SOLD OUT!",
+    "oneliner": "0xcert is thrilled to announce that we have successfully sold out the Private Presale, with contributions from many incredible supporters worldwide. ",
+    "id": "private-presale-soldout",
+    "publishedDate": "Jun 30, 2018",
+    "published": true
+  },
+  {
+    "category": "archive",
+    "title": "A guide for 0xcert public pre-sale",
+    "oneliner": "Everything you need to know for July 2 opening of 0xcert public pre-sale.",
+    "id": "guide-for-public-presale",
+    "publishedDate": "Jun 29, 2018",
+    "published": true
+  },
+  {
+    "id": "product-hunt",
+    "category": "hot",
+    "title": "0xcert on Product Hunt",
+    "oneliner": "We launched on Product Hunt! Thanks to our amazing community, The 0xcerters, we were able to secure 7th place finish.",
+    "publishedDate": "Jun 28, 2018",
+    "published": true
+  },
+  {
+    "id": "public-presale-date-change",
+    "category": "archive",
+    "title": "Important Announcement for Public Presale",
+    "oneliner": "0xcert is moving the date of Public Presale to July 2nd, mark the date!",
+    "publishedDate": "Jun 24, 2018",
+    "published": true
+  },
+  {
+    "id": "erc721-confirmed-final",
+    "category": "hot",
+    "title": "0xcert's cornerstone standard confirmed in record time!",
+    "oneliner": "0xcert team is thrilled to announce the confirmation of the Ethereum standard we employ, the ERC-721, has been finalized.",
+    "publishedDate": "Jun 22, 2018",
+    "published": true
+  },
+  {
+    "category": "archive",
+    "title": "Guide to 0xcert ICO KYC Process",
+    "oneliner": "Have you already whitelisted for the ICO but you're not so sure what comes next? Our step by step guide shows how to proceed with KYC form and answers your questions.",
+    "id": "guide-to-0xcert-kyc-process",
+    "publishedDate": "Jun 21, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "The 0xcert Roadshow: London and New York City",
+    "oneliner": "From East Coast to UK, 0xcert was there on all fronts - pitching, networking, discussing the crypto future.",
+    "id": "roadshow-wbf-cogx",
+    "publishedDate": "Jun 14, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "New York Blockchain Forum and 0xcert",
+    "oneliner": "0xcert is increasingly gaining recognition from crypto-community, and NYC was no different.",
+    "id": "new-york-new-york-world-blockchain-forum",
+    "publishedDate": "Jun 5, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "Bug bounty call-out",
+    "oneliner": "Help us perfect our product and get yourself some sweet bounty tokens!",
+    "url": "https://medium.com/0xcert/bug-bounty-program-for-erc-721-smart-contracts-79ecca9dbdd9",
+    "id": "bug-bounty-program-for-erc-721-smart-contracts",
+    "publishedDate": "Jun 2, 2018",
+    "published": true
+  },
+  {
+    "category": "use cases",
+    "title": "ERC-721 Hitting a Home Run",
+    "oneliner": "How do we enable antique collectibles reach blockchain storage? It's as easy as 1, 2, 0xcert.",
+    "url": "https://medium.com/0xcert/erc-721-hitting-a-home-run-77d6b4fca33d",
+    "id": "erc-721-hitting-a-home-run",
+    "publishedDate": "May 31, 2018",
+    "published": true
+  },
+  {
+    "category": "hot",
+    "title": "Public call for non-fungible ambassadors!",
+    "oneliner": "How would you like to be a part of our team and contribute to our community commitment? Join us!",
+    "url": "https://medium.com/0xcert/a-one-of-a-kind-call-for-non-fungible-ambassadors-at-0xcert-559dbe9643be",
+    "id": "a-one-of-a-kind-call-for-non-fungible-ambassadors",
+    "publishedDate": "May 30, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Blockchain is going big in education",
+    "oneliner": "0xcert on stage at Blockchain Credentials and Connected Learning Conference.",
+    "url": "https://medium.com/0xcert/blockchain-is-going-big-in-education-a8c4d7bbd421",
+    "id": "blockchain-is-going-big-in-education",
+    "publishedDate": "May 22, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Tokens, Lambos, and Blockchain, oh my!",
+    "oneliner": "0xcert at Consensus 2018 in New York and in interview by Craig Cobb ? see all of it behind the scenes.",
+    "url": "https://medium.com/0xcert/tokens-lambos-and-blockchain-oh-my-2d473265e5",
+    "id": "tokens-lambos-and-blockchain-oh-my",
+    "publishedDate": "May 20, 2018",
+    "published": true
+  },
+  {
+    "category": "use cases",
+    "title": "Millions, Art, Fakes, and Blockchain",
+    "oneliner": "Solutions that blockchain technology and non-fungibility provide for fine-art business.",
+    "url": "https://medium.com/0xcert/millions-art-fakes-and-blockchain-7a7cb80a52a",
+    "id": "millions-art-fakes-and-blockchain",
+    "publishedDate": "May 17, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Amsterdam, Ian and Token Metrics = 0xcert are there",
+    "oneliner": "0xcert hosted by and pitched for the one and only Ian Balina in Amsterdam.",
+    "url": "https://medium.com/0xcert/amsterdam-ian-and-token-metrics-0xcert-are-there-46b016f0940d",
+    "id": "amsterdam-ian-and-token-metrics-0xcert-are-there",
+    "publishedDate": "May 12, 2018",
+    "published": true
+  },
+  {
+    "category": "tech",
+    "title": "Fungible vs non-fungible tokens on the blockchain",
+    "oneliner": "Ever wondered what fungibility is all about? A thorough explanation by our CTO will make it clear for you.",
+    "url": "https://medium.com/0xcert/fungible-vs-non-fungible-tokens-on-the-blockchain-ab4b12e0181a",
+    "id": "fungible-vs-non-fungible-tokens-on-the-blockchain",
+    "publishedDate": "May 10, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "EDCON Toronto: it's all about tech solutions for a better world",
+    "oneliner": "We participated at Toronto's EDCON conference ? what did we learn and who did we talk to?",
+    "url": "https://medium.com/@0xcert/edcon-toronto-its-all-about-tech-solutions-for-a-better-world-1e3158f5da10",
+    "id": "edcon-toronto-its-all-about-tech-solutions-for-a-better-world",
+    "publishedDate": "May 7, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Futurama Blockchain Innovators Summit",
+    "oneliner": "Boutique in size ? great in value! 0xcert pitched in Dubai and met some of the industry leaders.",
+    "url": "https://medium.com/0xcert/recap-of-our-second-dubai-event-futurama-blockchain-innovators-summit-660ebc2ca431",
+    "id": "recap-of-our-second-dubai-event-futurama-blockchain-innovators-summit",
+    "publishedDate": "May 7, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Beyond CriptoKitties: ERC-721 NFT explained",
+    "oneliner": "The first of 0xcert-hosted events, with the standard's lead author, William Entriken himself!",
+    "url": "https://medium.com/0xcert/beyond-cryptokitties-erc721-non-fungible-tokens-on-blockchain-explained-30f7f7b44a19",
+    "id": "beyond-cryptokitties-erc721-non-fungible-tokens-on-blockchain-explained",
+    "publishedDate": "May 2, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "World Blockchain Forum in Dubai first-hand",
+    "oneliner": "0xcert was there! Who did we meet and what we discussed?",
+    "url": "https://medium.com/0xcert/recap-of-our-visit-at-world-blockchain-forum-in-dubai-6011f663c38c",
+    "id": "recap-of-our-visit-at-world-blockchain-forum-in-dubai",
+    "publishedDate": "Apr 29, 2018",
+    "published": true
+  },
+  {
+    "category": "Q&A",
+    "title": "0xcert answers the most common questions",
+    "oneliner": "You are still not sure if you get 0xcert right? Find out more in our 1st AMA session.",
+    "url": "https://medium.com/0xcert/0xcert-q-a-01-0xcert-protocol-tokens-use-cases-roadmap-team-and-more-f27c6644aa9",
+    "id": "0xcert-protocol-tokens-use-cases-roadmap-team-and-more",
+    "publishedDate": "Apr 23, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "Hong Kong Token2049 & EuroBlockShow",
+    "oneliner": "How about the largest blockchain and cryptocurrency event in Asia? Yes, we were there!",
+    "url": "https://medium.com/0xcert/highlights-of-0xcert-visit-at-token2049-a975841b2ab8",
+    "id": "highlights-from-0xcerts-visit-to-hong-kong-token2049",
+    "publishedDate": "Apr 17, 2018",
+    "published": true
+  },
+  {
+    "category": "events",
+    "title": "0xcert at the BlockChain Adria meetup",
+    "oneliner": "0xcert's first public appearance! Check out where can you meet our exciting team.",
+    "url": "https://medium.com/0xcert/join-us-at-blockchain-adria-meetup-in-zagreb-b2f74775709e",
+    "id": "join-us-at-blockchain-adria-meetup-in-zagreb",
+    "publishedDate": "Mar 1, 2018",
+    "published": true
+  }
+]

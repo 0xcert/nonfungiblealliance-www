@@ -1,0 +1,58 @@
+[type='text'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+select,
+textarea {
+  margin: 5px 0 5px;
+  border-radius: 5px;
+}
+
+form {
+  label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  a {
+    color: $primary;
+  }
+}
+span.alert {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: $red;
+}
+
+em.required {
+  color: $red;
+  font-weight: bold;
+}
+
+.checkbox {
+  display: flex;
+  flex-flow: row;
+  margin-bottom: .5rem;
+  align-items: flex-start;
+  cursor: pointer;
+
+  label {
+    margin: 0;
+  }
+
+  input {
+    margin: 4px 16px 13px 0;
+    font-size: 20px;
+  }
+}

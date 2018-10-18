@@ -1,0 +1,22 @@
+version: 0.1
+environment_variables:
+    plaintext:
+        S3_BUCKET: "0xcert.org"
+        DIST_FOLDER: "dist"
+phases:
+    install:
+        commands:
+            - echo Installing source dependencies...
+            - npm cache verify
+            - npm install
+            - npm run generate
+            - echo App generated
+    build:
+        commands:
+            - echo Build started on `date`
+            - aws s3 rm s3://$S3_BUCKET/ --recursive
+            - aws s3 cp "./$DIST_FOLDER/" s3://$S3_BUCKET/ --recursive
+    post_build:
+         commands:
+            - aws cloudfront create-invalidation --distribution-id $EB_DISTRO --paths /\*
+            - echo Build completed on `date`

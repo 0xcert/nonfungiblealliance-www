@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Jure Zih",
+    "role": "CEO",
+    "image": "/team/jure-zih.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/jurezih/"
+  },
+  {
+    "name": "Kristijan Sedlak",
+    "role": "CTO",
+    "image": "/team/kristijan-sedlak.jpg",
+    "twitter": "https://twitter.com/kristijansedlak",
+    "linkedin": "https://www.linkedin.com/in/ksedlak/",
+    "github": "https://github.com/xpepermint"
+  }, {
+    "name": "Urban Osvald",
+    "role": "CCO - 0xcert Labs advisory",
+    "image": "/team/urban-osvald.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/urbanosvald/"
+  }, {
+    "name": "Leon Panjtar",
+    "role": "Backend Engineer",
+    "image": "/team/leon-panjtar.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/leon-panjtar-a556a943/"
+  }, {
+    "name": "Tadej Vengust",
+    "role": "Blockchain Engineer",
+    "image": "/team/tadej-vengust.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/tadej-v-9544b1119/",
+    "github": "https://github.com/MoMannn"
+  }, {
+    "name": "David Ličen",
+    "role": "Lead Front End Engineer",
+    "image": "/team/david-licen.jpg",
+    "twitter": "https://twittergs.com/davision",
+    "linkedin": "https://www.linkedin.com/in/davidlicen",
+    "github": "https://github.com/davision"
+  },
+   {
+    "name": "Lenka Tušar",
+    "role": "Head of Content",
+    "image": "/team/lenka-tusar.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/lenkatusar/"
+  },
+  {
+    "name": "Petra Kosi",
+    "role": "Marketing Manager",
+    "image": "/team/petra-kosi.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/petra-kosi-93089669/"
+  }, 
+  {
+    "name": "Petra Mišič",
+    "role": "Public Relations Advisor",
+    "image": "/team/petra-misic.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/petra-mi%C5%A1i%C4%8D-83260a7/"
+  }, 
+   {
+    "name": "Anja Pukl",
+    "role": "CFO",
+    "image": "/team/anja-pukl.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/anja-pukl-8b99895/"
+  },
+  {
+    "name": "Romina Kavčič",
+    "role": "Design Strategy",
+    "image": "/team/romina-kavcic.jpg",
+    "twitter": "",
+    "linkedin": "https://www.linkedin.com/in/rominakavcic/"
+  }
+]

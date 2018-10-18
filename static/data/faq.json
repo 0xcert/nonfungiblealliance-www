@@ -1,0 +1,197 @@
+{
+  "title": "Frequently asked questions",
+  "data": [
+  {
+    "id": 1,
+    "category": "crowdsale",
+    "question": "When does the 0xcert Crowdsale start?",
+    "answer": "Public Presale - July 2 17:00 CEST - July 4 05:00 PM CEST (bonus 10%)<br/> Public Crowdsale - July 4 17:00 CEST - July 18 24:00 PM CEST (bonus 5-0%)"
+  },
+  {
+    "id": 2,
+    "category": "crowdsale",
+    "question": "Is there a minimum or maximum contribution?",
+    "answer": "Public Presale: min 1 ETH, Crowdsale: no minimum"
+  },
+  {
+    "id": 3,
+    "category": "crowdsale",
+    "question": "How many ZXC tokens will be distributed?",
+    "answer": "250M ZXC tokens will be distributed on public offering."
+  },
+  {
+    "id": 4,
+    "category": "crowdsale",
+    "question": "How can I contribute to the 0xcert crowdsale?",
+    "answer": "You can whitelist on our webpage to be eligible to contribute <a href=\"/whitelists/new\">here.</a>"
+  },
+  {
+    "id": 5,
+    "category": "crowdsale",
+    "question": "Which payment methods will be accepted in the 0xcert token sale?",
+    "answer": "ETH (From MEW, MetaMask or other personal Ethereum wallet address.)"
+  },
+  {
+    "id": 6,
+    "category": "registration",
+    "question": "I have been asked to verify my identity (take part in the KYC). Why do I have to do that?",
+    "answer": "KYC is mandatory to be eligible to participate in the token distribution event."
+  },
+  {
+    "id": 7,
+    "category": "registration",
+    "question": "What type of photo ID can I provide?",
+    "answer": "You may provide a passport or a government issued ID."
+  },
+  {
+    "id": 8,
+    "category": "registration",
+    "question": "I have whitelisted to the 0xcert crowdsale. Where do I send ETH?",
+    "answer": "On the day of the sale you will be able to go on the website and use the site to submit ETH for the purchase of ZXC tokens."
+  },
+  {
+    "id": 9,
+    "category": "crowdsale",
+    "question": "How much GAS / GWEI do I have to set when contributing?",
+    "answer": "Try 250,000 or use https://ethgasstation.info"
+  },
+  {
+    "id": 10,
+    "category": "crowdsale",
+    "question": "How will I know if my contribution was successful?",
+    "answer": "You will receive a confirmation e-mail and you can also check eth transaction https://etherscan.io if it reached our wallet as well."
+  },
+  {
+    "id": 11,
+    "category": "crowdsale",
+    "question": "What kind of wallet do I need to store the ZXC tokens?",
+    "answer": "ZXC is ERC-20 compatible so you can store it in your ETH wallet."
+  },
+  {
+    "id": 12,
+    "category": "crowdsale",
+    "question": "When will ZXC tokens come to exchanges?",
+    "answer": "After the crowdsale we expect exchanges to list the tokens for sale due to the popularity. Decentralized exchange IDEX might be the first one."
+  },
+  {
+    "id": 13,
+    "category": "crowdsale",
+    "question": "Will there be a lock-up on tokens sold in the Crowdsale?",
+    "answer": "There is no lockup period for tokens. Distribution of tokens will take a week after the Crowdsale ended."
+  },
+  {
+    "id": 14,
+    "category": "crowdsale",
+    "question": "I have send funds for the Crowdsale from an exchange. What can I do?",
+    "answer": "Please contact your wallet or exchange customer support team. In some instances, those tokens could potentially be retrieved and directed to you."
+  },
+  {
+    "id": 15,
+    "category": "crowdsale",
+    "question": "When will ZXC tokens be distributed?",
+    "answer": "During presale, crowdsale and no later than one week after crowdsale"
+  },
+  {
+    "id": 16,
+    "category": "general",
+    "question": "What is 0xcert about?",
+    "answer": "0xcert is an open source, permission-less protocol for validating the existence, authenticity and ownership of unique digital assets on the blockchain"
+  },
+  {
+    "id": 17,
+    "category": "general",
+    "question": "How are you different from competitors?",
+    "answer": "There are various competitors in vertical that 0xcert can tackle,although 0xcert is the first and only protocol for non-fungible tokens to this day."
+  },
+  {
+    "id": 18,
+    "category": "general",
+    "question": "What sort of partnerships are in the works?",
+    "answer": "We are partnering up with few different companies that would like to build on top of the 0xcert protocol. Also,  since the protocol is blockchain agnostic, we are talking to a few other blockchains to implement it outside Ethereum. As of now there were already a few major partnerships with schools and universities announced (IEDC, Gea Colege, …)."
+  },
+  {
+    "id": 19,
+    "category": "general",
+    "question": "Are there any particular countries that you will be reaching out to?",
+    "answer": "No."
+  },
+  {
+    "id": 20,
+    "category": "general",
+    "question": "Will you be airdropping tokens?",
+    "answer": "No, there is no Airdrop."
+  },
+  {
+    "id": 21,
+    "category": "general",
+    "question": "How secure is 0xcert?",
+    "answer": "It is highly secure, only the imprint is disclosed to the public while the actual data is kept private."
+  },
+  {
+    "id": 22,
+    "category": "general",
+    "question": "What is the difference between ZXC and xcert tokens?",
+    "answer": "One is a utility token (ERC-20) and the other one is non-fungible token (used to store data- ex. diploma, KYC..)"
+  },
+  {
+    "id": 23,
+    "category": "general",
+    "question": "Do you have two tokens?",
+    "answer": "Yes and no. We will be issuing ZXC (ERC20) tokens,but the 0xcert protocol is made to manage xcerts (ERC721, non-fungible tokens)."
+  },
+  {
+    "id": 24,
+    "category": "general",
+    "question": "What is Doctrina?",
+    "answer": "Doctrina is a company that offers online education to pharmacists and issues tons of certificates every year. It's where the idea of 0xcert was brought to life"
+  },
+  {
+    "id": 25,
+    "category": "general",
+    "question": "Is using 0xcert protocol for free?",
+    "answer": "0xcert is a open source protocol, so it can by used by anyone for free."
+  },
+  {
+    "id": 26,
+    "category": "general",
+    "question": "Is Doctrina related to 0xcert?",
+    "answer": "Yes, Doctrina's founders encouraged the start of 0xcert and have been supporting it since day one. Nonetheless, these are two separate companies."
+  },
+  {
+    "id": 27,
+    "category": "general",
+    "question": "What’s the underlying tech stack you used to build the protocol?",
+    "answer": "It is built on Ethereum."
+  },
+  {
+    "id": 28,
+    "category": "general",
+    "question": "What is a non-fungible token?",
+    "answer": "Non fungible token is unique token that carries some sort of data. Once issued it cannot be changed"
+  },
+  {
+    "id": 29,
+    "category": "general",
+    "question": "How do ERC20, ERC721 and ERC981 differ?",
+    "answer": "The most common tokens of today's crypto economy follow the Ethereum's\nERC-20 specification. These tokens carry a price, which can be divided into\nsmaller amounts. One can exchange just a portion of that price for a service or\nfor different tokens. This is called fungibility, thus these are called fungible\nTokens. Recently, another kind of token called non-fungible tokens started getting attention in the crypto community. It all started with Cryptokitties - tradable collectibles - which set the foundation for the now accepted ERC-721 standard. Unlike ERC-20 identical tokens, which carry a price, non-fungible tokens are unique and carry some sort of data."
+  },
+  {
+    "id": 30,
+    "category": "general",
+    "question": "What is Academia and what does it have to do with 0xcert?",
+    "answer": "It is first dapp built on top of the 0xcert protocol. Academia represents blockchain-based certificate management for academic institutions and education providers."
+  },
+  {
+    "id": 31,
+    "category": "general",
+    "question": "Are you related to 0x project?",
+    "answer": "No. These are separate projects, although 0x was a huge inspiration to us."
+  },
+  {
+    "id": 32,
+    "category": "crowdsale",
+    "question": "Can we send from exchanges?",
+    "answer": "No."
+  }
+]
+}

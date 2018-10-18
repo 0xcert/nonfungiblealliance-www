@@ -1,0 +1,38 @@
+[
+  { 
+    "id": "realLife", 
+    "label": "Real life example", 
+    "title": "From college degrees to trading cards",
+    "body": "Whether it is your University degree or legal documents, real estate, car or an art piece. Your valuable and unique real-life assets can be stored, managed and verified on the blockchain.",
+    "image": "/images/real-life.svg",
+    "scheme": "/images/for-users-reallife-example.svg",
+    "active": true
+  },
+  { 
+    "id": "institution", 
+    "label": "Institution (Dapp)",
+    "title": "Academia, certifiers, authenticators, licencers",
+    "body": "0xcert’s interoperability provides convenience of dapps creation and management. Develop smart contracts and tokens tailored to your field, customer profile, and asset type.", 
+    "image": "/images/institution.svg",
+    "scheme": "/images/institution-scheme.svg",
+    "active": false
+  },
+  { 
+    "id": "wallet", 
+    "label": "Wallet - Xcert Token", 
+    "title": "Decentralized storage, management, and verification",
+    "body": "Digitize your real-life asset into non-fungible token and store it in your e-wallet. Blockchain and decentralization provide safety, proof of authenticity, and prevent data modification by third party.",
+    "image": "/images/wallet.svg",
+    "scheme": "/images/wallet-scheme.svg",
+    "active": false
+  },
+  { 
+    "id": "validation", 
+    "label": "Validation", 
+    "title": "Interoperability, token exchange, and traceability",
+    "body": "Make use of your tokenized asset, transfer it or acquire a new one. With blockchain transparency, you can check its provenance or past transactions and make better decisions.",
+    "image": "/images/transaction.svg",
+    "scheme": "/images/validation-scheme.svg",
+    "active": false
+  }                          
+]

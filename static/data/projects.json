@@ -1,0 +1,18 @@
+{
+  "title": "Projects building on 0xcert",
+  "filesURL": "/partners/",
+  "data": [
+    { 
+      "title": "Principle",
+      "logo": "principle.svg"
+    },
+    { 
+      "title": "Gledos",
+      "logo": "gledos.svg"
+    },
+    { 
+      "title": "Medical DAO",
+      "logo": "medical-dao.png"
+    }
+  ]
+}

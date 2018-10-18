@@ -1,0 +1,47 @@
+{
+  "name": "0xcert-www",
+  "version": "1.0.0",
+  "description": "The official 0xcert public website.",
+  "author": "David Ličen <david.licen@0xcert.org>, Kristijan Sedlak <kristijan@0xcert.org>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint",
+    "whitepaper:download": "wget -q https://github.com/0xcert/whitepaper/raw/master/dist/0xcert-protocol-technical-paper.pdf -O ./static/technical-paper.pdf"
+  },
+  "dependencies": {
+    "@nuxtjs/google-tag-manager": "^1.1.0",
+    "nuxt": "^1.4.0",
+    "nuxt-sass-resources-loader": "^2.0.0",
+    "vue-cookie-law": "^1.6.0",
+    "vue-social-sharing": "^2.3.3"
+  },
+  "devDependencies": {
+    "@nuxtjs/axios": "^5.3.1",
+    "@nuxtjs/feed": "^0.1.1",
+    "@nuxtjs/markdownit": "^1.2.0",
+    "@nuxtjs/workbox": "^2.2.0",
+    "babel-eslint": "^8.2.1",
+    "css-loader": "^1.0.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.3.0",
+    "foundation-sites": "^6.4.4-rc1",
+    "markdown-it-attrs": "^1.2.1",
+    "markdown-it-block-embed": "0.0.3",
+    "markdown-it-container": "^2.0.0",
+    "node-sass": "^4.9.4",
+    "nuxt-mq": "^1.1.2",
+    "sass-loader": "^7.1.0",
+    "v-lazy-image": "^1.2.2",
+    "vee-validate": "^2.0.9",
+    "vue-intercom": "^1.0.12",
+    "vue-scrollto": "^2.11.0",
+    "vue-svg-loader": "^0.5.0"
+  }
+}
