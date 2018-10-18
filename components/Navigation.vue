@@ -4,7 +4,7 @@
       <header class="navigation grid-container">
         <div class="grid-x">
           <nuxt-link to="/" class="auto cell brand">
-           THE NON-FUNGIBLE ALLIANCE
+           <img src="/images/logo.svg" alt="The Non-fungible alliance">
           </nuxt-link>
 
           <mq-layout mq="sm"> 

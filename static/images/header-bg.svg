@@ -81,10 +81,10 @@
         </mask>
         <use fill="#2B2525" xlink:href="#a"/>
         <g mask="url(#b)">
-            <g fill="#000">
-                <use filter="url(#c)" xlink:href="#d" opacity=".303" transform="translate(422 -2)"/>
-                <use filter="url(#e)" xlink:href="#f" opacity=".143" transform="translate(422 -2)"/>
-                <use filter="url(#g)" xlink:href="#h" opacity=".054" transform="translate(422 -2)"/>
+            <g fill="#000" transform="translate(422 -2)">
+                <use filter="url(#c)" xlink:href="#d" opacity=".303"/>
+                <use filter="url(#e)" xlink:href="#f" opacity=".143"/>
+                <use filter="url(#g)" xlink:href="#h" opacity=".054"/>
             </g>
             <g opacity=".22" transform="matrix(1 0 0 -1 306 919)">
                 <ellipse fill="url(#i)" opacity=".278" transform="rotate(-45 611.42 611.42)" cx="611.42" cy="611.42" rx="569.189" ry="295.489"/>

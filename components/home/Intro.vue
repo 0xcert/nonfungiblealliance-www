@@ -2,10 +2,12 @@
   <section class="introduction">
     <div class="grid-container">
       <div class="grid-x grid-margin-x">
-        <div class="small-12 medium-6 large-6 cell">
-          <h1>
+        <div class="small-12 cell">
+           <h1>
             Bringing together the NFT world.
           </h1>
+        </div>
+        <div class="small-12 medium-6 large-6 cell">
           <div class="margin-bottom-3 intro">
             <p>
               As diverse and unique as the non-fungible space is, so are the visions, potentials, and opinions about it.
@@ -48,14 +50,13 @@
     line-height: 1.3;
 
     @include breakpoint(medium) {
-      position: absolute;
+      margin-top: 3rem;
       font-size: 3rem;
     }
   }
 
   @include breakpoint(medium) {
     .intro {
-      padding-top: 6rem;
       max-width: 550px;
       font-size: 20px
     }
@@ -70,7 +71,7 @@
   position: absolute;
 
   @include breakpoint(large ) {
-    bottom: -9.5rem;
+    bottom: -6rem;
   }
 }
 
