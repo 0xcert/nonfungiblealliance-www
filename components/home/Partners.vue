@@ -2,7 +2,7 @@
 <div>
   <a id="partners" name="partners" class="anchor"/>
   <div class="partners grid-container">
-    <h2>Our partners</h2>
+    <h2>Recently joined</h2>
     <div class="logos grid-x align-center">
       <div v-for="item in items" :key="item.id" class=" small-6 medium-4 large-3 cell align-self-middle">
         <a v-if="item.url" :href="item.url" class="logo" target="_blank">

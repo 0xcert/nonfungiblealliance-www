@@ -15,8 +15,6 @@ import Form from '~/components/Form'
 import Subscription from '~/components/Subscription'
 import Partners from '~/components/home/Partners'
 import News from '~/components/home/News'
-import Featured from '~/components/home/Featured'
-import Projects from '~/components/home/Projects'
 import Benefits from '~/components/home/Benefits'
 import vueScroll from 'vue-scrollto'
 import Modal from '~/components/ui/Modal'
@@ -29,8 +27,6 @@ export default {
     Subscription,
     Partners,
     News,
-    Featured,
-    Projects,
     Modal,
     Form,
     Benefits

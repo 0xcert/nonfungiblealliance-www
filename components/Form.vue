@@ -17,7 +17,7 @@
       </div>
       
       <div v-if="state === 0" key="form">
-        <h3 v-if="!noTitle" class="text-center">Sign up for updates</h3>
+        <h3 v-if="!noTitle" class="text-center">Sign up for newsletter</h3>
         <form  @submit.prevent="submit" novalidate>
           <div class="field-group">
             <input 
@@ -38,7 +38,6 @@
               <input v-model="privacy" id="privacy" name="privacy" type="checkbox" />
               <label for="privacy">
                 I accept <a href="privacypolicy.pdf" target="_blank">Privacy Policy</a> 
-                & give my consent to receive 0xcert Newsletter.
               </label>
             </div>
           </div>
