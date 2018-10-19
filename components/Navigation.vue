@@ -70,7 +70,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .navigation {
   width: 100%;
   position: relative;

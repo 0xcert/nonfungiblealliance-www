@@ -3,13 +3,10 @@
     <a :href="social.telegram" target="_blank" title="0xcert on Telegram"><svgTelegram :class="'icon-color'"/></a>
     <a :href="social.twitter" target="_blank" title="0xcert on Twitter"><svgTwitter :class="'icon-color'"/></a>
     <a :href="social.medium" target="_blank" title="0xcert on Medium"><svgMedium :class="'icon-color'"/></a>
-    <a :href="social.github" target="_blank" title="0xcert on Github"><svgGithub :class="'icon-color github'"/></a>
     <a :href="social.facebook" target="_blank" title="0xcert on Facebook"><svgFacebook :class="'icon-color'"/></a>
-    <a :href="social.bitcointalk" target="_blank" title="0xcert on Bitcoin Talk"><svgBitcoinTalk :class="'icon-color bitcointalk'"/></a>
-    <a :href="social.reddit" target="_blank" title="0xcert on Reddit"><svgReddit :class="'icon-color reddit'"/></a>
     <a :href="social.linkedin" target="_blank" title="0xcert on LinkedIm"><svgLinkedin :class="'icon-color'"/></a>
     <a :href="social.youtube" target="_blank" title="0xcert on Youtube"><svgYoutube :class="'icon-color'"/></a>
-    <a :href="social.kakaotalk" target="_blank" title="0xcert on KakaoTalk"><svgKakaoTalk :class="'icon-color kakao'"/></a>
+    
   </div>
 </template>
 
@@ -18,12 +15,8 @@ import svgTwitter from '~/assets/img/twitter.svg'
 import svgLinkedin from '~/assets/img/linkedin.svg'
 import svgFacebook from '~/assets/img/facebook.svg'
 import svgTelegram from '~/assets/img/telegram.svg'
-import svgGithub from '~/assets/img/github.svg'
 import svgMedium from '~/assets/img/medium.svg'
 import svgYoutube from '~/assets/img/youtube.svg'
-import svgReddit from '~/assets/img/reddit.svg'
-import svgBitcoinTalk from '~/assets/img/bitcointalk.svg'
-import svgKakaoTalk from '~/assets/img/kakaotalk.svg'
 
 export default {
   data () {
@@ -34,25 +27,17 @@ export default {
         linkedin: 'https://www.linkedin.com/company/0xcert/',
         medium: 'https://medium.com/0xcert',
         telegram: 'https://t.me/zeroxcert',
-        github: 'https://github.com/0xcert',
         youtube: 'https://www.youtube.com/channel/UCgWRwKYt01cmaBvDozpDnBg',
-        reddit: 'https://www.reddit.com/r/0xcert/',
-        bitcointalk: 'https://bitcointalk.org/index.php?topic=4434967.msg39606689#msg39606689',
-        kakaotalk: 'https://open.kakao.com/o/gugFuAN'
       }
     }
   },
   components: {
     svgLinkedin,
     svgFacebook,
-    svgGithub,
     svgTwitter,
     svgTelegram,
     svgMedium,
     svgYoutube,
-    svgReddit,
-    svgBitcoinTalk,
-    svgKakaoTalk
   },
   props: {
     color: {

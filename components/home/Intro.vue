@@ -50,7 +50,7 @@
     line-height: 1.3;
 
     @include breakpoint(medium) {
-      margin-top: 3rem;
+      margin-top: 1rem;
       font-size: 3rem;
     }
   }
@@ -63,7 +63,7 @@
   }
 
   @include breakpoint(large) {
-    min-height: 600px;
+    min-height: 580px;
   }
 }
 
@@ -71,7 +71,7 @@
   position: absolute;
 
   @include breakpoint(large ) {
-    bottom: -6rem;
+    bottom: -11rem;
   }
 }
 
