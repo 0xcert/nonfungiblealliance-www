@@ -4,7 +4,7 @@
     <div class="grid-container position-relative">
       <div class="grid-x">
         <div class="small-12 text-center medium-text-left medium-auto cell margin-bottom-2">
-          <svgLogo class="logo" />
+
         </div>
         <div class="small-12 text-center  medium-text-left medium-auto cell margin-bottom-2">
           <h5>0xcert</h5>

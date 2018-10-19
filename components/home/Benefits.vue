@@ -1,10 +1,10 @@
 <template>
-  <div class="benefits grid-container">
+  <div class="benefits grid-container pb-7">
     <div class="grid-x align-center">
       <div class="cell small-12 large-8">
         <h2 class="text-center">Beneefits</h2>
 
-        <div class="grid-x align-middle margin-bottom-3">
+        <div class="grid-x align-middle mb-3">
           <div class="cell small-12 medium-5 text-center medium-text-left">
             <img src="/images/community.svg" alt="Community">
           </div>
@@ -14,7 +14,7 @@
           </div>
         </div>
 
-        <div class="grid-x align-middle margin-bottom-3">
+        <div class="grid-x align-middle mb-3">
           <div class="cell small-12 medium-5 medium-order-2 text-center medium-text-right">
              <img src="/images/adoption.svg" alt="Adoption">
           </div>
@@ -24,7 +24,7 @@
           </div>
         </div>
 
-        <div class="grid-x align-middle margin-bottom-3">
+        <div class="grid-x align-middle mb-3">
           <div class="cell small-12 medium-5 text-center medium-text-left">
             <img src="/images/resources.svg" alt="Resources">
           </div>
@@ -34,7 +34,7 @@
           </div>
         </div>
 
-        <div class="grid-x align-middle margin-bottom-3">
+        <div class="grid-x align-middle mb-7">
           <div class="cell small-12 medium-5 medium-order-2 text-center medium-text-right">
             <img src="/images/exposure.svg" alt="Exposure">
           </div>
@@ -45,6 +45,13 @@
         </div>
       </div>
 
+      <div class="cell-small-12 large-6 text-center mt-7 mb-3">
+        <p><strong class="bigger">New benefits will be added regularly for the members of the Alliance.</strong></p>
+        <p>From early access and trials of various non-fungible solutions to free tickets for upcoming NFT events.</p>
+        <a href="#" class="button primary mt-1">
+          Sign up and stay in the loop
+        </a>
+      </div>
     </div>
   </div>
 </template>
@@ -59,6 +66,16 @@
 <style lang="scss" scoped>
   .benefits {
     padding-top: 5rem;
+    background: url('/images/benefits-bg.png') no-repeat bottom center;
+
+    p {
+      font-family: $primary-font;
+      font-weight: light;
+    }
+
+    .bigger {
+      font-size: 120%;
+    }
   }
 
 </style>

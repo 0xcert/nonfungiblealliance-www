@@ -2,10 +2,10 @@
   <div class="landing">
     <intro/>
     <benefits/>
-    <news/>
+    <forwho/>
     <partners/>
-    <projects/>
-    <featured/>
+    <onboard/>
+    <news/>
     <subscription/>
   </div>
 </template>
@@ -15,7 +15,9 @@ import Form from '~/components/Form'
 import Subscription from '~/components/Subscription'
 import Partners from '~/components/home/Partners'
 import News from '~/components/home/News'
+import Forwho from '~/components/home/Forwho'
 import Benefits from '~/components/home/Benefits'
+import Onboard from '~/components/home/Onboard'
 import vueScroll from 'vue-scrollto'
 import Modal from '~/components/ui/Modal'
 import { modal } from '~/mixins/modal'
@@ -29,7 +31,9 @@ export default {
     News,
     Modal,
     Form,
-    Benefits
+    Benefits,
+    Forwho,
+    Onboard,
   },
 
   mounted () {

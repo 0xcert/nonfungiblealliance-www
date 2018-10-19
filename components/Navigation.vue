@@ -22,7 +22,7 @@
 
           <mq-layout mq="md+" :class="'menu small-12 cell medium-shrink'">
             <nuxt-link v-for="item in menu" :key="item.id" :to="item.url" v-html="item.name" class="link"/>
-            <nuxt-link to="/member" class="button hollow white margin-left-1">Become a member</nuxt-link>
+            <nuxt-link to="/member" class="button hollow white ml-1">Become a member</nuxt-link>
           </mq-layout>
           
         </div>
@@ -154,6 +154,10 @@ export default {
   font-size: 2rem;
   width: inherit;
   z-index: 501;
+
+  @include breakpoint(large) {
+    display: none;
+  }
 
   .line {
     width: 28px;

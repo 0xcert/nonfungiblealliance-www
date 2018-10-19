@@ -1,311 +1,317 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>0xcert - Supporting uniqueness.</title>
-        <link>https://0xcert.org</link>
-        <description>0xcert is an open source protocol that translates one-of-a-kind digital or real-world assets into non-fungible tokens (NFTs).</description>
-        <lastBuildDate>Tue, 16 Oct 2018 13:53:47 GMT</lastBuildDate>
+        <title>Non-fungible Alliance</title>
+        <link>https://nonfungiblealliance.org</link>
+        <description></description>
+        <lastBuildDate>Fri, 19 Oct 2018 08:48:12 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
-        <generator>Nuxt Feed generator</generator>
+        <generator>The Non-fungible Alliance Feed generator</generator>
         <image>
-            <title>0xcert - Supporting uniqueness.</title>
-            <url>https://0xcert.org/logo-image.png</url>
-            <link>https://0xcert.org</link>
+            <title>Non-fungible Alliance</title>
+            <url>https://nonfungiblealliance.org/logo-image.png</url>
+            <link>https://nonfungiblealliance.org</link>
         </image>
         <copyright>All rights reserved 2018, 0xcert</copyright>
         <category>blockchain</category>
         <item>
+            <title><![CDATA[DEX Series #2 - Trading and Exchange]]></title>
+            <link>https://nonfungiblealliance.org/news/dex-series-2-trading-and-exchange</link>
+            <guid>https://nonfungiblealliance.org/news/dex-series-2-trading-and-exchange</guid>
+            <description><![CDATA[How are assets traded and exchanged? The second DEX Series post deals with their transfer mechanisms.]]></description>
+        </item>
+        <item>
             <title><![CDATA[0xcert Protocol Solution Presented Live For the 1st Time]]></title>
-            <link>https://0xcert.org/news/0xcert-protocol-ijs-k4a-malta</link>
-            <guid>https://0xcert.org/news/0xcert-protocol-ijs-k4a-malta</guid>
+            <link>https://nonfungiblealliance.org/news/0xcert-protocol-ijs-k4a-malta</link>
+            <guid>https://nonfungiblealliance.org/news/0xcert-protocol-ijs-k4a-malta</guid>
             <description><![CDATA[Our solution for educational certificates has been showcased to the top scholars of the EU.]]></description>
         </item>
         <item>
             <title><![CDATA[DEX Series #1 - Tags & IDs]]></title>
-            <link>https://0xcert.org/news/dex-series-1-tags-and-ids</link>
-            <guid>https://0xcert.org/news/dex-series-1-tags-and-ids</guid>
+            <link>https://nonfungiblealliance.org/news/dex-series-1-tags-and-ids</link>
+            <guid>https://nonfungiblealliance.org/news/dex-series-1-tags-and-ids</guid>
             <description><![CDATA[In the first post of this series, we are focusing on identities and determiners of assets.]]></description>
         </item>
         <item>
             <title><![CDATA[New Blog Series - DEX]]></title>
-            <link>https://0xcert.org/news/dex-series-intro</link>
-            <guid>https://0xcert.org/news/dex-series-intro</guid>
+            <link>https://nonfungiblealliance.org/news/dex-series-intro</link>
+            <guid>https://nonfungiblealliance.org/news/dex-series-intro</guid>
             <description><![CDATA[In order to lay a solid foundation for the 0xcert DEX, we're starting a series of DEX-related posts.]]></description>
         </item>
         <item>
             <title><![CDATA[We're back from Malta]]></title>
-            <link>https://0xcert.org/news/delta-summit-recap</link>
-            <guid>https://0xcert.org/news/delta-summit-recap</guid>
+            <link>https://nonfungiblealliance.org/news/delta-summit-recap</link>
+            <guid>https://nonfungiblealliance.org/news/delta-summit-recap</guid>
             <description><![CDATA[The Delta Summit in Malta was one of the most important blockchain events this season, and we just got back.]]></description>
         </item>
         <item>
             <title><![CDATA[Bounty Rewards Distribution]]></title>
-            <link>https://0xcert.org/news/bounty-rewards-distribution</link>
-            <guid>https://0xcert.org/news/bounty-rewards-distribution</guid>
+            <link>https://nonfungiblealliance.org/news/bounty-rewards-distribution</link>
+            <guid>https://nonfungiblealliance.org/news/bounty-rewards-distribution</guid>
             <description><![CDATA[The day has come! Bounty ZXC tokens are coming your way. Plus an added reward!]]></description>
         </item>
         <item>
             <title><![CDATA[Exciting Times Ahead]]></title>
-            <link>https://0xcert.org/news/what-comes-next-for-0xcert</link>
-            <guid>https://0xcert.org/news/what-comes-next-for-0xcert</guid>
+            <link>https://nonfungiblealliance.org/news/what-comes-next-for-0xcert</link>
+            <guid>https://nonfungiblealliance.org/news/what-comes-next-for-0xcert</guid>
             <description><![CDATA[0xcert ICO is well over now. Where are we now and what is to expect next?]]></description>
         </item>
         <item>
             <title><![CDATA[Token-Curated Registries]]></title>
-            <link>https://0xcert.org/news/token-curated-registries-william-entriken</link>
-            <guid>https://0xcert.org/news/token-curated-registries-william-entriken</guid>
+            <link>https://nonfungiblealliance.org/news/token-curated-registries-william-entriken</link>
+            <guid>https://nonfungiblealliance.org/news/token-curated-registries-william-entriken</guid>
             <description><![CDATA[What are Token-Curated Registries, how are they used and what for? Guest post by William Entriken.]]></description>
         </item>
         <item>
             <title><![CDATA[Delta Summit - Here We Come]]></title>
-            <link>https://0xcert.org/news/0xcert-at-delta-summit-malta</link>
-            <guid>https://0xcert.org/news/0xcert-at-delta-summit-malta</guid>
+            <link>https://nonfungiblealliance.org/news/0xcert-at-delta-summit-malta</link>
+            <guid>https://nonfungiblealliance.org/news/0xcert-at-delta-summit-malta</guid>
             <description><![CDATA[As one of the core blockchain events of this season, Delta Summit Malta is something not to be missed.]]></description>
         </item>
         <item>
             <title><![CDATA[WBF London Recap]]></title>
-            <link>https://0xcert.org/news/wbf-london-recap</link>
-            <guid>https://0xcert.org/news/wbf-london-recap</guid>
+            <link>https://nonfungiblealliance.org/news/wbf-london-recap</link>
+            <guid>https://nonfungiblealliance.org/news/wbf-london-recap</guid>
             <description><![CDATA[We're back from London, and another great edition of WBF is in 0xcert records.]]></description>
         </item>
         <item>
             <title><![CDATA[Bug Bounty Report]]></title>
-            <link>https://0xcert.org/news/bug-bounty-report</link>
-            <guid>https://0xcert.org/news/bug-bounty-report</guid>
+            <link>https://nonfungiblealliance.org/news/bug-bounty-report</link>
+            <guid>https://nonfungiblealliance.org/news/bug-bounty-report</guid>
             <description><![CDATA[After 60 days of Bug Bounty Program, 0xcert has improved the proposed issues reported by our supporting community]]></description>
         </item>
         <item>
             <title><![CDATA[ERC721 Validator on Dapp.com]]></title>
-            <link>https://0xcert.org/news/erc721-validator-on-dapp-com</link>
-            <guid>https://0xcert.org/news/erc721-validator-on-dapp-com</guid>
+            <link>https://nonfungiblealliance.org/news/erc721-validator-on-dapp-com</link>
+            <guid>https://nonfungiblealliance.org/news/erc721-validator-on-dapp-com</guid>
             <description><![CDATA[We have successfully listed our ERC721 Validator on Dapp.com, the go-to platform for decentralized apps]]></description>
         </item>
         <item>
             <title><![CDATA[Meet us at WBF London]]></title>
-            <link>https://0xcert.org/news/0xcert-at-wbf-london</link>
-            <guid>https://0xcert.org/news/0xcert-at-wbf-london</guid>
+            <link>https://nonfungiblealliance.org/news/0xcert-at-wbf-london</link>
+            <guid>https://nonfungiblealliance.org/news/0xcert-at-wbf-london</guid>
             <description><![CDATA[After the WBF New York, 0xcert is attending its London edition to discuss application of non-fungibility accross industries]]></description>
         </item>
         <item>
             <title><![CDATA[ERC-721 Validator]]></title>
-            <link>https://0xcert.org/news/erc721-validator</link>
-            <guid>https://0xcert.org/news/erc721-validator</guid>
+            <link>https://nonfungiblealliance.org/news/erc721-validator</link>
+            <guid>https://nonfungiblealliance.org/news/erc721-validator</guid>
             <description><![CDATA[0xcert's new tool is helping developers and token owners validate their smart contracts and NFTs]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert is back from Asia!]]></title>
-            <link>https://0xcert.org/news/asia-tour-recap</link>
-            <guid>https://0xcert.org/news/asia-tour-recap</guid>
+            <link>https://nonfungiblealliance.org/news/asia-tour-recap</link>
+            <guid>https://nonfungiblealliance.org/news/asia-tour-recap</guid>
             <description><![CDATA[What did we present and who did we 0xcertify - read more in the recap]]></description>
         </item>
         <item>
             <title><![CDATA[First 0xcert Asia Tour kicking off]]></title>
-            <link>https://0xcert.org/news/first-0xcert-asia-tour</link>
-            <guid>https://0xcert.org/news/first-0xcert-asia-tour</guid>
+            <link>https://nonfungiblealliance.org/news/first-0xcert-asia-tour</link>
+            <guid>https://nonfungiblealliance.org/news/first-0xcert-asia-tour</guid>
             <description><![CDATA[Getting closer to the non-fungible Asian community, come and meet us at events from Singapore to Shenzhen.]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert at Wanchain 2.0. and Wanlabs London]]></title>
-            <link>https://0xcert.org/news/wanchain-london-recap</link>
-            <guid>https://0xcert.org/news/wanchain-london-recap</guid>
+            <link>https://nonfungiblealliance.org/news/wanchain-london-recap</link>
+            <guid>https://nonfungiblealliance.org/news/wanchain-london-recap</guid>
             <description><![CDATA[What is 0xcert bringing to Wanchain and what are the mutual benefits? Only one day in London but the whole future ahead.]]></description>
         </item>
         <item>
             <title><![CDATA[First gains of Wanchain & 0xcert alliance]]></title>
-            <link>https://0xcert.org/news/etienne-as-advisor-london-wanchain-tour</link>
-            <guid>https://0xcert.org/news/etienne-as-advisor-london-wanchain-tour</guid>
+            <link>https://nonfungiblealliance.org/news/etienne-as-advisor-london-wanchain-tour</link>
+            <guid>https://nonfungiblealliance.org/news/etienne-as-advisor-london-wanchain-tour</guid>
             <description><![CDATA[0xcert proudly presenting the newest Advisor before travelling to London to join Wanchain European Tour]]></description>
         </item>
         <item>
             <title><![CDATA[Meet us at NIFTY, Hong Kong]]></title>
-            <link>https://0xcert.org/news/0xcert-at-nifty-hong-kong</link>
-            <guid>https://0xcert.org/news/0xcert-at-nifty-hong-kong</guid>
+            <link>https://nonfungiblealliance.org/news/0xcert-at-nifty-hong-kong</link>
+            <guid>https://nonfungiblealliance.org/news/0xcert-at-nifty-hong-kong</guid>
             <description><![CDATA[0xcert team will be attending the NIFTY Conference in Hong Kong, along with some of the biggest players in the non-fungible space.]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert and Wanchain enter a strategic alliance ]]></title>
-            <link>https://0xcert.org/news/0xcert-and-wanchain-strategic-alliance</link>
-            <guid>https://0xcert.org/news/0xcert-and-wanchain-strategic-alliance</guid>
+            <link>https://nonfungiblealliance.org/news/0xcert-and-wanchain-strategic-alliance</link>
+            <guid>https://nonfungiblealliance.org/news/0xcert-and-wanchain-strategic-alliance</guid>
             <description><![CDATA[0xcert announced today a strategic alliance for the implementation of the non-fungible tokens standard on Wanchain.]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert Crowdsale Recap]]></title>
-            <link>https://0xcert.org/news/crowdsale-recap</link>
-            <guid>https://0xcert.org/news/crowdsale-recap</guid>
+            <link>https://nonfungiblealliance.org/news/crowdsale-recap</link>
+            <guid>https://nonfungiblealliance.org/news/crowdsale-recap</guid>
             <description><![CDATA[Check out the stats, employed procedure, and next steps for 0xcert after Crowdsale.]]></description>
         </item>
         <item>
             <title><![CDATA[New partnerships for 0xcert]]></title>
-            <link>https://0xcert.org/news/partnership-for-non-fungible-future-education</link>
-            <guid>https://0xcert.org/news/partnership-for-non-fungible-future-education</guid>
+            <link>https://nonfungiblealliance.org/news/partnership-for-non-fungible-future-education</link>
+            <guid>https://nonfungiblealliance.org/news/partnership-for-non-fungible-future-education</guid>
             <description><![CDATA[Building non-fungible future of education, with one institution at a time.]]></description>
         </item>
         <item>
             <title><![CDATA[What comes next for 0xcert]]></title>
-            <link>https://0xcert.org/news/now-the-work-begins</link>
-            <guid>https://0xcert.org/news/now-the-work-begins</guid>
+            <link>https://nonfungiblealliance.org/news/now-the-work-begins</link>
+            <guid>https://nonfungiblealliance.org/news/now-the-work-begins</guid>
             <description><![CDATA[After passing an important milestone, 0xcert is now off to further improving the products and building the community.]]></description>
         </item>
         <item>
             <title><![CDATA[Thank you note from 0xcert CEO]]></title>
-            <link>https://0xcert.org/news/thank-you-note-from-ceo</link>
-            <guid>https://0xcert.org/news/thank-you-note-from-ceo</guid>
+            <link>https://nonfungiblealliance.org/news/thank-you-note-from-ceo</link>
+            <guid>https://nonfungiblealliance.org/news/thank-you-note-from-ceo</guid>
             <description><![CDATA[Without you, we couldn't have made it.]]></description>
         </item>
         <item>
             <title><![CDATA[A guide for 0xcert public crowdsale]]></title>
-            <link>https://0xcert.org/news/guide-for-crowdsale</link>
-            <guid>https://0xcert.org/news/guide-for-crowdsale</guid>
+            <link>https://nonfungiblealliance.org/news/guide-for-crowdsale</link>
+            <guid>https://nonfungiblealliance.org/news/guide-for-crowdsale</guid>
             <description><![CDATA[Everything you need to know for July 4 opening of 0xcert public crowdsale.]]></description>
         </item>
         <item>
             <title><![CDATA[Highlights of 0xcert Public Pre-sale]]></title>
-            <link>https://0xcert.org/news/public-pre-sale-highlights</link>
-            <guid>https://0xcert.org/news/public-pre-sale-highlights</guid>
+            <link>https://nonfungiblealliance.org/news/public-pre-sale-highlights</link>
+            <guid>https://nonfungiblealliance.org/news/public-pre-sale-highlights</guid>
             <description><![CDATA[Find out how the first ever Public Pre-Sale using a Erc721 token went.]]></description>
         </item>
         <item>
             <title><![CDATA[How to recognize and avoid scams]]></title>
-            <link>https://0xcert.org/news/avoid-scam-guide</link>
-            <guid>https://0xcert.org/news/avoid-scam-guide</guid>
+            <link>https://nonfungiblealliance.org/news/avoid-scam-guide</link>
+            <guid>https://nonfungiblealliance.org/news/avoid-scam-guide</guid>
             <description><![CDATA[0xcert ICO Guide #2 - How to recognize and avoid all sorts of scams]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert Private Presale SOLD OUT!]]></title>
-            <link>https://0xcert.org/news/private-presale-soldout</link>
-            <guid>https://0xcert.org/news/private-presale-soldout</guid>
+            <link>https://nonfungiblealliance.org/news/private-presale-soldout</link>
+            <guid>https://nonfungiblealliance.org/news/private-presale-soldout</guid>
             <description><![CDATA[0xcert is thrilled to announce that we have successfully sold out the Private Presale, with contributions from many incredible supporters worldwide. ]]></description>
         </item>
         <item>
             <title><![CDATA[A guide for 0xcert public pre-sale]]></title>
-            <link>https://0xcert.org/news/guide-for-public-presale</link>
-            <guid>https://0xcert.org/news/guide-for-public-presale</guid>
+            <link>https://nonfungiblealliance.org/news/guide-for-public-presale</link>
+            <guid>https://nonfungiblealliance.org/news/guide-for-public-presale</guid>
             <description><![CDATA[Everything you need to know for July 2 opening of 0xcert public pre-sale.]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert on Product Hunt]]></title>
-            <link>https://0xcert.org/news/product-hunt</link>
-            <guid>https://0xcert.org/news/product-hunt</guid>
+            <link>https://nonfungiblealliance.org/news/product-hunt</link>
+            <guid>https://nonfungiblealliance.org/news/product-hunt</guid>
             <description><![CDATA[We launched on Product Hunt! Thanks to our amazing community, The 0xcerters, we were able to secure 7th place finish.]]></description>
         </item>
         <item>
             <title><![CDATA[Important Announcement for Public Presale]]></title>
-            <link>https://0xcert.org/news/public-presale-date-change</link>
-            <guid>https://0xcert.org/news/public-presale-date-change</guid>
+            <link>https://nonfungiblealliance.org/news/public-presale-date-change</link>
+            <guid>https://nonfungiblealliance.org/news/public-presale-date-change</guid>
             <description><![CDATA[0xcert is moving the date of Public Presale to July 2nd, mark the date!]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert's cornerstone standard confirmed in record time!]]></title>
-            <link>https://0xcert.org/news/erc721-confirmed-final</link>
-            <guid>https://0xcert.org/news/erc721-confirmed-final</guid>
+            <link>https://nonfungiblealliance.org/news/erc721-confirmed-final</link>
+            <guid>https://nonfungiblealliance.org/news/erc721-confirmed-final</guid>
             <description><![CDATA[0xcert team is thrilled to announce the confirmation of the Ethereum standard we employ, the ERC-721, has been finalized.]]></description>
         </item>
         <item>
             <title><![CDATA[Guide to 0xcert ICO KYC Process]]></title>
-            <link>https://0xcert.org/news/guide-to-0xcert-kyc-process</link>
-            <guid>https://0xcert.org/news/guide-to-0xcert-kyc-process</guid>
+            <link>https://nonfungiblealliance.org/news/guide-to-0xcert-kyc-process</link>
+            <guid>https://nonfungiblealliance.org/news/guide-to-0xcert-kyc-process</guid>
             <description><![CDATA[Have you already whitelisted for the ICO but you're not so sure what comes next? Our step by step guide shows how to proceed with KYC form and answers your questions.]]></description>
         </item>
         <item>
             <title><![CDATA[The 0xcert Roadshow: London and New York City]]></title>
-            <link>https://0xcert.org/news/roadshow-wbf-cogx</link>
-            <guid>https://0xcert.org/news/roadshow-wbf-cogx</guid>
+            <link>https://nonfungiblealliance.org/news/roadshow-wbf-cogx</link>
+            <guid>https://nonfungiblealliance.org/news/roadshow-wbf-cogx</guid>
             <description><![CDATA[From East Coast to UK, 0xcert was there on all fronts - pitching, networking, discussing the crypto future.]]></description>
         </item>
         <item>
             <title><![CDATA[New York Blockchain Forum and 0xcert]]></title>
-            <link>https://0xcert.org/news/new-york-new-york-world-blockchain-forum</link>
-            <guid>https://0xcert.org/news/new-york-new-york-world-blockchain-forum</guid>
+            <link>https://nonfungiblealliance.org/news/new-york-new-york-world-blockchain-forum</link>
+            <guid>https://nonfungiblealliance.org/news/new-york-new-york-world-blockchain-forum</guid>
             <description><![CDATA[0xcert is increasingly gaining recognition from crypto-community, and NYC was no different.]]></description>
         </item>
         <item>
             <title><![CDATA[Bug bounty call-out]]></title>
-            <link>https://0xcert.org/news/bug-bounty-program-for-erc-721-smart-contracts</link>
-            <guid>https://0xcert.org/news/bug-bounty-program-for-erc-721-smart-contracts</guid>
+            <link>https://nonfungiblealliance.org/news/bug-bounty-program-for-erc-721-smart-contracts</link>
+            <guid>https://nonfungiblealliance.org/news/bug-bounty-program-for-erc-721-smart-contracts</guid>
             <description><![CDATA[Help us perfect our product and get yourself some sweet bounty tokens!]]></description>
         </item>
         <item>
             <title><![CDATA[ERC-721 Hitting a Home Run]]></title>
-            <link>https://0xcert.org/news/erc-721-hitting-a-home-run</link>
-            <guid>https://0xcert.org/news/erc-721-hitting-a-home-run</guid>
+            <link>https://nonfungiblealliance.org/news/erc-721-hitting-a-home-run</link>
+            <guid>https://nonfungiblealliance.org/news/erc-721-hitting-a-home-run</guid>
             <description><![CDATA[How do we enable antique collectibles reach blockchain storage? It's as easy as 1, 2, 0xcert.]]></description>
         </item>
         <item>
             <title><![CDATA[Public call for non-fungible ambassadors!]]></title>
-            <link>https://0xcert.org/news/a-one-of-a-kind-call-for-non-fungible-ambassadors</link>
-            <guid>https://0xcert.org/news/a-one-of-a-kind-call-for-non-fungible-ambassadors</guid>
+            <link>https://nonfungiblealliance.org/news/a-one-of-a-kind-call-for-non-fungible-ambassadors</link>
+            <guid>https://nonfungiblealliance.org/news/a-one-of-a-kind-call-for-non-fungible-ambassadors</guid>
             <description><![CDATA[How would you like to be a part of our team and contribute to our community commitment? Join us!]]></description>
         </item>
         <item>
             <title><![CDATA[Blockchain is going big in education]]></title>
-            <link>https://0xcert.org/news/blockchain-is-going-big-in-education</link>
-            <guid>https://0xcert.org/news/blockchain-is-going-big-in-education</guid>
+            <link>https://nonfungiblealliance.org/news/blockchain-is-going-big-in-education</link>
+            <guid>https://nonfungiblealliance.org/news/blockchain-is-going-big-in-education</guid>
             <description><![CDATA[0xcert on stage at Blockchain Credentials and Connected Learning Conference.]]></description>
         </item>
         <item>
             <title><![CDATA[Tokens, Lambos, and Blockchain, oh my!]]></title>
-            <link>https://0xcert.org/news/tokens-lambos-and-blockchain-oh-my</link>
-            <guid>https://0xcert.org/news/tokens-lambos-and-blockchain-oh-my</guid>
+            <link>https://nonfungiblealliance.org/news/tokens-lambos-and-blockchain-oh-my</link>
+            <guid>https://nonfungiblealliance.org/news/tokens-lambos-and-blockchain-oh-my</guid>
             <description><![CDATA[0xcert at Consensus 2018 in New York and in interview by Craig Cobb ? see all of it behind the scenes.]]></description>
         </item>
         <item>
             <title><![CDATA[Millions, Art, Fakes, and Blockchain]]></title>
-            <link>https://0xcert.org/news/millions-art-fakes-and-blockchain</link>
-            <guid>https://0xcert.org/news/millions-art-fakes-and-blockchain</guid>
+            <link>https://nonfungiblealliance.org/news/millions-art-fakes-and-blockchain</link>
+            <guid>https://nonfungiblealliance.org/news/millions-art-fakes-and-blockchain</guid>
             <description><![CDATA[Solutions that blockchain technology and non-fungibility provide for fine-art business.]]></description>
         </item>
         <item>
             <title><![CDATA[Amsterdam, Ian and Token Metrics = 0xcert are there]]></title>
-            <link>https://0xcert.org/news/amsterdam-ian-and-token-metrics-0xcert-are-there</link>
-            <guid>https://0xcert.org/news/amsterdam-ian-and-token-metrics-0xcert-are-there</guid>
+            <link>https://nonfungiblealliance.org/news/amsterdam-ian-and-token-metrics-0xcert-are-there</link>
+            <guid>https://nonfungiblealliance.org/news/amsterdam-ian-and-token-metrics-0xcert-are-there</guid>
             <description><![CDATA[0xcert hosted by and pitched for the one and only Ian Balina in Amsterdam.]]></description>
         </item>
         <item>
             <title><![CDATA[Fungible vs non-fungible tokens on the blockchain]]></title>
-            <link>https://0xcert.org/news/fungible-vs-non-fungible-tokens-on-the-blockchain</link>
-            <guid>https://0xcert.org/news/fungible-vs-non-fungible-tokens-on-the-blockchain</guid>
+            <link>https://nonfungiblealliance.org/news/fungible-vs-non-fungible-tokens-on-the-blockchain</link>
+            <guid>https://nonfungiblealliance.org/news/fungible-vs-non-fungible-tokens-on-the-blockchain</guid>
             <description><![CDATA[Ever wondered what fungibility is all about? A thorough explanation by our CTO will make it clear for you.]]></description>
         </item>
         <item>
             <title><![CDATA[EDCON Toronto: it's all about tech solutions for a better world]]></title>
-            <link>https://0xcert.org/news/edcon-toronto-its-all-about-tech-solutions-for-a-better-world</link>
-            <guid>https://0xcert.org/news/edcon-toronto-its-all-about-tech-solutions-for-a-better-world</guid>
+            <link>https://nonfungiblealliance.org/news/edcon-toronto-its-all-about-tech-solutions-for-a-better-world</link>
+            <guid>https://nonfungiblealliance.org/news/edcon-toronto-its-all-about-tech-solutions-for-a-better-world</guid>
             <description><![CDATA[We participated at Toronto's EDCON conference ? what did we learn and who did we talk to?]]></description>
         </item>
         <item>
             <title><![CDATA[Futurama Blockchain Innovators Summit]]></title>
-            <link>https://0xcert.org/news/recap-of-our-second-dubai-event-futurama-blockchain-innovators-summit</link>
-            <guid>https://0xcert.org/news/recap-of-our-second-dubai-event-futurama-blockchain-innovators-summit</guid>
+            <link>https://nonfungiblealliance.org/news/recap-of-our-second-dubai-event-futurama-blockchain-innovators-summit</link>
+            <guid>https://nonfungiblealliance.org/news/recap-of-our-second-dubai-event-futurama-blockchain-innovators-summit</guid>
             <description><![CDATA[Boutique in size ? great in value! 0xcert pitched in Dubai and met some of the industry leaders.]]></description>
         </item>
         <item>
             <title><![CDATA[Beyond CriptoKitties: ERC-721 NFT explained]]></title>
-            <link>https://0xcert.org/news/beyond-cryptokitties-erc721-non-fungible-tokens-on-blockchain-explained</link>
-            <guid>https://0xcert.org/news/beyond-cryptokitties-erc721-non-fungible-tokens-on-blockchain-explained</guid>
+            <link>https://nonfungiblealliance.org/news/beyond-cryptokitties-erc721-non-fungible-tokens-on-blockchain-explained</link>
+            <guid>https://nonfungiblealliance.org/news/beyond-cryptokitties-erc721-non-fungible-tokens-on-blockchain-explained</guid>
             <description><![CDATA[The first of 0xcert-hosted events, with the standard's lead author, William Entriken himself!]]></description>
         </item>
         <item>
             <title><![CDATA[World Blockchain Forum in Dubai first-hand]]></title>
-            <link>https://0xcert.org/news/recap-of-our-visit-at-world-blockchain-forum-in-dubai</link>
-            <guid>https://0xcert.org/news/recap-of-our-visit-at-world-blockchain-forum-in-dubai</guid>
+            <link>https://nonfungiblealliance.org/news/recap-of-our-visit-at-world-blockchain-forum-in-dubai</link>
+            <guid>https://nonfungiblealliance.org/news/recap-of-our-visit-at-world-blockchain-forum-in-dubai</guid>
             <description><![CDATA[0xcert was there! Who did we meet and what we discussed?]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert answers the most common questions]]></title>
-            <link>https://0xcert.org/news/0xcert-protocol-tokens-use-cases-roadmap-team-and-more</link>
-            <guid>https://0xcert.org/news/0xcert-protocol-tokens-use-cases-roadmap-team-and-more</guid>
+            <link>https://nonfungiblealliance.org/news/0xcert-protocol-tokens-use-cases-roadmap-team-and-more</link>
+            <guid>https://nonfungiblealliance.org/news/0xcert-protocol-tokens-use-cases-roadmap-team-and-more</guid>
             <description><![CDATA[You are still not sure if you get 0xcert right? Find out more in our 1st AMA session.]]></description>
         </item>
         <item>
             <title><![CDATA[Hong Kong Token2049 & EuroBlockShow]]></title>
-            <link>https://0xcert.org/news/highlights-from-0xcerts-visit-to-hong-kong-token2049</link>
-            <guid>https://0xcert.org/news/highlights-from-0xcerts-visit-to-hong-kong-token2049</guid>
+            <link>https://nonfungiblealliance.org/news/highlights-from-0xcerts-visit-to-hong-kong-token2049</link>
+            <guid>https://nonfungiblealliance.org/news/highlights-from-0xcerts-visit-to-hong-kong-token2049</guid>
             <description><![CDATA[How about the largest blockchain and cryptocurrency event in Asia? Yes, we were there!]]></description>
         </item>
         <item>
             <title><![CDATA[0xcert at the BlockChain Adria meetup]]></title>
-            <link>https://0xcert.org/news/join-us-at-blockchain-adria-meetup-in-zagreb</link>
-            <guid>https://0xcert.org/news/join-us-at-blockchain-adria-meetup-in-zagreb</guid>
+            <link>https://nonfungiblealliance.org/news/join-us-at-blockchain-adria-meetup-in-zagreb</link>
+            <guid>https://nonfungiblealliance.org/news/join-us-at-blockchain-adria-meetup-in-zagreb</guid>
             <description><![CDATA[0xcert's first public appearance! Check out where can you meet our exciting team.]]></description>
         </item>
     </channel>

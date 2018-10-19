@@ -90,3 +90,44 @@ $body-background: $white;
     color: $color;
   }
 }
+
+
+// Customisable spacing units. these can be changed and new ones added
+$spacing-units: (
+  1: 1rem,
+  2: 2rem,
+  3: 3rem,
+  4: 4rem,
+  5: 5rem,
+  6: 6rem,
+  7: 7rem
+);
+
+// These will not change this is just to help generate the classes with the correct naming
+$spacing-naming: (
+  top: t,
+  right: r,
+  bottom: b,
+  left: l
+);
+
+@each $key, $value in $spacing-units {
+  
+  @each $keyq, $valueq in $spacing-naming {
+    .m#{$valueq}-#{$key} {
+      margin-#{$keyq}: $value;
+    }
+  }
+  @each $keyq, $valueq in $spacing-naming {
+    .p#{$valueq}-#{$key} {
+      padding-#{$keyq}: $value;
+    }
+  }
+  .pa-#{$key} {
+    padding: $value;
+  }
+  .ma-#{$key} {
+    padding: $value;
+  }
+  
+}

@@ -14,7 +14,7 @@
   cursor: pointer;
 
   @include breakpoint(medium) {
-    padding: 14px 2rem;
+    padding: 16px 2rem;
   }
 
   &:hover:enabled {
