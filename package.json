@@ -11,7 +11,9 @@
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
-    "whitepaper:download": "wget -q https://github.com/0xcert/whitepaper/raw/master/dist/0xcert-protocol-technical-paper.pdf -O ./static/technical-paper.pdf"
+    "whitepaper:download": "wget -q https://github.com/0xcert/whitepaper/raw/master/dist/0xcert-protocol-technical-paper.pdf -O ./static/technical-paper.pdf",
+    "deploy:staging": "infra/bin/deploy",
+    "deploy:production": "infra/bin/deploy production"
   },
   "dependencies": {
     "@nuxtjs/google-tag-manager": "^1.1.0",
