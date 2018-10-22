@@ -1,0 +1,13 @@
+version: 0.2
+phases:
+    install:
+        commands:
+            - echo Installing source dependencies...
+            - npm cache verify
+            - npm install
+    build:
+        commands:
+            - npm run generate
+artifacts:
+    files:
+        dist/**/*
