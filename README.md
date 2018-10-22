@@ -35,6 +35,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 
+## Deployment
+
+Run `npm run deploy:staging` and `npm run deploy:production` to deploy to
+staging and production, respectively. Note that this will deploy the code
+that you currently have in your working directory.
+
 ## Infrastructure
 
 ### Create Infra
@@ -53,7 +59,8 @@ aws cloudformation deploy --template-file infra/cf/infra.yml --stack-name $STACK
 
 #### Delete the entire infrastructure
 
-**Warning:** this will wipe out the entire infrastructure for this app, so be sure this is what you wat to do.
+**Warning:** this will wipe out the entire infrastructure for this app,
+so be sure this is what you wat to do.
 
 ```bash
 STACK_NAME=nonfungiblealliance-www
