@@ -61,6 +61,9 @@
         state: 0,
         data: {
           email: '',
+          templateId: '6d3ec5b5-2a8f-4577-b983-3a8702d90829',
+          segment: 'Alliance - newsletter subscription',
+          listId: '3983919',
         }
       }
     },
@@ -69,7 +72,7 @@
       submit: function (e) {
         this.$validator.validateAll().then((result) => {
           if (result) {
-            this.$axios.post('/subscriptions/request', this.data)
+            this.$axios.post('/newsletters/request', this.data)
             .then((response) => {
               this.state = 1
             })

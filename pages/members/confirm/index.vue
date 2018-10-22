@@ -1,6 +1,6 @@
 <template>
   <div class="landing">
-    <apply/>
+    <confirm/>
     <benefits short/>
     <subscription/>
   </div>
@@ -9,12 +9,12 @@
 <script>
 import Subscription from '~/components/Subscription'
 import Benefits from '~/components/home/Benefits'
-import Apply from '~/components/Apply'
+import Confirm from '~/components/Confirm'
 
 export default {
   scrollToTop: true,
   components: {
-    Apply,
+    Confirm,
     Subscription,
     Benefits
   }

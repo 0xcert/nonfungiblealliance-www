@@ -124,7 +124,7 @@ export default {
         company: '',
         position: '',
         reason: '',
-        templateId: '67fde223-983b-46d7-b1bb-9e53cb1d61f1',
+        templateId: '6d3ec5b5-2a8f-4577-b983-3a8702d90829',
         segment: 'Alliance',
         listId: '3983919',
       }

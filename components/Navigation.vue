@@ -53,6 +53,11 @@ export default {
       this.open = !this.open
     }
   },
+  watch: {
+    '$route' () {
+      this.open = false
+    }
+  },
   mounted () {
     document.addEventListener('scroll', this.updateScroll)
   },
@@ -134,7 +139,8 @@ export default {
     }
   }
 
-  .page-members & {
+  .page-members &,
+  .page-subscriptions-subscribe & {
     background-color: $base;
   }
 }
