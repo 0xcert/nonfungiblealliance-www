@@ -3,7 +3,7 @@
     <div class="grid-container position-relative">
       <div class="grid-x">
         <div class="small-12 text-center medium-4 cell mb-2">
-          <nuxt-link v-for="item in menu" :key="item.id" :to="item.url" v-html="item.name" class="link"/>
+          <nuxt-link v-for="item in menu" :key="item.id" :to="item.url" v-html="item.name" class="link pl-1 pr-1" />
         </div>
         <div class="small-12 text-center medium-4 cell mb-2">
           Powered by Oxcert
@@ -12,7 +12,7 @@
           <SocialLinks :color="'dark'"/>
        </div>
       </div>
-      <a href="" class="go-up" v-scroll-to="{el: '#__nuxt' }">
+      <a class="go-up" v-scroll-to="{el: '#__nuxt' }">
         <img src="/images/up.svg" alt="Back to the top">
       </a>
     </div>
@@ -24,11 +24,8 @@
     data() {
       return {
         menu: [
-          {name: "Home", url: "/"},
-          {name: "Members", url: "/members"},
-          {name: "Resources", url: "/resources"},
-          {name: "Blog", url: "/news"},
-          {name: "Faq", url: "/faq"},
+          {name: "Home", url: "/#top"},
+          {name: "Members", url: "/members"}
         ]
       }
     },

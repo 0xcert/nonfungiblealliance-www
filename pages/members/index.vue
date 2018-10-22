@@ -1,9 +1,6 @@
 <template>
-  <div class="landing">
-    <intro/>
-    <benefits/>
-    <forwho/>
-    <partners/>
+  <div>
+    <partners :title="'Members'" class="mt-7"/>
     <onboard/>
     <subscription/>
   </div>
@@ -13,8 +10,6 @@
 import Form from '~/components/Form'
 import Subscription from '~/components/Subscription'
 import Partners from '~/components/home/Partners'
-import Forwho from '~/components/home/Forwho'
-import Benefits from '~/components/home/Benefits'
 import Onboard from '~/components/home/Onboard'
 
 export default {
@@ -22,8 +17,7 @@ export default {
   components: {
     Subscription,
     Partners,
-    Benefits,
-    Forwho,
+    Form,
     Onboard,
   }
 }

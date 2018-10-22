@@ -8,7 +8,7 @@
             The Non-Fungible Alliance is inviting new members to join in.
             Submit your application and become a part of the network.
           </p>
-          <a href="$" class="button primary mt-2">Become a member</a>
+          <nuxt-link to="/members/apply" class="button primary mt-2">Become a member</nuxt-link>
         </div>
       </div>
     </div>

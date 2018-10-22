@@ -75,19 +75,19 @@
         </filter>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <g fill="#000">
-            <use filter="url(#a)" xlink:href="#b" transform="translate(169.027 37.615)"/>
-            <use filter="url(#c)" xlink:href="#d" transform="translate(169.027 37.615)"/>
+        <g fill="#000" transform="translate(169.027 37.615)">
+            <use filter="url(#a)" xlink:href="#b"/>
+            <use filter="url(#c)" xlink:href="#d"/>
         </g>
-        <g fill="#000">
-            <use filter="url(#e)" xlink:href="#f" transform="translate(0 19.72)"/>
-            <use filter="url(#g)" xlink:href="#h" transform="translate(0 19.72)"/>
+        <g fill="#000" transform="translate(0 19.72)">
+            <use filter="url(#e)" xlink:href="#f"/>
+            <use filter="url(#g)" xlink:href="#h"/>
         </g>
-        <g fill="#000">
-            <use filter="url(#i)" xlink:href="#j" transform="translate(83.6)"/>
-            <use filter="url(#k)" xlink:href="#l" transform="translate(83.6)"/>
+        <g fill="#000" transform="translate(83.6)">
+            <use filter="url(#i)" xlink:href="#j"/>
+            <use filter="url(#k)" xlink:href="#l"/>
         </g>
-        <path d="M24 69v69.2c0 5.523 4.477 10 10 10h2.901M115.88 67v53.233M177 140.333h5.301c5.523 0 10-4.477 10-10V88" stroke="#B0C8D3" stroke-width="2" stroke-dasharray="4,4"/>
+        <path d="M24 69v69.2c0 5.523 4.477 10 10 10h2.901M115.88 67v53.233m61.12 20.1h5.301c5.523 0 10-4.477 10-10V88" stroke="#B0C8D3" stroke-width="2" stroke-dasharray="4,4"/>
         <g opacity=".391">
             <g transform="translate(137 101)">
                 <use fill="#000" filter="url(#m)" xlink:href="#n"/>
@@ -101,21 +101,17 @@
         <path d="M130.714 139H91.857c-2.681 0-4.857 2.156-4.857 4.813v67.375c0 2.656 2.176 4.812 4.857 4.812h58.286c2.681 0 4.857-2.156 4.857-4.813v-48.125L130.714 139z" fill="#00E5F3"/>
         <path d="M130 139v19.2c0 2.65 2.24 4.8 5 4.8h20l-25-24z" fill="#00D2E6"/>
         <path fill-opacity=".02" fill="#000" d="M135 162l20 20v-20z"/>
-        <path fill="#FFF" d="M119 184h22v-9h-22zM102 184h14v-9h-14zM119 194h22v-7h-22zM102 194h14v-7h-14zM119 204h22v-7h-22zM102 204h14v-7h-14z"/>
-        <g>
-            <g opacity=".454">
-                <g transform="translate(40 125)">
-                    <use fill="#000" filter="url(#r)" xlink:href="#s"/>
-                    <use fill="#F67069" xlink:href="#s"/>
-                </g>
-                <g transform="translate(40 125)">
-                    <use fill="#000" filter="url(#t)" xlink:href="#u"/>
-                    <use fill="#C7413A" xlink:href="#u"/>
-                </g>
+        <path fill="#FFF" d="M119 184h22v-9h-22zm-17 0h14v-9h-14zm17 10h22v-7h-22zm-17 0h14v-7h-14zm17 10h22v-7h-22zm-17 0h14v-7h-14z"/>
+        <g opacity=".454">
+            <g transform="translate(40 125)">
+                <use fill="#000" filter="url(#r)" xlink:href="#s"/>
+                <use fill="#F67069" xlink:href="#s"/>
             </g>
-            <g fill="#FFF">
-                <path d="M64.696 159H68v-3.238h-3.304zM64.696 154.143H68v-3.238h-3.304zM64.696 150.095H68v-3.238h-3.304zM64.696 145.238H68V142h-3.304zM49 159h3.304v-3.238H49zM49 154.143h3.304v-3.238H49zM49 150.095h3.304v-3.238H49zM49 145.238h3.304V142H49zM53.957 159h9.913v-8.095h-9.913zM53.957 150.095h9.913V142h-9.913z"/>
+            <g transform="translate(40 125)">
+                <use fill="#000" filter="url(#t)" xlink:href="#u"/>
+                <use fill="#C7413A" xlink:href="#u"/>
             </g>
         </g>
+        <path d="M64.696 159H68v-3.238h-3.304zm0-4.857H68v-3.238h-3.304zm0-4.048H68v-3.238h-3.304zm0-4.857H68V142h-3.304zM49 159h3.304v-3.238H49zm0-4.857h3.304v-3.238H49zm0-4.048h3.304v-3.238H49zm0-4.857h3.304V142H49zM53.957 159h9.913v-8.095h-9.913zm0-8.905h9.913V142h-9.913z" fill="#FFF"/>
     </g>
 </svg>

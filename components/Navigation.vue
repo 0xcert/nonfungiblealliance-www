@@ -3,7 +3,7 @@
     <div class="fixed" :class="[isFixed() || open ? 'is-fixed' : '']">
       <header class="navigation grid-container">
         <div class="grid-x">
-          <nuxt-link to="/" class="auto cell brand">
+          <nuxt-link to="/" v-scroll-to="{el: 'body' }" class="auto cell brand">
            <img src="/images/logo.svg" alt="The Non-fungible alliance">
           </nuxt-link>
 
@@ -15,14 +15,16 @@
 
           <transition name="fadeHeight" mode="out-in">
             <mq-layout v-if="open" mq="sm" :class="'mobile-menu'">
-              <nuxt-link v-for="item in menu" :key="item.id" :to="item.url" v-html="item.name" class="link"/>
-              <nuxt-link to="/member" class="button hollow white">Become a member</nuxt-link>  
+              <nuxt-link :to="'/'" exact v-html="'Home'" v-scroll-to="{el: 'body' }" class="link"/>
+              <nuxt-link :to="'/members'" v-html="'Members'" class="link"/>
+              <nuxt-link to="/members/apply" class="button hollow white">Become a member</nuxt-link>  
             </mq-layout>
           </transition>
 
           <mq-layout mq="md+" :class="'menu small-12 cell medium-shrink'">
-            <nuxt-link v-for="item in menu" :key="item.id" :to="item.url" v-html="item.name" class="link"/>
-            <nuxt-link to="/member" class="button hollow white ml-1">Become a member</nuxt-link>
+            <nuxt-link :to="'/'" exact v-html="'Home'" v-scroll-to="{el: 'body' }" class="link"/>
+            <nuxt-link :to="'/members'" v-html="'Members'" class="link"/>
+            <nuxt-link to="/members/apply" class="button hollow white ml-2">Become a member</nuxt-link>
           </mq-layout>
           
         </div>
@@ -37,14 +39,7 @@ export default {
   data () {
     return {
       scrollPosition: false,
-      open: false,
-      menu: [
-        {name: "Home", url: "/"},
-        {name: "Members", url: "/members"},
-        {name: "Resources", url: "/resources"},
-        {name: "Blog", url: "/news"},
-        {name: "Faq", url: "/faq"},
-      ]
+      open: false
     }
   },
   methods: {
@@ -53,9 +48,6 @@ export default {
     },
     isFixed: function () {
       if (this.scrollPosition > 100) return true
-    },
-    isCrowdsale: function () {
-      if (this.$route.name === "crowdsale") return true
     },
     toggle: function() {
       this.open = !this.open
@@ -133,13 +125,17 @@ export default {
 
   &.is-fixed {
     padding-top: 1rem;
-    background: $base;
+    background-color: $base;
 
     .nuxt-link-active {
       &::before {
         top: -#{$gutter * 1};
       }
     }
+  }
+
+  .page-members & {
+    background-color: $base;
   }
 }
 

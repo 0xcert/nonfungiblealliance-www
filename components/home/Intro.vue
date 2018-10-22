@@ -21,9 +21,7 @@
 
             </ul>
           </div>
-          <div class="margin-bottom-3">
-            <a href="#" v-scroll-to="{el: '#platform'}" class="button primary large margin-right-1 margin-bottom-1">Become a member</a>
-          </div>
+          <nuxt-link to="/members/apply" class="button primary large mt-1">Become a member</nuxt-link>
         </div>
 
         <div class="cell show-for-medium large-6 medium-6 align-bottom position-relative">
@@ -40,10 +38,6 @@
   display: flex;
   padding-bottom: 6rem;
   color: $white;
-
-  .grid-container {
-    width: 100%;
-  }
 
   h1 {
     font-weight: 800;

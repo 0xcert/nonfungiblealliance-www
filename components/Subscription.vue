@@ -1,15 +1,12 @@
 <template lang="html">
-<div>
-  <a id="subscribe" name="subscribe" class="anchor"/>
-    <div class="grid-container">
-    <section class="subscription">
-      <div class="grid-x align-center">
-        <div class="form small-11 medium-9 large-5 cell">
-          <Form/>
-        </div>
+<div class="grid-container mt-7">
+  <section class="subscription">
+    <div class="grid-x align-center">
+      <div class="form small-11 medium-9 large-5 cell">
+        <Form/>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 </div>
 </template>
 

@@ -30,7 +30,7 @@
 
   &:hover:enabled {
     color: $base !important; 
-    background-color: $primary-lighter;
+    background-color: lighten($primary, 10%);
   }
 
   &:disabled {

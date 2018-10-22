@@ -2,7 +2,7 @@
 <div>
   <a id="partners" name="partners" class="anchor"/>
   <div class="partners grid-container">
-    <h2>Recently joined</h2>
+    <h2>{{ title }}</h2>
     <div class="logos grid-x align-center grid-margin-x grid-margin-y">
       <div v-for="item in items" :key="item.id" class="logo small-6 medium-4 large-3 cell align-self-middle">
         <img :src="`/partners/${item}.png`" />
@@ -14,6 +14,12 @@
 
 <script>
 export default {
+  props: {
+    title: {
+      default: "Recently joined",
+      type: String
+    }
+  },
   data () {
     return {
       items: [

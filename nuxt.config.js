@@ -50,6 +50,10 @@ module.exports = {
     'foundation-sites/scss/foundation.scss',
     '@/assets/css/config/_variables.scss'
   ],
+  transition: {
+    name: 'layout',
+    mode: 'out-in'
+  },
   loading: {
     color: "#00E5F3"
   },
@@ -107,10 +111,10 @@ module.exports = {
     }
   ], 
   env: {
-    API_BASE_URL: process.env.API_BASE_URL || 'https://api-staging.0xcert.org'
+    API_BASE_URL: process.env.API_BASE_URL
   },
   axios: {
-    baseURL: process.env.API_BASE_URL
+    baseURL: process.env.API_BASE_URL || 'https://api-staging.0xcert.org'
   },
   workbox: {
     handleFetch: true,

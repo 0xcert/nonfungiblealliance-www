@@ -97,15 +97,15 @@
         </filter>
     </defs>
     <g fill="none" fill-rule="evenodd">
-        <g fill="#000">
-            <use filter="url(#a)" xlink:href="#b" transform="translate(0 82.72)"/>
-            <use filter="url(#c)" xlink:href="#d" transform="translate(0 82.72)"/>
+        <g fill="#000" transform="translate(0 82.72)">
+            <use filter="url(#a)" xlink:href="#b"/>
+            <use filter="url(#c)" xlink:href="#d"/>
         </g>
         <use fill="#000" filter="url(#e)" xlink:href="#f"/>
         <use fill="url(#g)" xlink:href="#f"/>
-        <g fill="#000">
-            <use filter="url(#h)" xlink:href="#i" transform="translate(169.027 95.695)"/>
-            <use filter="url(#j)" xlink:href="#k" transform="translate(169.027 95.695)"/>
+        <g fill="#000" transform="translate(169.027 95.695)">
+            <use filter="url(#h)" xlink:href="#i"/>
+            <use filter="url(#j)" xlink:href="#k"/>
         </g>
         <use fill="#000" filter="url(#l)" xlink:href="#m"/>
         <use fill="url(#n)" xlink:href="#m"/>
@@ -115,13 +115,13 @@
             <use fill="#000" filter="url(#s)" xlink:href="#t"/>
             <use fill="url(#u)" xlink:href="#t"/>
         </g>
-        <g fill="#000">
-            <use filter="url(#v)" xlink:href="#w" transform="translate(92.4)"/>
-            <use filter="url(#x)" xlink:href="#y" transform="translate(92.4)"/>
+        <g fill="#000" transform="translate(92.4)">
+            <use filter="url(#v)" xlink:href="#w"/>
+            <use filter="url(#x)" xlink:href="#y"/>
         </g>
         <use fill="#000" filter="url(#z)" xlink:href="#A"/>
         <use fill="#F67069" xlink:href="#A"/>
-        <path d="M97.77 121.345H76.56M124.758 145.2v11.177M124.635 64.409v28.44M168.96 120.852h-24.822" stroke="#B0C8D3" stroke-width="2" stroke-dasharray="4,4"/>
+        <path d="M97.77 121.345H76.56m48.198 23.855v11.177m-.123-91.968v28.44m44.325 28.003h-24.822" stroke="#B0C8D3" stroke-width="2" stroke-dasharray="4,4"/>
         <path d="M107.636 131.89h33.626c0-7.186-5.825-13.011-13.01-13.011h-7.605c-7.186 0-13.01 5.825-13.01 13.01z" fill="#00E5F3"/>
         <circle fill="#00E5F3" cx="124.901" cy="108" r="7.372"/>
     </g>
