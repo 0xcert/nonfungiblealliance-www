@@ -1,6 +1,6 @@
 <template lang="html">
   <footer class="mb-4">
-    <div class="grid-container position-relative ">
+    <div class="grid-container position-relative">
       <div class="grid-x">
         <div class="small-12 text-center medium-4 cell mb-2">
           <nuxt-link v-for="item in menu" :key="item.id" :to="item.url" v-html="item.name" class="link"/>
