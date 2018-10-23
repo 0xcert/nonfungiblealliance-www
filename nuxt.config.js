@@ -7,8 +7,8 @@ function getNews(post) {
 }
 
 const meta = {
-  title: 'Non-fungible Alliance',
-  description: '',
+  title: 'The Non-fungible Alliance',
+  description: 'Bringing together the NFT world',
   image: 'https://nonfungiblealliance.org/meta-card.jpg',
 }
 
