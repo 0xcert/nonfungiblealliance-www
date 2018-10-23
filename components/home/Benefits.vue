@@ -48,9 +48,9 @@
       <div v-if="!short" class="cell-small-12 large-6 text-center mt-7 mb-3">
         <p><strong class="bigger">New benefits will be added regularly for the members of the Alliance.</strong></p>
         <p>From early access and trials of various non-fungible solutions to free tickets for upcoming NFT events.</p>
-        <a href="#" class="button primary mt-1">
+        <button v-scroll-to="{el: '.subscription'}" class="button primary mt-1">
           Sign up and stay in the loop
-        </a>
+        </button>
       </div>
     </div>
   </div>
