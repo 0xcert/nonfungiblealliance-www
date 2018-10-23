@@ -1,7 +1,7 @@
 importScripts('/_nuxt/workbox.3de3418b.js')
 
 const workboxSW = new self.WorkboxSW({
-  "cacheId": "0xcert-www",
+  "cacheId": "nf-alliance-www",
   "clientsClaim": true,
   "directoryIndex": "/"
 })
@@ -48,8 +48,8 @@ workboxSW.precache([
     "revision": "117be09692bf9ff9bad5c1897052080e"
   },
   {
-    "url": "/_nuxt/app.7fd459a08e721fa19299.js",
-    "revision": "dfdbaf3340ceb2c02011c137215d5a7a"
+    "url": "/_nuxt/app.77760d98c53ed4ea9f0d.js",
+    "revision": "91df7b32a5735fc525184251a17fa608"
   },
   {
     "url": "/_nuxt/layouts/blog.3d3650dd3e1787e2eccf.js",
@@ -68,8 +68,8 @@ workboxSW.precache([
     "revision": "adc8621c96d7ba9eef8aadc83be1184d"
   },
   {
-    "url": "/_nuxt/manifest.b9f06d821193ff7c213f.js",
-    "revision": "a19b85624f8bc4290e68fa08d1d3d692"
+    "url": "/_nuxt/manifest.b15c9deee2634739839d.js",
+    "revision": "7356f62d66e52186b881fce750168b07"
   },
   {
     "url": "/_nuxt/pages/cookie-policy/index.707c9076ba02e03137b2.js",
@@ -81,19 +81,19 @@ workboxSW.precache([
   },
   {
     "url": "/_nuxt/pages/faq/index.bd23f0aecd86ae3bac32.js",
-    "revision": "1384be8a594988900c9dca1d4c2990f2"
+    "revision": "6878bdd3a87c5657a0a7b75c10e6f841"
   },
   {
-    "url": "/_nuxt/pages/index.9c21e82074a214bfedc5.js",
-    "revision": "f9a44651149541bfdaa035e3a26436dc"
+    "url": "/_nuxt/pages/index.afd0590da6156c53fe96.js",
+    "revision": "a83fe86dc08d43340889de6df0036ee6"
   },
   {
-    "url": "/_nuxt/pages/members/apply/index.ed67f29ee0d40f7d7db5.js",
-    "revision": "cdd9845bd6218dc2d1b8b7ecb4d6875f"
+    "url": "/_nuxt/pages/members/apply/index.3be30be0d24eaa4533c3.js",
+    "revision": "a0aafb3b85dd456ed407224f54461827"
   },
   {
-    "url": "/_nuxt/pages/members/confirm/index.50ffc814166a0d73b921.js",
-    "revision": "f16ee77f3463f610ea1d278d37e29267"
+    "url": "/_nuxt/pages/members/confirm/index.b454b755c3122485ee7d.js",
+    "revision": "7a37855868b053c3ec0d466f0b06c530"
   },
   {
     "url": "/_nuxt/pages/members/index.d10bd8c6a682da60bed9.js",
@@ -116,8 +116,8 @@ workboxSW.precache([
     "revision": "73b778c061e40d268d53deee06236d08"
   },
   {
-    "url": "/_nuxt/vendor.9a5fcc5350c88776164e.js",
-    "revision": "1a460e5f08679ad309bb27029ac9a6bc"
+    "url": "/_nuxt/vendor.316379e927f2d25be31d.js",
+    "revision": "10a78cec7fee9787793a9cbda75a80b7"
   }
 ])
 

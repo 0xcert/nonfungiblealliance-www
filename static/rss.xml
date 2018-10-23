@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Non-fungible Alliance</title>
+        <title>The Non-fungible Alliance</title>
         <link>https://nonfungiblealliance.org</link>
-        <description></description>
-        <lastBuildDate>Mon, 22 Oct 2018 15:32:38 GMT</lastBuildDate>
+        <description>Bringing together the NFT world</description>
+        <lastBuildDate>Tue, 23 Oct 2018 12:34:37 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>The Non-fungible Alliance Feed generator</generator>
         <image>
-            <title>Non-fungible Alliance</title>
+            <title>The Non-fungible Alliance</title>
             <url>https://nonfungiblealliance.org/logo-image.png</url>
             <link>https://nonfungiblealliance.org</link>
         </image>
