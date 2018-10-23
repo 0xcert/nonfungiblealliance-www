@@ -41,7 +41,6 @@
           []
         ]
       },
-
       rightAlignedColumns: {
         type: Array,
         default: () => [

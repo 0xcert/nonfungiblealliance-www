@@ -1,30 +1,69 @@
 <template>
   <div>
-    <div class="fixed" :class="[isFixed() || open ? 'is-fixed' : '']">
+    <div 
+      class="fixed" 
+      :class="[isFixed() || open ? 'is-fixed' : '']">
       <header class="navigation grid-container">
         <div class="grid-x">
-          <nuxt-link to="/" v-scroll-to="{el: 'body' }" class="auto cell brand">
-           <img src="/images/logo.svg" alt="The Non-fungible alliance">
+          <nuxt-link 
+            to="/" 
+            v-scroll-to="{el: 'body' }" 
+            class="auto cell brand">
+            <img 
+              src="/images/logo.svg" 
+              alt="The Non-fungible alliance">
           </nuxt-link>
 
           <mq-layout mq="sm"> 
-            <div :class="['hamburger', { open : open }]" @click="toggle()">
-              <span v-for="n in 3" class="line" :key="n"></span>
+            <div 
+              :class="['hamburger', { open : open }]" 
+              @click="toggle()">
+              <span 
+                v-for="n in 3" 
+                class="line" 
+                :key="n"/>
             </div>
           </mq-layout>  
 
-          <transition name="fadeHeight" mode="out-in">
-            <mq-layout v-if="open" mq="sm" :class="'mobile-menu'">
-              <nuxt-link :to="'/'" exact v-html="'Home'" v-scroll-to="{el: 'body' }" class="link"/>
-              <nuxt-link :to="'/members'" v-html="'Members'" class="link"/>
-              <nuxt-link to="/members/apply" class="button hollow white">Become a member</nuxt-link>  
+          <transition 
+            name="fadeHeight" 
+            mode="out-in">
+            <mq-layout 
+              v-if="open" 
+              mq="sm" 
+              :class="'mobile-menu'">
+              <nuxt-link 
+                :to="'/'" 
+                exact 
+                v-html="'Home'" 
+                v-scroll-to="{el: 'body' }" 
+                class="link"/>
+              <nuxt-link 
+                :to="'/members'" 
+                v-html="'Members'" 
+                class="link"/>
+              <nuxt-link 
+                to="/members/apply" 
+                class="button hollow white">Become a member</nuxt-link>  
             </mq-layout>
           </transition>
 
-          <mq-layout mq="md+" :class="'menu small-12 cell medium-shrink'">
-            <nuxt-link :to="'/'" exact v-html="'Home'" v-scroll-to="{el: 'body' }" class="link"/>
-            <nuxt-link :to="'/members'" v-html="'Members'" class="link"/>
-            <nuxt-link to="/members/apply" class="button hollow white ml-2">Become a member</nuxt-link>
+          <mq-layout 
+            mq="md+" 
+            :class="'menu small-12 cell medium-shrink'">
+            <nuxt-link 
+              :to="'/'" 
+              exact 
+              v-html="'Home'" 
+              v-scroll-to="{el: 'body' }" 
+              class="link"/>
+            <nuxt-link 
+              :to="'/members'" 
+              v-html="'Members'" 
+              class="link"/>
+            <nuxt-link 
+              to="/members/apply" 
+              class="button hollow white ml-2">Become a member</nuxt-link>
           </mq-layout>
           
         </div>
@@ -34,19 +73,18 @@
 </template>
 
 <script>
-
 export default {
-  data () {
+  data() {
     return {
       scrollPosition: false,
       open: false
     }
   },
   methods: {
-    updateScroll: function () {
+    updateScroll: function() {
       this.scrollPosition = document.scrollingElement.scrollTop
     },
-    isFixed: function () {
+    isFixed: function() {
       if (this.scrollPosition > 100) return true
     },
     toggle: function() {
@@ -54,14 +92,14 @@ export default {
     }
   },
   watch: {
-    '$route' () {
+    $route() {
       this.open = false
     }
   },
-  mounted () {
+  mounted() {
     document.addEventListener('scroll', this.updateScroll)
   },
-  destroyed () {
+  destroyed() {
     document.removeEventListener('scroll', this.updateScroll)
   }
 }
@@ -93,7 +131,7 @@ export default {
         top: -#{$gutter * 2};
         height: 2px;
         width: calc(100% - 2rem);
-        content: "";
+        content: '';
         background: $primary;
         transition: top $ease;
       }
@@ -123,7 +161,7 @@ export default {
   padding-bottom: 1rem;
   padding-top: 1rem;
   transition: all $ease;
-  
+
   @include breakpoint(large) {
     padding-top: 2rem;
   }
@@ -188,6 +226,4 @@ export default {
     cursor: pointer;
   }
 }
-
-
 </style>

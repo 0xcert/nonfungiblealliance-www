@@ -24,7 +24,7 @@ export default {
     Partners,
     Benefits,
     Forwho,
-    Onboard,
+    Onboard
   }
 }
 </script>

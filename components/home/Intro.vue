@@ -3,7 +3,7 @@
     <div class="grid-container">
       <div class="grid-x grid-margin-x">
         <div class="small-12 cell">
-           <h1>
+          <h1>
             Bringing together the NFT world.
           </h1>
         </div>
@@ -21,11 +21,16 @@
 
             </ul>
           </div>
-          <nuxt-link to="/members/apply" class="button primary large mt-1">Become a member</nuxt-link>
+          <nuxt-link 
+            to="/members/apply" 
+            class="button primary large mt-1">Become a member</nuxt-link>
         </div>
 
         <div class="cell show-for-medium large-6 medium-6 align-bottom position-relative">
-          <img class="illustration" src="/images/top-illustration.svg" alt="">
+          <img 
+            class="illustration" 
+            src="/images/top-illustration.svg" 
+            alt="">
         </div>
       </div>
     </div>
@@ -52,7 +57,7 @@
   @include breakpoint(medium) {
     .intro {
       max-width: 550px;
-      font-size: 20px
+      font-size: 20px;
     }
   }
 
@@ -64,10 +69,8 @@
 .illustration {
   position: absolute;
 
-  @include breakpoint(large ) {
+  @include breakpoint(large) {
     bottom: -11rem;
   }
 }
-
-
 </style>

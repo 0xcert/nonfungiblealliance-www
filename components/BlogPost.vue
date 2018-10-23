@@ -2,7 +2,11 @@
   <div class="blog-post">
     <div class="image">
       <nuxt-link :to="href">
-        <div class="post-image" v-if="image" :alt="title" v-bind:style="{'background-image': 'url('+image+')'}" ></div>
+        <div 
+          class="post-image" 
+          v-if="image" 
+          :alt="title" 
+          :style="{'background-image': 'url('+image+')'}" />
       </nuxt-link>
     </div>
     <div class="content">
@@ -16,24 +20,42 @@
         {{ body }}
       </div>
     </div>
-    <nuxt-link class="read-more" :to="href">
+    <nuxt-link 
+      class="read-more" 
+      :to="href">
       Read more &rarr;
     </nuxt-link>
   </div>
 </template>
 
 <script>
-
 export default {
-  components: {
-  },
+  components: {},
   props: {
-    image: String,
-    title: String,
-    category: String,
-    body: String,
-    href: String,
-    medium: String
+    image: {
+      type: String,
+      default: ''
+    },
+    title: {
+      type: String,
+      default: ''
+    },
+    category: {
+      type: String,
+      default: ''
+    },
+    body: {
+      type: String,
+      default: ''
+    },
+    href: {
+      type: String,
+      default: ''
+    },
+    medium: {
+      type: String,
+      default: ''
+    }
   }
 }
 </script>
@@ -46,12 +68,12 @@ export default {
   flex-flow: column;
   background: $white;
   box-shadow: 0 2px 8px 0 $gray-light;
-  border-radius: 3px; 
+  border-radius: 3px;
   font-family: $secondary-font;
-  
+
   .post-image {
     height: 180px;
-    border-radius: 3px 3px 0 0; 
+    border-radius: 3px 3px 0 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -63,7 +85,7 @@ export default {
     }
 
     &:hover {
-      opacity: .6;
+      opacity: 0.6;
     }
   }
 
@@ -83,8 +105,8 @@ export default {
     }
 
     .body {
-      margin-top: 20px; 
-      color: $gray;      
+      margin-top: 20px;
+      color: $gray;
     }
   }
 

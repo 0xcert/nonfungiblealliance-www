@@ -1,4 +1,13 @@
 {
+  "eslint.validate": [{
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
   "include": [
     "./**/*"
   ]

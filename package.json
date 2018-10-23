@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@nuxtjs/google-tag-manager": "^1.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
     "nuxt": "^1.4.2",
     "nuxt-sass-resources-loader": "^2.0.0",
     "vue-cookie-law": "^1.6.0",

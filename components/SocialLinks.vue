@@ -1,12 +1,29 @@
 <template lang="html">
   <div :class="['social-links', color ]">
-    <a :href="social.telegram" target="_blank" title="0xcert on Telegram"><svgTelegram :class="'icon-color'"/></a>
-    <a :href="social.twitter" target="_blank" title="0xcert on Twitter"><svgTwitter :class="'icon-color'"/></a>
-    <a :href="social.medium" target="_blank" title="0xcert on Medium"><svgMedium :class="'icon-color'"/></a>
-    <a :href="social.facebook" target="_blank" title="0xcert on Facebook"><svgFacebook :class="'icon-color'"/></a>
-    <a :href="social.linkedin" target="_blank" title="0xcert on LinkedIm"><svgLinkedin :class="'icon-color'"/></a>
-    <a :href="social.youtube" target="_blank" title="0xcert on Youtube"><svgYoutube :class="'icon-color'"/></a>
-    
+    <a 
+      :href="social.telegram" 
+      target="_blank" 
+      title="0xcert on Telegram"><svgTelegram :class="'icon-color'"/></a>
+    <a 
+      :href="social.twitter" 
+      target="_blank" 
+      title="0xcert on Twitter"><svgTwitter :class="'icon-color'"/></a>
+    <a 
+      :href="social.medium" 
+      target="_blank" 
+      title="0xcert on Medium"><svgMedium :class="'icon-color'"/></a>
+    <a 
+      :href="social.facebook" 
+      target="_blank" 
+      title="0xcert on Facebook"><svgFacebook :class="'icon-color'"/></a>
+    <a 
+      :href="social.linkedin" 
+      target="_blank" 
+      title="0xcert on LinkedIm"><svgLinkedin :class="'icon-color'"/></a>
+    <a 
+      :href="social.youtube" 
+      target="_blank" 
+      title="0xcert on Youtube"><svgYoutube :class="'icon-color'"/></a>
   </div>
 </template>
 
@@ -19,7 +36,7 @@ import svgMedium from '~/assets/img/medium.svg'
 import svgYoutube from '~/assets/img/youtube.svg'
 
 export default {
-  data () {
+  data() {
     return {
       social: {
         twitter: 'https://www.twitter.com/0xcert',
@@ -27,7 +44,7 @@ export default {
         linkedin: 'https://www.linkedin.com/company/0xcert/',
         medium: 'https://medium.com/0xcert',
         telegram: 'https://t.me/zeroxcert',
-        youtube: 'https://www.youtube.com/channel/UCgWRwKYt01cmaBvDozpDnBg',
+        youtube: 'https://www.youtube.com/channel/UCgWRwKYt01cmaBvDozpDnBg'
       }
     }
   },
@@ -37,7 +54,7 @@ export default {
     svgTwitter,
     svgTelegram,
     svgMedium,
-    svgYoutube,
+    svgYoutube
   },
   props: {
     color: {
@@ -77,11 +94,11 @@ export default {
       }
 
       &.kakao {
-         max-height: 24px !important;
+        max-height: 24px !important;
 
-         .text {
-           fill: $base;
-         }
+        .text {
+          fill: $base;
+        }
       }
     }
   }
@@ -111,7 +128,7 @@ export default {
 
       a {
         display: flex;
-        padding: .6rem .3rem;
+        padding: 0.6rem 0.3rem;
 
         &:hover {
           .icon-color {

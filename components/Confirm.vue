@@ -3,27 +3,42 @@
     <div class="grid-container">
       <div class="grid-x grid-margin-x">
         <div class="small-12 medium-6 large-5 cell">
-          <transition mode="out-in" name="layout">
-            <div v-if="state === 'loading'" class="mb-7">
+          <transition 
+            mode="out-in" 
+            name="layout">
+            <div 
+              v-if="state === 'loading'" 
+              class="mb-7">
               <p>Subscribing, just a moment ...</p>
             </div>
 
-            <div v-if="state === 'success' " class="mb-7" key="confirm">
+            <div 
+              v-if="state === 'success' " 
+              class="mb-7" 
+              key="confirm">
               <h3 class="">Thank you for applying!</h3>
               <p>We will be in touch soon.</p>
             </div>
 
-            <div v-if="state === 'error'" class="mb-7" key="error">
+            <div 
+              v-if="state === 'error'" 
+              class="mb-7" 
+              key="error">
               <h3>Dang!</h3>
               <p>Something went wrong. Try again later or contact us on: 
               <a href="mailto:info@nonfungiblealliance.org">info@nonfungiblealliance.org</a></p>
-              <nuxt-link to="/members/apply" class="button hollow white"> &larr; Try again</nuxt-link>
+              <nuxt-link 
+                to="/members/apply" 
+                class="button hollow white"> &larr; Try again</nuxt-link>
             </div>
           </transition>
         </div>
 
         <div class="cell show-for-medium medium-6 large-6 large-offset-1 align-bottom position-relative">
-          <img class="illustration" src="/images/top-illustration.svg" alt="">
+          <img 
+            class="illustration" 
+            src="/images/top-illustration.svg" 
+            alt="">
         </div>
       </div>
     </div>
@@ -31,20 +46,20 @@
 </template>
 
 <script>
-import { handleServerError } from  '~/mixins/handleServerError'
+import { handleServerError } from '~/mixins/handleServerError'
 import vueScroll from 'vue-scrollto'
 
 export default {
-  data () {
+  data() {
     return {
-      state: "loading",
+      state: 'loading',
       data: {
-        requestToken: '',
+        requestToken: ''
       }
     }
   },
   methods: {
-    submit: async function () {
+    submit: async function() {
       try {
         if (this.data.requestToken) {
           await this.$axios.post('/newsletters', this.data)
@@ -53,14 +68,14 @@ export default {
       } catch (err) {
         this.state = 'error'
         this.handleServerError(err)
-        console.log("Error:" + err)
+        console.log('Error:' + err)
       }
     }
   },
-  mounted () {
+  mounted() {
     this.data.requestToken = this.$route.query.requestToken
     this.submit()
-  },
+  }
 }
 </script>
 
@@ -93,7 +108,7 @@ export default {
   @include breakpoint(medium) {
     .intro {
       max-width: 550px;
-      font-size: 20px
+      font-size: 20px;
     }
   }
 
@@ -105,10 +120,8 @@ export default {
 .illustration {
   position: absolute;
 
-  @include breakpoint(large ) {
+  @include breakpoint(large) {
     bottom: -11rem;
   }
 }
-
-
 </style>

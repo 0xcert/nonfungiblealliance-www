@@ -4,23 +4,30 @@
       <h1 class="small-12 cell">{{ faq.title }}</h1>
       <div class="small-12 medium-4 cell">
         <ul class="menu">
-          <li v-for="(category, index) in categories" 
-              :class="{active : category == activeCategory}"
-              :key="category.id"
-              @click="toggle(categories[index])">
-              {{ category }}
+          <li 
+            v-for="(category, index) in categories" 
+            :class="{active : category == activeCategory}"
+            :key="category.id"
+            @click="toggle(categories[index])">
+            {{ category }}
           </li>
         </ul>
       </div>
       <div class="small-12 medium-8 cell">
         <div class="body">
-          <transition-group name="slide-fade" mode="out-in" tag="div">
-            <div v-for="item in faq.data" 
-                :key="item.id"
-                v-show="item.category == activeCategory"
-                :class="'qa'">
+          <transition-group 
+            name="slide-fade" 
+            mode="out-in" 
+            tag="div">
+            <div 
+              v-for="item in faq.data" 
+              :key="item.id"
+              v-show="item.category == activeCategory"
+              :class="'qa'">
               <div class="question">{{ item.question }}</div>
-              <div class="answer" v-html="item.answer"></div>
+              <div 
+                class="answer" 
+                v-html="item.answer"/>
             </div>
           </transition-group>
         </div>
@@ -39,14 +46,14 @@ export default {
   components: {
     Subscription
   },
-  data () {
+  data() {
     return {
       faq,
       activeCategory: ''
     }
   },
   computed: {
-    categories: function () {
+    categories: function() {
       return [...new Set(faq.data.map((obj, i) => obj.category))].slice().reverse()
     }
   },
@@ -62,7 +69,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 .body {
   a {
     color: $primary;
@@ -98,7 +104,7 @@ export default {
   padding: 10px 0;
   border-radius: 8px;
   margin-bottom: 2rem;
-  border: 1px solid rgba(125,130,133,0.05);
+  border: 1px solid rgba(125, 130, 133, 0.05);
 
   li {
     position: relative;
@@ -115,13 +121,13 @@ export default {
     }
 
     &.active:after {
-      content: "";
+      content: '';
       background: $light-blue-bg url('/images/cheveron.svg') no-repeat center right;
       width: 10px;
       height: 12px;
       position: absolute;
       right: 20px;
-      top: calc(50% - 6px)
+      top: calc(50% - 6px);
     }
   }
 }

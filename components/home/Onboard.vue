@@ -8,7 +8,9 @@
             The Non-Fungible Alliance is inviting new members to join in.
             Submit your application and become a part of the network.
           </p>
-          <nuxt-link to="/members/apply" class="button primary mt-2">Become a member</nuxt-link>
+          <nuxt-link 
+            to="/members/apply" 
+            class="button primary mt-2">Become a member</nuxt-link>
         </div>
       </div>
     </div>
@@ -16,13 +18,10 @@
 </template>
 
 <script>
-  export default {
-    
-  }
+export default {}
 </script>
 
 <style lang="scss" scoped>
-
 .bg {
   background: url('/images/onboard-bg.png') no-repeat center center;
   background-size: contain;
@@ -54,5 +53,4 @@
     font-size: 20px;
   }
 }
-
 </style>

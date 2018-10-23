@@ -1,14 +1,18 @@
 <template>
-  <div :class="'page-' + this.$route.name" class="inner">
-    <a class="anchor" id="top"/>
+  <div 
+    :class="'page-' + this.$route.name" 
+    class="inner">
+    <a 
+      class="anchor" 
+      id="top"/>
     <Navigation/>
-      <div class="grid-container">
-        <div class="grid-x align-center">
-          <div class="small-12 medium-10 large-8 cell margin-bottom-3">
-            <nuxt/>
-          </div>
+    <div class="grid-container">
+      <div class="grid-x align-center">
+        <div class="small-12 medium-10 large-8 cell margin-bottom-3">
+          <nuxt/>
         </div>
       </div>
+    </div>
     <Subscription/>
     <Footer/>
     <no-ssr>
@@ -24,23 +28,23 @@
 </template>
 
 <script>
-  import Navigation from '~/components/Navigation'
-  import Footer from '~/components/Footer'
-  import Subscription from '~/components/Subscription'
+import Navigation from '~/components/Navigation'
+import Footer from '~/components/Footer'
+import Subscription from '~/components/Subscription'
 
-  export default {
-    scrollToTop: true,
-    components: {
-      Navigation,
-      Footer,
-      Subscription
-    }
+export default {
+  scrollToTop: true,
+  components: {
+    Navigation,
+    Footer,
+    Subscription
   }
+}
 </script>
 
 <style lang="scss" scoped>
 @include breakpoint(medium) {
- .inner {
+  .inner {
     min-height: 80vh;
     padding-top: 12rem;
   }

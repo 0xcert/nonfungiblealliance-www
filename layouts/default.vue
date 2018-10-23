@@ -16,14 +16,14 @@
 </template>
 
 <script>
-  import Navigation from '~/components/Navigation'
-  import Footer from '~/components/Footer'
+import Navigation from '~/components/Navigation'
+import Footer from '~/components/Footer'
 
-  export default {
-    scrollToTop: true,
-    components: {
-      Navigation,
-      Footer
-    }
+export default {
+  scrollToTop: true,
+  components: {
+    Navigation,
+    Footer
   }
+}
 </script>

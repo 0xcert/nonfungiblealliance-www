@@ -6,7 +6,9 @@
 
         <div class="grid-x align-middle mb-3">
           <div class="cell small-12 medium-5 text-center medium-text-left">
-            <img src="/images/community.svg" alt="Community">
+            <img 
+              src="/images/community.svg" 
+              alt="Community">
           </div>
           <div class="cell small-12 medium-7">
             <h3>Community</h3>
@@ -16,7 +18,9 @@
 
         <div class="grid-x align-middle mb-3">
           <div class="cell small-12 medium-5 medium-order-2 text-center medium-text-right">
-             <img src="/images/adoption.svg" alt="Adoption">
+            <img 
+              src="/images/adoption.svg" 
+              alt="Adoption">
           </div>
           <div class="cell small-12 medium-7 medium-order-1">
             <h3>Adoption</h3>
@@ -26,7 +30,9 @@
 
         <div class="grid-x align-middle mb-3">
           <div class="cell small-12 medium-5 text-center medium-text-left">
-            <img src="/images/resources.svg" alt="Resources">
+            <img 
+              src="/images/resources.svg" 
+              alt="Resources">
           </div>
           <div class="cell small-12 medium-7">
             <h3>Resources</h3>
@@ -36,7 +42,9 @@
 
         <div class="grid-x align-middle mb-7">
           <div class="cell small-12 medium-5 medium-order-2 text-center medium-text-right">
-            <img src="/images/exposure.svg" alt="Exposure">
+            <img 
+              src="/images/exposure.svg" 
+              alt="Exposure">
           </div>
           <div class="cell small-12 medium-7 medium-order-1">
             <h3>Exposure</h3>
@@ -45,10 +53,14 @@
         </div>
       </div>
 
-      <div v-if="!short" class="cell-small-12 large-6 text-center mt-7 mb-3">
+      <div 
+        v-if="!short" 
+        class="cell-small-12 large-6 text-center mt-7 mb-3">
         <p><strong class="bigger">New benefits will be added regularly for the members of the Alliance.</strong></p>
         <p>From early access and trials of various non-fungible solutions to free tickets for upcoming NFT events.</p>
-        <button v-scroll-to="{el: '.subscription'}" class="button primary mt-1">
+        <button 
+          v-scroll-to="{el: '.subscription'}" 
+          class="button primary mt-1">
           Sign up and stay in the loop
         </button>
       </div>
@@ -57,29 +69,28 @@
 </template>
 
 <script>
-  export default {
-    props: {
-      short: {
-        defulat: false,
-        type: Boolean
-      }
+export default {
+  props: {
+    short: {
+      type: Boolean,
+      default: false
     }
   }
+}
 </script>
 
 <style lang="scss" scoped>
-  .benefits {
-    padding-top: 5rem;
-    background: url('/images/benefits-bg.png') no-repeat bottom center;
+.benefits {
+  padding-top: 5rem;
+  background: url('/images/benefits-bg.png') no-repeat bottom center;
 
-    p {
-      font-family: $primary-font;
-      font-weight: light;
-    }
-
-    .bigger {
-      font-size: 120%;
-    }
+  p {
+    font-family: $primary-font;
+    font-weight: light;
   }
 
+  .bigger {
+    font-size: 120%;
+  }
+}
 </style>

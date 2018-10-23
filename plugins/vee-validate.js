@@ -1,7 +1,5 @@
 import Vue from 'vue'
-import VeeValidate, {
-  Validator
-} from 'vee-validate'
+import VeeValidate, { Validator } from 'vee-validate'
 
 Vue.use(VeeValidate)
 
@@ -16,7 +14,10 @@ Validator.extend('wallet', {
 
 Validator.extend('verify_password', {
   getMessage(field, params, data) {
-    return (data && data.message) || 'Your password must be at least eight characters long and must be a combination of upper case, lower case, numbers, and non-alphanumeric characters.'
+    return (
+      (data && data.message) ||
+      'Your password must be at least eight characters long and must be a combination of upper case, lower case, numbers, and non-alphanumeric characters.'
+    )
   },
   validate(value) {
     return /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*])(?=.{8,})/.test(value)

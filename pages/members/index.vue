@@ -1,6 +1,8 @@
 <template>
   <div>
-    <partners :title="'Members'" class="mt-7"/>
+    <partners 
+      :title="'Members'" 
+      class="mt-7"/>
     <onboard/>
     <subscription/>
   </div>
@@ -18,7 +20,7 @@ export default {
     Subscription,
     Partners,
     Form,
-    Onboard,
+    Onboard
   }
 }
 </script>

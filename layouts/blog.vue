@@ -1,6 +1,11 @@
 <template>
-  <div :class="'page-' + this.$route.name" class="inner" :key="'dynamic-content'">
-    <a class="anchor" id="top"/>
+  <div 
+    :class="'page-' + this.$route.name" 
+    class="inner" 
+    :key="'dynamic-content'">
+    <a 
+      class="anchor" 
+      id="top"/>
     <Navigation/>
     <div class="grid-container">
       <nuxt/>
@@ -20,31 +25,31 @@
 </template>
 
 <script>
-  let vueScroll = require('vue-scrollto')
-  import Navigation from '~/components/Navigation'
-  import Footer from '~/components/Footer'
-  import Subscription from '~/components/Subscription'
+let vueScroll = require('vue-scrollto')
+import Navigation from '~/components/Navigation'
+import Footer from '~/components/Footer'
+import Subscription from '~/components/Subscription'
 
-  export default {
-    scrollToTop: true,
-    components: {
-      Navigation,
-      Footer,
-      Subscription
-    },
+export default {
+  scrollToTop: true,
+  components: {
+    Navigation,
+    Footer,
+    Subscription
+  },
 
-    mounted () {
-      vueScroll.scrollTo('#__nuxt')
-      twttr.widgets.load()
-    }
+  mounted() {
+    vueScroll.scrollTo('#__nuxt')
+    twttr.widgets.load()
   }
+}
 </script>
 
 <style lang="scss" scoped>
-  @include breakpoint(medium) {
+@include breakpoint(medium) {
   .inner {
-      min-height: 80vh;
-      padding-top: 8rem;
-    }
+    min-height: 80vh;
+    padding-top: 8rem;
   }
+}
 </style>

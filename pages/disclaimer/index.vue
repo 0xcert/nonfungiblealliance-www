@@ -1,5 +1,7 @@
 <template>
-  <div v-html="content" class="markdown"></div>
+  <div 
+    v-html="content" 
+    class="markdown"/>
 </template>
 
 <script>
@@ -8,7 +10,7 @@ import GeneralDisclaimer from './generalDisclaimer.md'
 export default {
   scrollToTop: true,
   layout: 'inner',
-  data () {
+  data() {
     return {
       content: GeneralDisclaimer
     }

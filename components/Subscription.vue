@@ -1,13 +1,13 @@
 <template lang="html">
-<div class="grid-container mt-7">
-  <section class="subscription">
-    <div class="grid-x align-center">
-      <div class="form small-11 medium-9 large-5 cell">
-        <Form/>
+  <div class="grid-container mt-7">
+    <section class="subscription">
+      <div class="grid-x align-center">
+        <div class="form small-11 medium-9 large-5 cell">
+          <Form/>
+        </div>
       </div>
-    </div>
-  </section>
-</div>
+    </section>
+  </div>
 </template>
 
 <script>

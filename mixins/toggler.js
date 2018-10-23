@@ -1,5 +1,5 @@
 export const toggler = {
-  data () {
+  data() {
     return {
       tabs: []
     }
