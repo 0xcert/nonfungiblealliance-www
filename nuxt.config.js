@@ -1,4 +1,3 @@
-
 const meta = {
   title: 'The Non-fungible Alliance',
   description: 'Bringing together the NFT world',
