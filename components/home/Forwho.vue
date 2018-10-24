@@ -34,7 +34,7 @@ export default {
         {
           title: 'Industry and enterprise',
           body:
-            '“Non-blockchain” companies and institutions that consider adopting NFT technology into their existing model.',
+            '“Non-blockchain” companies and institutions that consider integration of NFT technology into their existing model.',
           icon: 'industry.svg'
         },
         {
@@ -56,7 +56,7 @@ export default {
   color: $white;
 
   @include breakpoint(medium) {
-    padding: 7rem;
+    padding: 7rem 1rem;
     margin: -2rem 0 2rem;
   }
 

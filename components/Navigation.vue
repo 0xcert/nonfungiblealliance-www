@@ -13,7 +13,6 @@
               src="/images/logo.svg" 
               alt="The Non-fungible alliance">
           </nuxt-link>
-
           <mq-layout mq="sm"> 
             <div 
               :class="['hamburger', { open : open }]" 
@@ -65,7 +64,6 @@
               to="/members/apply" 
               class="button hollow white ml-2">Become a member</nuxt-link>
           </mq-layout>
-          
         </div>
       </header>
     </div>

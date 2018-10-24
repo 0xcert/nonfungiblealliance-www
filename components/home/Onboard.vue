@@ -3,7 +3,7 @@
     <div class="grid-x bg align-center">
       <div class="cell small-12 inner text-center">
         <div class="width">
-          <h2>Get on Board</h2>
+          <h2>Get on board</h2>
           <p>
             The Non-Fungible Alliance is inviting new members to join in.
             Submit your application and become a part of the network.

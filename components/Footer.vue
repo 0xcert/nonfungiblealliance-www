@@ -11,10 +11,10 @@
             class="link pl-1 pr-1" />
         </div>
         <div class="small-12 text-center medium-4 cell mb-2">
-          Powered by Oxcert
+          Powered by 0xcert
         </div>
         <div class="small-12 social text-right medium-4 cell mb-2">
-          <SocialLinks :color="'dark'"/>
+          <!-- <SocialLinks :color="'dark'"/> -->
         </div>
       </div>
       <a 

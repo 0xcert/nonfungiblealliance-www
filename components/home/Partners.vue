@@ -11,7 +11,7 @@
           v-for="item in items" 
           :key="item.id" 
           class="logo small-6 medium-4 large-3 cell align-self-middle">
-          <img :src="`/partners/${item}.png`" >
+          <img :src="`/partners/${item}`" >
         </div>
       </div>
     </div>
@@ -29,22 +29,25 @@ export default {
   data() {
     return {
       items: [
-        'block-rocket',
-        'blockchain-studios',
-        'codex',
-        'crypto-carz',
-        'crypto-decks',
-        'dac',
-        'dapp',
-        'ember-sword',
-        'eth-town',
-        'kette',
-        'known-origin',
-        'mokens',
-        'non-fungible',
-        'opensea',
-        'su-squares',
-        'unico'
+        'block-rocket.png',
+        'blockchain-studios.png',
+        'codex.png',
+        'crypto-carz.png',
+        'crypto-decks.png',
+        'dac.png',
+        'dapp.png',
+        'ember-sword.png',
+        'eth-town.png',
+        'kette.png',
+        'known-origin.png',
+        'mokens.png',
+        'non-fungible.png',
+        'opensea.png',
+        'su-squares.png',
+        'unico.png',
+        'doctrina.svg',
+        'tokntok.svg',
+        'socouch.png'
       ]
     }
   }

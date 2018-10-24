@@ -3,7 +3,6 @@
     <div class="grid-x align-center">
       <div class="cell small-12 large-8">
         <h2 class="text-center">Benefits</h2>
-
         <div class="grid-x align-middle mb-3">
           <div class="cell small-12 medium-5 text-center medium-text-left">
             <img 
@@ -12,7 +11,7 @@
           </div>
           <div class="cell small-12 medium-7">
             <h3>Community</h3>
-            <p>Access an existing network of projects, developers, industry partners as well as service providers.</p>
+            <p>Access to an existing network of projects, developers, industry partners, and service providers.</p>
           </div>
         </div>
 
@@ -24,7 +23,7 @@
           </div>
           <div class="cell small-12 medium-7 medium-order-1">
             <h3>Adoption</h3>
-            <p>Support and know-how from field top experts on all levels of market implementation</p>
+            <p>Support and know-how from field top experts on all levels of market implementation.</p>
           </div>
         </div>
 

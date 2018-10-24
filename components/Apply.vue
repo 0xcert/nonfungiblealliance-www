@@ -1,14 +1,20 @@
 <template>
   <section class="introduction">
     <div class="grid-container">
+      <div class="grid-x">
+        <div class="cell small-12 medium-7 large-7">
+          <h1>Become a member</h1>
+          <p>
+            We appreciate your enthusiasm to co-create the future of the NFT world. Till further notice, the membership in the alliance is free of charge, and for you, early subscribers, this will not change - your plan is forever free. To hop on board, just fill out the form below
+          </p>
+        </div>
+      </div>
       <div class="grid-x grid-margin-x">
         <div class="small-12 medium-6 large-5 cell">
           <transition 
             mode="out-in" 
             name="layout">
             <div v-if="state === 'form'">
-              <h1>Become a member</h1>
-
               <form 
                 @submit.prevent="submit()" 
                 novalidate>
@@ -20,7 +26,7 @@
                       :class="{'input': true, 'is-invalid-input': errors.has('firstName') }"
                       name="firstName" 
                       data-vv-as="First name"
-                      type="text" >
+                      type="text">
                     <span 
                       class="alert" 
                       v-show="errors.has('firstName')">{{ errors.first('firstName') }}</span>
@@ -104,7 +110,7 @@
 
             <div 
               v-if="state === 'success' " 
-              class="mb-7" 
+              class="mb-7 mt-2" 
               key="confirm">
               <h3 class="">Thank you for applying!</h3>
               
@@ -115,7 +121,7 @@
 
             <div 
               v-if="state === 'error'" 
-              class="mb-7" 
+              class="mb-7 mt-2" 
               key="error">
               <h3>Dang!</h3>
               <p>Something went wrong. Try again later or contact us on: 
@@ -221,7 +227,7 @@ export default {
   position: absolute;
 
   @include breakpoint(large) {
-    bottom: -11rem;
+    bottom: -2rem;
   }
 }
 </style>

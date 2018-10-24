@@ -11,7 +11,8 @@
           <div class="margin-bottom-3 intro">
             <p>
               As diverse and unique as the non-fungible space is, so are the visions, potentials, and opinions about it.
-              <strong>Our goal is to provide a common platform</strong> for all non-fungible thinkers, enthusiasts, and creators. Join in and share your part, too.
+              <strong>Our goal is to provide a common platform</strong> for all non-fungible thinkers, enthusiasts, and creators. 
+              Join in and share your part, too.
             </p>
             <p>Some of the non-fungible perks:</p>
             <ul>
@@ -56,7 +57,7 @@
 
   @include breakpoint(medium) {
     .intro {
-      max-width: 550px;
+      max-width: 510px;
       font-size: 20px;
     }
   }
