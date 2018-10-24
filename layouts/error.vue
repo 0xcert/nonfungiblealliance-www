@@ -31,8 +31,8 @@
 export default {
   props: {
     error: {
-      type: String,
-      default: ''
+      type: Object,
+      default: () => {}
     }
   },
   methods: {

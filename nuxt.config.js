@@ -1,10 +1,3 @@
-const fs = require('fs')
-let news = fs.readdirSync('./static/news')
-
-function getNews(post) {
-  let slug = post.substr(0, post.lastIndexOf('.'))
-  return `/news/${slug}`
-}
 
 const meta = {
   title: 'The Non-fungible Alliance',
@@ -34,16 +27,7 @@ module.exports = {
       { hid: 'socialDescription', property: 'og:description', content: meta.description },
       { hid: 'description', name: 'description', content: meta.description }
     ],
-    link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' },
-      {
-        rel: 'alternate',
-        type: 'application/rss+xml',
-        title: 'RSS Feed for Non-fungiblealliance news',
-        href: '/rss.xml'
-      }
-    ],
-    script: [{ src: 'https://platform.twitter.com/widgets.js' }]
+    link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
   },
   css: [{ src: '~/assets/css/animations.scss' }, { src: '~/assets/css/styles.scss' }],
   sassResources: ['foundation-sites/scss/foundation.scss', '@/assets/css/config/_variables.scss'],
@@ -66,46 +50,7 @@ module.exports = {
     '@nuxtjs/workbox',
     'nuxt-sass-resources-loader',
     '@nuxtjs/markdownit',
-    '@nuxtjs/feed',
-    'nuxt-mq',
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-XXXXXX' }]
-  ],
-  feed: [
-    {
-      path: '/rss.xml', // The route to your feed.
-      async create(feed) {
-        feed.options = {
-          title: meta.title,
-          description: meta.description,
-          link: 'https://nonfungiblealliance.org',
-          image: 'https://nonfungiblealliance.org/logo-image.png',
-          favicon: 'https://nonfungiblealliance.org/favicon.png',
-          generator: 'The Non-fungible Alliance Feed generator',
-          copyright: 'All rights reserved 2018, 0xcert'
-        }
-
-        const posts = await JSON.parse(fs.readFileSync('./static/data/news.json', 'utf8'))
-
-        posts.forEach(post => {
-          feed.addItem({
-            title: post.title,
-            id: post.id,
-            link: `https://nonfungiblealliance.org/news/${post.id}`,
-            description: post.oneliner
-          })
-        })
-
-        feed.addCategory('blockchain')
-
-        feed.addContributor({
-          name: 'The Non-fungible Alliance',
-          email: 'info@nonfungiblealliance.org',
-          link: 'https://nonfungiblealliance.org/'
-        })
-      },
-      cacheTime: 1000 * 60 * 15,
-      type: 'rss2'
-    }
+    'nuxt-mq'
   ],
   env: {
     API_BASE_URL: process.env.API_BASE_URL
@@ -145,9 +90,6 @@ module.exports = {
     injected: true,
     html: true,
     use: [['markdown-it-block-embed']]
-  },
-  generate: {
-    routes: [...news.map(getNews)]
   },
   build: {
     vendor: ['axios', 'vee-validate', 'vue-cookie-law', 'vue-scrollto', 'vue-social-sharing'],
