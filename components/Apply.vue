@@ -160,6 +160,7 @@ export default {
         company: '',
         position: '',
         reason: '',
+        fromDomain: 'nonfungiblealliance.org',
         templateId: '6d3ec5b5-2a8f-4577-b983-3a8702d90829',
         segment: 'Alliance',
         listId: '3983919'

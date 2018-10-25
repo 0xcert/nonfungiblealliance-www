@@ -87,8 +87,9 @@ export default {
       state: 0,
       data: {
         email: '',
-        templateId: '6d3ec5b5-2a8f-4577-b983-3a8702d90829',
-        segment: 'Alliance - newsletter subscription',
+        fromDomain: 'nonfungiblealliance.org',
+        templateId: '5645a407-d645-4f87-837c-16e2e6845f5b',
+        segment: 'Alliance - newsletters',
         listId: '3983919'
       }
     }
