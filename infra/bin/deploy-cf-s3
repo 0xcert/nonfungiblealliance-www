@@ -1,0 +1,63 @@
+#!/usr/bin/env bash -e
+
+echo $API_BASE_URL
+exit 1
+
+# Initialization
+[[ "$1" = "production" ]] && ENV="production" || ENV="staging"
+[[ "$ENV" = "production" ]] && DOMAIN=$DOMAIN_PRODUCTION || DOMAIN=$DOMAIN_STAGING
+[[ "$ENV" = "production" ]] && CF_DISTRIBUTION_ID=$CF_DISTRIBUTION_ID_PRODUCTION || CF_DISTRIBUTION_ID=$CF_DISTRIBUTION_ID_STAGING
+[[ "$ENV" = "production" ]] && BRANCH="master" || BRANCH="dev"
+
+# utils
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+BLUE='\033[0;34m'
+NC='\033[0m'
+
+# Double-check domain to deploy
+CF_DOMAIN=$(aws cloudfront get-distribution --id $CF_DISTRIBUTION_ID --query "Distribution.DistributionConfig.Aliases.Items[0]" --output text)
+if [[ ! $CF_DOMAIN = $DOMAIN ]]
+then
+    printf "\n${RED}[WARNING] you want to deploy to ${DOMAIN}\n"
+    printf "but CloudFront says that you're deploying to ${CF_DOMAIN}\n"
+    printf "Be very careful if you want to continue ${NC}\n\n"
+fi
+
+
+# Ask user to confirm
+printf "\nWe will deploy the following:\n"
+printf " - ${BLUE}environment${NC}: ${GREEN}${ENV}${NC}\n"
+printf " - ${BLUE}repository${NC}: ${GREEN}https://github.com/${REPO}${NC}\n"
+printf " - ${BLUE}branch${NC}: ${GREEN}${BRANCH}${NC}\n"
+printf " - ${BLUE}domain${NC}: ${GREEN}${DOMAIN}${NC}\n"
+printf " - ${BLUE}invalidate CloudFront distribution${NC}: ${GREEN}${CF_DISTRIBUTION_ID}${NC}\n\n"
+read -p "Do you want to continue? [y/n] " -n 1 -r
+echo
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
+fi
+
+# Get code ready
+printf "\n${GREEN}Fetching code...${NC}\n"
+SCRIPT_PARENT_PATH=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+BASE_PATH=$( cd "$SCRIPT_PARENT_PATH/.." ; pwd -P )
+mkdir -p $BASE_PATH/temp
+CODE_PATH=$BASE_PATH/temp/code
+rm -rf $CODE_PATH
+git clone -b $BRANCH --single-branch git@github.com:$REPO $CODE_PATH
+cd $CODE_PATH
+
+# Install locally
+printf "\n${GREEN}Building...${NC}\n"
+npm cache verify
+npm install
+npm run generate
+
+# Deploy
+printf "\n${GREEN}Deploying...${NC}\n"
+aws s3 sync $CODE_PATH/dist/ s3://$DOMAIN/ --delete
+aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths /\*
+printf "\n${GREEN}Deployment done.${NC}\n"
+echo "Wait a bit and then check https://$DOMAIN"

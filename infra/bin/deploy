@@ -1,23 +1,15 @@
 #!/usr/bin/env bash -e
 
+# Configuration
+export CF_DISTRIBUTION_ID_PRODUCTION=E3G7J0SFHE8NBG
+export CF_DISTRIBUTION_ID_STAGING=E2YRWMYRH5E7WC
+export REPO=0xcert/nonfungiblealliance-www.git
+export DOMAIN_STAGING=staging.nonfungiblealliance.org
+export DOMAIN_PRODUCTION=nonfungiblealliance.org
+
+# Initialization
 [[ "$1" = "production" ]] && ENV="production" || ENV="staging"
-[[ "$ENV" = "production" ]] && DOMAIN="nonfungiblealliance.org" || DOMAIN="staging.nonfungiblealliance.org"
-[[ "$ENV" = "production" ]] && CF_DISTRIBUTION_ID="E3G7J0SFHE8NBG" || CF_DISTRIBUTION_ID="E2YRWMYRH5E7WC"
+[[ "$ENV" = "production" ]] && export API_BASE_URL=https://api.0xcert.org || export API_BASE_URL=https://api-staging.0xcert.org
 
-echo "This will deploy to $ENV from bucket $DOMAIN and"
-echo "then invalidate the CloudFront distribution $CF_DISTRIBUTION_ID."
-read -p "Do you want to continue? [y/n] " -n 1 -r
-echo
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-    [[ "$0" = "$BASH_SOURCE" ]] && exit 1 || return 1
-fi
-
-echo "Deploying..."
-npm cache verify
-npm install
-npm run generate
-
-aws s3 sync ./dist/ s3://$DOMAIN/ --delete
-aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths /\*
-echo "Deployment done. Wait a bit and then check https://$DOMAIN"
+cd "$(dirname "${BASH_SOURCE[0]}")"
+./deploy-cf-s3 $1
