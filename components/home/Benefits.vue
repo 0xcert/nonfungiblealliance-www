@@ -47,7 +47,7 @@
           </div>
           <div class="cell small-12 medium-7 medium-order-1">
             <h3>Exposure</h3>
-            <p>Content creation and product showcase across a large network of industry peers and their communities</p>
+            <p>Content creation and product showcase across a large network of industry peers and their communities.</p>
           </div>
         </div>
       </div>

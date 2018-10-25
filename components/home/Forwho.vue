@@ -13,7 +13,7 @@
             :src="`/images/${item.icon}`" 
             :alt="item.title">
           <h4>{{ item.title }}</h4>
-          <p>{{ item.body }}</p>
+          <p v-html="item.body"/>
         </div>
       </div>
     </div>
@@ -27,20 +27,20 @@ export default {
       data: [
         {
           title: 'NFT Projects and developers',
-          body:
-            'Projects, companies, and developers in the blockchain space that are using or will implement NFTs into their solutions.',
+          body: `Projects, companies, and developers in the blockchain 
+            space that are <strong>using or will implement NFTs</strong> into their solutions.`,
           icon: 'nft.svg'
         },
         {
           title: 'Industry and enterprise',
-          body:
-            '“Non-blockchain” companies and institutions that consider integration of NFT technology into their existing model.',
+          body: `“Non-blockchain” companies and institutions that consider 
+            <strong>integration of NFT technology</strong> into their existing model.`,
           icon: 'industry.svg'
         },
         {
-          title: 'NFT Projects and developers',
-          body:
-            'Complimentary service providers, supporting marketing and asset management, consulting, legal advisory, etc.',
+          title: 'Service Providers',
+          body: `Complimentary service providers, <strong>supporting marketing 
+            and asset management</strong> , consulting, <strong>legal advisory</strong>, etc.`,
           icon: 'service-providers.svg'
         }
       ]
