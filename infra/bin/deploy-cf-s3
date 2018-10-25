@@ -1,8 +1,5 @@
 #!/usr/bin/env bash -e
 
-echo $API_BASE_URL
-exit 1
-
 # Initialization
 [[ "$1" = "production" ]] && ENV="production" || ENV="staging"
 [[ "$ENV" = "production" ]] && DOMAIN=$DOMAIN_PRODUCTION || DOMAIN=$DOMAIN_STAGING
