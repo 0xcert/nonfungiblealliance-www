@@ -137,6 +137,12 @@ export default {
   }
 }
 
+.menu {
+  @include breakpoint(small only) {
+    display: none;
+  }
+}
+
 .mobile-menu {
   display: flex;
   margin-top: 1rem;
