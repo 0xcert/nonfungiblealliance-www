@@ -4,6 +4,11 @@
     <benefits/>
     <forwho/>
     <partners/>
+    <div class="text-center mb-4">
+      <nuxt-link 
+        to="/members" 
+        class="button primary">See all members</nuxt-link>
+    </div>
     <onboard/>
     <subscription/>
   </div>

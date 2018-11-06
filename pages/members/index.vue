@@ -2,6 +2,7 @@
   <div>
     <partners 
       :title="'Members'" 
+      :limit="1000"
       class="mt-7"/>
     <onboard/>
     <subscription/>

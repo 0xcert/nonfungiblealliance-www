@@ -8,7 +8,7 @@
       <h2>{{ title }}</h2>
       <div class="logos grid-x align-center grid-margin-x grid-margin-y">
         <div 
-          v-for="item in items" 
+          v-for="item in items.slice(0, limit)" 
           :key="item.id" 
           class="logo small-6 medium-4 large-3 cell align-self-middle">
           <img :src="`/partners/${item}`" >
@@ -24,11 +24,26 @@ export default {
     title: {
       default: 'Recently joined',
       type: String
+    },
+    limit: {
+      default: 12,
+      type: Number
     }
   },
   data() {
     return {
       items: [
+        'aave.png',
+        'auctionity.png',
+        'decentraland.svg',
+        'demystify.png',
+        'fuel-games.png',
+        'gods-unchained.png',
+        'hashmark.png',
+        'sorare.png',
+        'trg.jpg',
+        'vault.png',
+        'webp.png',
         'block-rocket.png',
         'blockchain-studios.png',
         'codex.png',
@@ -47,7 +62,8 @@ export default {
         'unico.png',
         'doctrina.svg',
         'tokntok.svg',
-        'socouch.png'
+        'socouch.png',
+        '0xcert.svg'
       ]
     }
   }
