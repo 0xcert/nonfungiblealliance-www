@@ -44,6 +44,7 @@ export default {
         'trg.jpg',
         'vault.png',
         'webp.png',
+        'hyperdragons.png',
         'block-rocket.png',
         'blockchain-studios.png',
         'codex.png',
