@@ -35,7 +35,6 @@ export default {
       items: [
         'aave.png',
         'auctionity.png',
-        'decentraland.svg',
         'demystify.png',
         'fuel-games.png',
         'gods-unchained.png',
