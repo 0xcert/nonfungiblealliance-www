@@ -26,13 +26,39 @@ export default {
       type: String
     },
     limit: {
-      default: 12,
+      default: 16,
       type: Number
     }
   },
   data() {
     return {
       items: [
+        'bloch.png',
+        'block3.png',
+        'blockchaingamernet.png',
+        'coingecko.png',
+        'covalent.png',
+        'crypto-kaiju.png',
+        'cryptobeasties.png',
+        'cryptocrystal.png',
+        'cubego.png',
+        'd0x.png',
+        'decentralanddaily.png',
+        'divino.png',
+        'ecomi.png',
+        'ether-kingdom.jpg',
+        'etheremon.png',
+        'farsight-podcast.png',
+        'horizon.png',
+        'iba.png',
+        'invented4.png',
+        'kauku.png',
+        'larva-labs.svg',
+        'lumi-collect.png',
+        'matic.png',
+        'minting-coins.png',
+        'nifty-gateway.png',
+        'verified-collection.png',
         'aave.png',
         'auctionity.png',
         'demystify.png',
@@ -90,13 +116,13 @@ export default {
 
   .logo {
     box-shadow: $box-shadow-light;
-    padding: 2rem;
+    padding: 1rem 2rem;
     border-radius: 5px;
     border: 1px solid rgba(125, 130, 133, 0.05);
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 145px;
+    min-height: 130px;
   }
 }
 </style>
