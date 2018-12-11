@@ -33,6 +33,22 @@ export default {
   data() {
     return {
       items: [
+        'artchain.png',
+        'bitski.png',
+        'cryptage-origins.png',
+        'crypto-motors.png',
+        'cryptographics.png',
+        'dapp-radar.png',
+        'decenter.png',
+        'encrypted.jpg',
+        'hyperbridge.png',
+        'mintable.png',
+        'phantasma.png',
+        'pixura.png',
+        'po8.png',
+        'streamers-connected.png',
+        'trade-stars.png',
+        'wetrust.png',
         'bloch.png',
         'block3.png',
         'blockchaingamernet.png',
