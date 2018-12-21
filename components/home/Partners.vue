@@ -11,7 +11,7 @@
           v-for="item in items.slice(0, limit)" 
           :key="item.id" 
           class="logo small-6 medium-4 large-3 cell align-self-middle">
-          <img :src="`/partners/${item}`" >
+          <img :src="`/partners/${item}`">
         </div>
       </div>
     </div>

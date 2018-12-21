@@ -11,7 +11,7 @@
             class="auto cell brand">
             <img 
               src="/images/logo.svg" 
-              alt="The Non-fungible alliance">
+              alt="The Non-fungible alliance" >
           </nuxt-link>
           <mq-layout mq="sm"> 
             <div 
@@ -42,6 +42,10 @@
                 v-html="'Members'" 
                 class="link"/>
               <nuxt-link 
+                :to="'/resources'" 
+                v-html="'Resources'" 
+                class="link"/>
+              <nuxt-link 
                 to="/members/apply" 
                 class="button hollow white">Become a member</nuxt-link>  
             </mq-layout>
@@ -56,6 +60,10 @@
               v-html="'Home'" 
               v-scroll-to="{el: 'body' }" 
               class="link"/>
+            <nuxt-link 
+              :to="'/resources'" 
+              v-html="'Resources'" 
+              class="link"/>              
             <nuxt-link 
               :to="'/members'" 
               v-html="'Members'" 
@@ -182,6 +190,7 @@ export default {
   }
 
   .page-members &,
+  .page-resources-tag &,
   .page-subscriptions-subscribe & {
     background-color: $base;
   }
