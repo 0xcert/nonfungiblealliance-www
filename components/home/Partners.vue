@@ -33,6 +33,17 @@ export default {
   data() {
     return {
       items: [
+        'block-base.svg',
+        'blockade-games.png',
+        'blockchain-slovakia.png',
+        'coin-kred.svg',
+        'crypto-baseball.png',
+        'crypto-space-commander.png',
+        'dcl-plazas.png',
+        'lucid-sight.png',
+        'neon-district.png',
+        'nft-nyc.svg',
+        'unik-name.png',
         'artchain.png',
         'bitski.png',
         'cryptage-origins.png',

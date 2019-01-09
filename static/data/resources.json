@@ -1,745 +1,745 @@
 [{
-    "Link": "https://knownorigin.io/",
-    "Description": "KnownOrigin",
-    "Tag": ["art"],
+    "link": "https://knownorigin.io/",
+    "description": "KnownOrigin",
+    "tag": ["art"],
     "published": true
   },
   {
-    "Link": "https://digitalartchain.com/",
-    "Description": "Digital Art Chain",
-    "Tag": ["art"],
+    "link": "https://digitalartchain.com/",
+    "description": "Digital Art Chain",
+    "tag": ["art"],
     "published": true
   },
   {
-    "Link": "https://www.codexprotocol.com/",
-    "Description": "Codex",
-    "Tag": ["art"],
+    "link": "https://www.codexprotocol.com/",
+    "description": "Codex",
+    "tag": ["art"],
     "published": true
   },
   {
-    "Link": "https://www.artchain.world/",
-    "Description": "ArtChain Global",
-    "Tag": ["art"],
+    "link": "https://www.artchain.world/",
+    "description": "ArtChain Global",
+    "tag": ["art"],
     "published": true
   },
   {
-    "Link": "https://cryptographics.app/",
-    "Description": "Cryptographics",
-    "Tag": ["art"],
+    "link": "https://cryptographics.app/",
+    "description": "Cryptographics",
+    "tag": ["art"],
     "published": true
   },
   {
-    "Link": "https://superrare.co/",
-    "Description": "SuperRare",
-    "Tag": ["art"],
+    "link": "https://superrare.co/",
+    "description": "SuperRare",
+    "tag": ["art"],
     "published": true
   },
   {
-    "Link": "https://portion.io/",
-    "Description": "Portion",
-    "Tag": ["art"],
+    "link": "https://portion.io/",
+    "description": "Portion",
+    "tag": ["art"],
     "published": true
   },
   {
-    "Link": "http://verifiedcollection.com/",
-    "Description": "Verrified Collection",
-    "Tag": ["branding"],
+    "link": "http://verifiedcollection.com/",
+    "description": "Verrified Collection",
+    "tag": ["branding"],
     "published": true
   },
   {
-    "Link": "https://www.opera.com/crypto",
-    "Description": "Opera crypto browser",
-    "Tag": ["browser", "wallet"],
+    "link": "https://www.opera.com/crypto",
+    "description": "Opera crypto browser",
+    "tag": ["browser", "wallet"],
     "published": true
   },
   {
-    "Link": "MLBcryptobaseball.com",
-    "Description": "MLB Crypto",
-    "Tag": ["collectible"],
+    "link": "MLBcryptobaseball.com",
+    "description": "MLB Crypto",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://tenthousandsu.com/",
-    "Description": "SuSquares",
-    "Tag": ["collectible"],
+    "link": "https://tenthousandsu.com/",
+    "description": "SuSquares",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://www.larvalabs.com/cryptopunks",
-    "Description": "Crypto Punks",
-    "Tag": ["collectible"],
+    "link": "https://www.larvalabs.com/cryptopunks",
+    "description": "Crypto Punks",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://cryptokaiju.io/",
-    "Description": "CryptoKaiju",
-    "Tag": ["collectible"],
+    "link": "https://cryptokaiju.io/",
+    "description": "CryptoKaiju",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://www.ecomi.com/",
-    "Description": "Ecomi",
-    "Tag": ["collectible"],
+    "link": "https://www.ecomi.com/",
+    "description": "Ecomi",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://www.cryptokitties.co/",
-    "Description": "CryptoKitties",
-    "Tag": ["collectible"],
+    "link": "https://www.cryptokitties.co/",
+    "description": "CryptoKitties",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://cryptocelebrities.co/",
-    "Description": "Crypto Celebrities",
-    "Tag": ["collectible"],
+    "link": "https://cryptocelebrities.co/",
+    "description": "Crypto Celebrities",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://hashletes.com/",
-    "Description": "Hashlets",
-    "Tag": ["collectible"],
+    "link": "https://hashletes.com/",
+    "description": "Hashlets",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://www.hedgie.io/",
-    "Description": "Hedgie",
-    "Tag": ["collectible"],
+    "link": "https://www.hedgie.io/",
+    "description": "Hedgie",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://gitcoin.co/kudos/",
-    "Description": "Kudos",
-    "Tag": ["collectible"],
+    "link": "https://gitcoin.co/kudos/",
+    "description": "Kudos",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://playertokens.co/",
-    "Description": "Playertokens",
-    "Tag": ["collectible"],
+    "link": "https://playertokens.co/",
+    "description": "Playertokens",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://www.cryptostrikers.com/",
-    "Description": "Crypto Strikers",
-    "Tag": ["collectible"],
+    "link": "https://www.cryptostrikers.com/",
+    "description": "Crypto Strikers",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://ethertulips.com/",
-    "Description": "Ether Tulips",
-    "Tag": ["collectible"],
+    "link": "https://ethertulips.com/",
+    "description": "Ether Tulips",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "http://rarepepedirectory.com/",
-    "Description": "Rare Pepe",
-    "Tag": ["collectible"],
+    "link": "http://rarepepedirectory.com/",
+    "description": "Rare Pepe",
+    "tag": ["collectible"],
     "published": true
   },
   {
-    "Link": "https://discord.gg/gNSWat",
-    "Description": "Nifty Magicians Discord",
-    "Tag": ["community"],
+    "link": "https://discord.gg/gNSWat",
+    "description": "Nifty Magicians Discord",
+    "tag": ["community"],
     "published": true
   },
   {
-    "Link": "https://tokntalk.club/",
-    "Description": "Tok'n Talk",
-    "Tag": ["community"],
+    "link": "https://tokntalk.club/",
+    "description": "Tok'n Talk",
+    "tag": ["community"],
     "published": true
   },
   {
-    "Link": "https://www.linkedin.com/company/blockchainacademyid/about/",
-    "Description": "Indonesia Blockchain Academy",
-    "Tag": ["community"],
+    "link": "https://www.linkedin.com/company/blockchainacademyid/about/",
+    "description": "Indonesia Blockchain Academy",
+    "tag": ["community"],
     "published": true
   },
   {
-    "Link": "https://streamersconnected.tv/",
-    "Description": "Streamers Connected",
-    "Tag": ["community"],
+    "link": "https://streamersconnected.tv/",
+    "description": "Streamers Connected",
+    "tag": ["community"],
     "published": true
   },
   {
-    "Link": "https://blockchainslovakia.sk/",
-    "Description": "Blockchain Slovakia",
-    "Tag": ["community"],
+    "link": "https://blockchainslovakia.sk/",
+    "description": "Blockchain Slovakia",
+    "tag": ["community"],
     "published": true
   },
   {
-    "Link": "https://nonfungiblealliance.org/",
-    "Description": "The Non-fungible Alliance",
-    "Tag": ["community"],
+    "link": "https://nonfungiblealliance.org/",
+    "description": "The Non-fungible Alliance",
+    "tag": ["community"],
     "published": true
   },
   {
-    "Link": "https://www.decentralanddaily.com/",
-    "Description": "Decentraland Daily",
-    "Tag": ["decentraland", "news"],
+    "link": "https://www.decentralanddaily.com/",
+    "description": "Decentraland Daily",
+    "tag": ["decentraland", "news"],
     "published": true
   },
   {
-    "Link": "My-DCL.com",
-    "Description": "Decentraland Market Data",
-    "Tag": ["decentraland", "resources"],
+    "link": "My-DCL.com",
+    "description": "Decentraland Market Data",
+    "tag": ["decentraland", "resources"],
     "published": true
   },
   {
-    "Link": "dclblogger.com",
-    "Description": "Blog about Decentraland",
-    "Tag": ["decentraland", "resources"],
+    "link": "dclblogger.com",
+    "description": "Blog about Decentraland",
+    "tag": ["decentraland", "resources"],
     "published": true
   },
   {
-    "Link": "dclplazas.com",
-    "Description": "Blog about Decentraland",
-    "Tag": ["decentraland", "resources"],
+    "link": "dclplazas.com",
+    "description": "Blog about Decentraland",
+    "tag": ["decentraland", "resources"],
     "published": true
   },
   {
-    "Link": "dclmap.com",
-    "Description": "DCL data visualization",
-    "Tag": ["decentraland", "resources"],
+    "link": "dclmap.com",
+    "description": "DCL data visualization",
+    "tag": ["decentraland", "resources"],
     "published": true
   },
   {
-    "Link": "DiVinoVineyards.com",
-    "Description": "DiVinoVineyards.com",
-    "Tag": ["decentraland", "wine"],
+    "link": "DiVinoVineyards.com",
+    "description": "DiVinoVineyards.com",
+    "tag": ["decentraland", "wine"],
     "published": true
   },
   {
-    "Link": "http://www.blockrocket.tech/",
-    "Description": "Blockrocket",
-    "Tag": ["development studio"],
+    "link": "http://www.blockrocket.tech/",
+    "description": "Blockrocket",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://kette.io/",
-    "Description": "Kette",
-    "Tag": ["development studio"],
+    "link": "https://kette.io/",
+    "description": "Kette",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://demystify-tech.com/",
-    "Description": "Demystify",
-    "Tag": ["development studio"],
+    "link": "https://demystify-tech.com/",
+    "description": "Demystify",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "http://block3.co/",
-    "Description": "block3",
-    "Tag": ["development studio"],
+    "link": "http://block3.co/",
+    "description": "block3",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://www.blocha.ch",
-    "Description": "Blocha",
-    "Tag": ["development studio"],
+    "link": "https://www.blocha.ch",
+    "description": "Blocha",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://horizongames.net/",
-    "Description": "Horizon Games",
-    "Tag": ["development studio"],
+    "link": "https://horizongames.net/",
+    "description": "Horizon Games",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://metaps.com/en/",
-    "Description": "Metaps",
-    "Tag": ["development studio"],
+    "link": "https://metaps.com/en/",
+    "description": "Metaps",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://www.decenter.com",
-    "Description": "Decenter",
-    "Tag": ["development studio"],
+    "link": "https://www.decenter.com",
+    "description": "Decenter",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "http://blockade.games/",
-    "Description": "Blockade Games",
-    "Tag": ["development studio"],
+    "link": "http://blockade.games/",
+    "description": "Blockade Games",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://www.dapperlabs.com/",
-    "Description": "Dapper",
-    "Tag": ["development studio"],
+    "link": "https://www.dapperlabs.com/",
+    "description": "Dapper",
+    "tag": ["development studio"],
     "published": true
   },
   {
-    "Link": "https://www.nifty.gg/",
-    "Description": "NFT Hackaton, news",
-    "Tag": ["event"],
+    "link": "https://www.nifty.gg/",
+    "description": "NFT Hackaton, news",
+    "tag": ["event"],
     "published": true
   },
   {
-    "Link": "https://ethlend.io/#/main",
-    "Description": "EthLend",
-    "Tag": ["finance"],
+    "link": "https://ethlend.io/#/main",
+    "description": "EthLend",
+    "tag": ["finance"],
     "published": true
   },
   {
-    "Link": "etheremon.com",
-    "Description": "Etheremon",
-    "Tag": ["game"],
+    "link": "etheremon.com",
+    "description": "Etheremon",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "chainbreakers.io",
-    "Description": "Chainbreakers",
-    "Tag": ["game"],
+    "link": "chainbreakers.io",
+    "description": "Chainbreakers",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "socouch.com",
-    "Description": "Ember Sword",
-    "Tag": ["game"],
+    "link": "socouch.com",
+    "description": "Ember Sword",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "godsunchained.com",
-    "Description": "Gods Unchained",
-    "Tag": ["game"],
+    "link": "godsunchained.com",
+    "description": "Gods Unchained",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://eth.town/",
-    "Description": "ETH.town",
-    "Tag": ["game"],
+    "link": "https://eth.town/",
+    "description": "ETH.town",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://cryptocarz.io/",
-    "Description": "CryptoCarz",
-    "Tag": ["game"],
+    "link": "https://cryptocarz.io/",
+    "description": "CryptoCarz",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://hyperdragons.alfakingdom.com",
-    "Description": "Hyper Dragons",
-    "Tag": ["game"],
+    "link": "https://hyperdragons.alfakingdom.com",
+    "description": "Hyper Dragons",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://godsunchained.com/",
-    "Description": "Gods Unchained",
-    "Tag": ["game"],
+    "link": "https://godsunchained.com/",
+    "description": "Gods Unchained",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://0x.games/",
-    "Description": "0xGames (0x Universe)",
-    "Tag": ["game"],
+    "link": "https://0x.games/",
+    "description": "0xGames (0x Universe)",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://www.cryptocup.io/",
-    "Description": "Cryptocup",
-    "Tag": ["game"],
+    "link": "https://www.cryptocup.io/",
+    "description": "Cryptocup",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://sorare.com/",
-    "Description": "Sorare",
-    "Tag": ["game"],
+    "link": "https://sorare.com/",
+    "description": "Sorare",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://www.etheremon.com/",
-    "Description": "Etheremon",
-    "Tag": ["game"],
+    "link": "https://www.etheremon.com/",
+    "description": "Etheremon",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://cryptocrystal.io/",
-    "Description": "CryptoCrystal",
-    "Tag": ["game"],
+    "link": "https://cryptocrystal.io/",
+    "description": "CryptoCrystal",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://www.cryptobeasties.com/",
-    "Description": "Crypto Beasties",
-    "Tag": ["game"],
+    "link": "https://www.cryptobeasties.com/",
+    "description": "Crypto Beasties",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://imps.me/",
-    "Description": "Ether Kingdoms",
-    "Tag": ["game"],
+    "link": "https://imps.me/",
+    "description": "Ether Kingdoms",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://www.cubego.io/",
-    "Description": "Cubego",
-    "Tag": ["game"],
+    "link": "https://www.cubego.io/",
+    "description": "Cubego",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://tradestars.app",
-    "Description": "Trade Stars",
-    "Tag": ["game"],
+    "link": "https://tradestars.app",
+    "description": "Trade Stars",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://cryptage.co/",
-    "Description": "Cryptage",
-    "Tag": ["game"],
+    "link": "https://cryptage.co/",
+    "description": "Cryptage",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://neondistrict.io/",
-    "Description": "Neon District",
-    "Tag": ["game"],
+    "link": "https://neondistrict.io/",
+    "description": "Neon District",
+    "tag": ["game"],
     "published": true
   },
   {
-    "Link": "https://www.cryptorome.io/",
-    "Description": "Crypto Rome",
-    "Tag": ["game, composables"],
+    "link": "https://www.cryptorome.io/",
+    "description": "Crypto Rome",
+    "tag": ["game", "composables"],
     "published": true
   },
   {
-    "Link": "http://hashmark.io/",
-    "Description": "Hashmark",
-    "Tag": ["marketing agency"],
+    "link": "http://hashmark.io/",
+    "description": "Hashmark",
+    "tag": ["marketing agency"],
     "published": true
   },
   {
-    "Link": "Opensea.io",
-    "Description": "NFT Marketplace",
-    "Tag": ["marketplace"],
+    "link": "Opensea.io",
+    "description": "NFT Marketplace",
+    "tag": ["marketplace"],
     "published": true
   },
   {
-    "Link": "http://rarebits.io/",
-    "Description": "RareBits",
-    "Tag": ["marketplace"],
+    "link": "http://rarebits.io/",
+    "description": "RareBits",
+    "tag": ["marketplace"],
     "published": true
   },
   {
-    "Link": "https://www.auctionity.com/",
-    "Description": "Auctionity",
-    "Tag": ["marketplace"],
+    "link": "https://www.auctionity.com/",
+    "description": "Auctionity",
+    "tag": ["marketplace"],
     "published": true
   },
   {
-    "Link": "https://niftygateway.com/",
-    "Description": "Nifty Gateway",
-    "Tag": ["marketplace"],
+    "link": "https://niftygateway.com/",
+    "description": "Nifty Gateway",
+    "tag": ["marketplace"],
     "published": true
   },
   {
-    "Link": "https://ensnifty.com/",
-    "Description": "ENS Nifty",
-    "Tag": ["marketplace"],
+    "link": "https://ensnifty.com/",
+    "description": "ENS Nifty",
+    "tag": ["marketplace"],
     "published": true
   },
   {
-    "Link": "https://po8.io",
-    "Description": "PO8",
-    "Tag": ["marketplace", "marine archeology"],
+    "link": "https://po8.io",
+    "description": "PO8",
+    "tag": ["marketplace", "marine archeology"],
     "published": true
   },
   {
-    "Link": "https://mintable.app",
-    "Description": "Mintable",
-    "Tag": ["minter"],
+    "link": "https://mintable.app",
+    "description": "Mintable",
+    "tag": ["minter"],
     "published": true
   },
   {
-    "Link": "https://mokens.io",
-    "Description": "Mokens",
-    "Tag": ["minter", "composables"],
+    "link": "https://mokens.io",
+    "description": "Mokens",
+    "tag": ["minter", "composables"],
     "published": true
   },
   {
-    "Link": "Decentralanddaily.com",
-    "Description": "news about Decentraland",
-    "Tag": ["news"],
+    "link": "Decentralanddaily.com",
+    "description": "news about Decentraland",
+    "tag": ["news"],
     "published": true
   },
   {
-    "Link": "https://medium.com/nfty-news",
-    "Description": "Nifty News by Brian Flynn",
-    "Tag": ["news"],
+    "link": "https://medium.com/nfty-news",
+    "description": "Nifty News by Brian Flynn",
+    "tag": ["news"],
     "published": true
   },
   {
-    "Link": "https://thecryptocollectors.com/",
-    "Description": "They Crypto Collectors",
-    "Tag": ["news"],
+    "link": "https://thecryptocollectors.com/",
+    "description": "They Crypto Collectors",
+    "tag": ["news"],
     "published": true
   },
   {
-    "Link": "https://cryptobitgames.com/",
-    "Description": "CrypotBit Games",
-    "Tag": ["news"],
+    "link": "https://cryptobitgames.com/",
+    "description": "CrypotBit Games",
+    "tag": ["news"],
     "published": true
   },
   {
-    "Link": "https://blockchaingamer.net/",
-    "Description": "Blockchaingamer.net",
-    "Tag": ["news"],
+    "link": "https://blockchaingamer.net/",
+    "description": "Blockchaingamer.net",
+    "tag": ["news"],
     "published": true
   },
   {
-    "Link": "https://spring.wetrust.io",
-    "Description": "Spring by WeTrust",
-    "Tag": ["philanthropy"],
+    "link": "https://spring.wetrust.io",
+    "description": "Spring by WeTrust",
+    "tag": ["philanthropy"],
     "published": true
   },
   {
-    "Link": "https://cryptocorals.co/",
-    "Description": "Crypto Corals",
-    "Tag": ["philanthropy"],
+    "link": "https://cryptocorals.co/",
+    "description": "Crypto Corals",
+    "tag": ["philanthropy"],
     "published": true
   },
   {
-    "Link": "https://phantasma.io/",
-    "Description": "Phantasma protocol",
-    "Tag": ["platform"],
+    "link": "https://phantasma.io/",
+    "description": "Phantasma protocol",
+    "tag": ["platform"],
     "published": true
   },
   {
-    "Link": "https://pixura.io",
-    "Description": "Pixura",
-    "Tag": ["platform"],
+    "link": "https://pixura.io",
+    "description": "Pixura",
+    "tag": ["platform"],
     "published": true
   },
   {
-    "Link": "https://www.unik-name.com/",
-    "Description": "unik-name",
-    "Tag": ["platform"],
+    "link": "https://www.unik-name.com/",
+    "description": "unik-name",
+    "tag": ["platform"],
     "published": true
   },
   {
-    "Link": "https://wax.io/",
-    "Description": "WAX",
-    "Tag": ["platform"],
+    "link": "https://wax.io/",
+    "description": "WAX",
+    "tag": ["platform"],
     "published": true
   },
   {
-    "Link": "https://www.enjin.com/",
-    "Description": "Enjin",
-    "Tag": ["platform"],
+    "link": "https://www.enjin.com/",
+    "description": "Enjin",
+    "tag": ["platform"],
     "published": true
   },
   {
-    "Link": "https://0xcert.org/",
-    "Description": "0xcert",
-    "Tag": ["platform"],
+    "link": "https://0xcert.org/",
+    "description": "0xcert",
+    "tag": ["platform"],
     "published": true
   },
   {
-    "Link": "https://district0x.io/",
-    "Description": "District0x",
-    "Tag": ["platform"],
+    "link": "https://district0x.io/",
+    "description": "District0x",
+    "tag": ["platform"],
     "published": true
   },
   {
-    "Link": "https://www.unico.global/",
-    "Description": "Unico",
-    "Tag": ["platform", "EOS"],
+    "link": "https://www.unico.global/",
+    "description": "Unico",
+    "tag": ["platform", "EOS"],
     "published": true
   },
   {
-    "Link": "https://farsightpodcast.com/",
-    "Description": "Farsight podcast",
-    "Tag": ["podcast"],
+    "link": "https://farsightpodcast.com/",
+    "description": "Farsight podcast",
+    "tag": ["podcast"],
     "published": true
   },
   {
-    "Link": "https://propy.com/",
-    "Description": "Propy",
-    "Tag": ["real Estate"],
+    "link": "https://propy.com/",
+    "description": "Propy",
+    "tag": ["real Estate"],
     "published": true
   },
   {
-    "Link": "https://realestatedoc.io/",
-    "Description": "RealEstateDoc",
-    "Tag": ["real Estate"],
+    "link": "https://realestatedoc.io/",
+    "description": "RealEstateDoc",
+    "tag": ["real Estate"],
     "published": true
   },
   {
-    "Link": "http://bit.ly/coingeckoQ32018",
-    "Description": "Cryptocurrency Q3 2018 Report featuring NFT by Non-Fungibles.com",
-    "Tag": ["report"],
+    "link": "http://bit.ly/coingeckoQ32018",
+    "description": "Cryptocurrency Q3 2018 Report featuring NFT by Non-Fungibles.com",
+    "tag": ["report"],
     "published": true
   },
   {
-    "Link": "Nonfungible.com",
-    "Description": "NFT Market Data",
-    "Tag": ["resources"],
+    "link": "Nonfungible.com",
+    "description": "NFT Market Data",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "Cryptodecks.co",
-    "Description": "NFT Market Data",
-    "Tag": ["resources"],
+    "link": "Cryptodecks.co",
+    "description": "NFT Market Data",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://www.dapp.com/",
-    "Description": "dapp.com",
-    "Tag": ["resources"],
+    "link": "https://www.dapp.com/",
+    "description": "dapp.com",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://cryptodecks.co/",
-    "Description": "CryptoDecks",
-    "Tag": ["resources"],
+    "link": "https://cryptodecks.co/",
+    "description": "CryptoDecks",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://www.coingecko.com/en",
-    "Description": "CoinGecko",
-    "Tag": ["resources"],
+    "link": "https://www.coingecko.com/en",
+    "description": "CoinGecko",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://www.covalenthq.com",
-    "Description": "Covalent",
-    "Tag": ["resources"],
+    "link": "https://www.covalenthq.com",
+    "description": "Covalent",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "mintingcoins.com",
-    "Description": "mintingcoins.com",
-    "Tag": ["resources"],
+    "link": "mintingcoins.com",
+    "description": "mintingcoins.com",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://dappradar.com/",
-    "Description": "DappRadar",
-    "Tag": ["resources"],
+    "link": "https://dappradar.com/",
+    "description": "DappRadar",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://dappradar.com/",
-    "Description": "DappRadar",
-    "Tag": ["resources"],
+    "link": "https://dappradar.com/",
+    "description": "DappRadar",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://www.dapp.com/",
-    "Description": "dapp.com",
-    "Tag": ["resources"],
+    "link": "https://www.dapp.com/",
+    "description": "dapp.com",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://www.stateofthedapps.com/",
-    "Description": "State of the dapps",
-    "Tag": ["resources"],
+    "link": "https://www.stateofthedapps.com/",
+    "description": "State of the dapps",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://etherscan.io/",
-    "Description": "Etherscan",
-    "Tag": ["resources"],
+    "link": "https://etherscan.io/",
+    "description": "Etherscan",
+    "tag": ["resources"],
     "published": true
   },
   {
-    "Link": "https://matic.network/",
-    "Description": "Matic Network",
-    "Tag": ["scaling solution"],
+    "link": "https://matic.network/",
+    "description": "Matic Network",
+    "tag": ["scaling solution"],
     "published": true
   },
   {
-    "Link": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md",
-    "Description": "Github EIP 721",
-    "Tag": ["standard"],
+    "link": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md",
+    "description": "Github EIP 721",
+    "tag": ["standard"],
     "published": true
   },
   {
-    "Link": "https://github.com/loomnetwork/erc721x",
-    "Description": "Github ERC 721x",
-    "Tag": ["standard"],
+    "link": "https://github.com/loomnetwork/erc721x",
+    "description": "Github ERC 721x",
+    "tag": ["standard"],
     "published": true
   },
   {
-    "Link": "https://github.com/ethereum/EIPs/issues/998",
-    "Description": "Github EIP 998",
-    "Tag": ["standard"],
+    "link": "https://github.com/ethereum/EIPs/issues/998",
+    "description": "Github EIP 998",
+    "tag": ["standard"],
     "published": true
   },
   {
-    "Link": "https://github.com/ethereum/eips/issues/1155",
-    "Description": "Github EIP 1155",
-    "Tag": ["standard"],
+    "link": "https://github.com/ethereum/eips/issues/1155",
+    "description": "Github EIP 1155",
+    "tag": ["standard"],
     "published": true
   },
   {
-    "Link": "https://github.com/unicoeos/eosio.nft",
-    "Description": "Github EOS NFT",
-    "Tag": ["standard"],
+    "link": "https://github.com/unicoeos/eosio.nft",
+    "description": "Github EOS NFT",
+    "tag": ["standard"],
     "published": true
   },
   {
-    "Link": "https://github.com/neo-project/proposals/pull/41/files",
-    "Description": "Github NEO NFT",
-    "Tag": ["standard"],
+    "link": "https://github.com/neo-project/proposals/pull/41/files",
+    "description": "Github NEO NFT",
+    "tag": ["standard"],
     "published": true
   },
   {
-    "Link": "https://github.com/qtumproject/QRC721Token",
-    "Description": "Github QTUM NFT",
-    "Tag": ["standard"],
+    "link": "https://github.com/qtumproject/QRC721Token",
+    "description": "Github QTUM NFT",
+    "tag": ["standard"],
     "published": true
   },
   {
-    "Link": "http://kauku.io/",
-    "Description": "Kauku Network",
-    "Tag": ["supply chain"],
+    "link": "http://kauku.io/",
+    "description": "Kauku Network",
+    "tag": ["supply chain"],
     "published": true
   },
   {
-    "Link": "https://twitter.com/GianniDalerta/lists/nft",
-    "Description": "Gianni Dalerta NFT Twitter list",
-    "Tag": ["twitter"],
+    "link": "https://twitter.com/GianniDalerta/lists/nft",
+    "description": "Gianni Dalerta NFT Twitter list",
+    "tag": ["twitter"],
     "published": true
   },
   {
-    "Link": "https://twitter.com/0xcert/lists/non-fungible-alliance",
-    "Description": "The Non-fungible Alliance Twitter list",
-    "Tag": ["twitter"],
+    "link": "https://twitter.com/0xcert/lists/non-fungible-alliance",
+    "description": "The Non-fungible Alliance Twitter list",
+    "tag": ["twitter"],
     "published": true
   },
   {
-    "Link": "https://trustwalletapp.com/",
-    "Description": "Trust wallet",
-    "Tag": ["wallet"],
+    "link": "https://trustwalletapp.com/",
+    "description": "Trust wallet",
+    "tag": ["wallet"],
     "published": true
   },
   {
-    "Link": "https://lumiwallet.com/",
-    "Description": "Lumi wallet",
-    "Tag": ["wallet"],
+    "link": "https://lumiwallet.com/",
+    "description": "Lumi wallet",
+    "tag": ["wallet"],
     "published": true
   },
   {
-    "Link": "http://www.toshi.org/",
-    "Description": "Toshi wallet",
-    "Tag": ["wallet"],
+    "link": "http://www.toshi.org/",
+    "description": "Toshi wallet",
+    "tag": ["wallet"],
     "published": true
   },
   {
-    "Link": "https://enjinwallet.io/",
-    "Description": "Enjin wallet",
-    "Tag": ["wallet"],
+    "link": "https://enjinwallet.io/",
+    "description": "Enjin wallet",
+    "tag": ["wallet"],
     "published": true
   },
   {
-    "Link": "https://vault.io/",
-    "Description": "Vault wallet",
-    "Tag": ["wallet"],
+    "link": "https://vault.io/",
+    "description": "Vault wallet",
+    "tag": ["wallet"],
     "published": true
   },
   {
-    "Link": "https://bitski.com",
-    "Description": "Bitski",
-    "Tag": ["wallet", "SDK"],
+    "link": "https://bitski.com",
+    "description": "Bitski",
+    "tag": ["wallet", "SDK"],
     "published": true
   }
 ]

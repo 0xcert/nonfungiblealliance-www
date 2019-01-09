@@ -1,8 +1,8 @@
 <template>
   <div class="faq grid-container">
     <div class="grid-x grid-padding-x offset-top">
-      <h1 class="small-12 cell">{{ faq.title }}</h1>
-      <div class="small-12 medium-4 cell">
+      <h1 class="small-12 cell">Resources</h1>
+      <div class="small-12 medium-4 large-3 cell">
         <ul class="menu">
           <li 
             v-for="(category, index) in categories" 
@@ -13,21 +13,25 @@
           </li>
         </ul>
       </div>
-      <div class="small-12 medium-8 cell">
+      <div class="small-12 medium-8 large-9 cell">
         <div class="body">
           <transition-group 
             name="slide-fade" 
             mode="out-in" 
             tag="div">
             <div 
-              v-for="item in faq.data" 
-              :key="item.id"
-              v-show="item.category == activeCategory"
+              v-for="(item, index) in resources" 
+              :key="index"
+              v-show="item.tag.includes(activeCategory) || activeCategory == 'all'"
               :class="'qa'">
-              <div class="question">{{ item.question }}</div>
-              <div 
-                class="answer" 
-                v-html="item.answer"/>
+              <div class="question">{{ item.description }}</div>
+              <div class="link">
+                <a 
+                  :href="item.link" 
+                  target="_blank">
+                  {{ item.link }}
+                </a>
+              </div>
             </div>
           </transition-group>
         </div>
@@ -38,7 +42,7 @@
 </template>
 
 <script>
-import faq from '~/static/data/faq.json'
+import resources from '~/static/data/resources.json'
 import Subscription from '~/components/Subscription'
 
 export default {
@@ -48,13 +52,15 @@ export default {
   },
   data() {
     return {
-      faq,
+      resources,
       activeCategory: ''
     }
   },
   computed: {
     categories: function() {
-      return [...new Set(faq.data.map((obj, i) => obj.category))].slice().reverse()
+      let tags = [...resources.map(i => i.tag)].reduce((a, b) => a.concat(b), []).sort()
+      tags.unshift('all')
+      return [...new Set(tags)]
     }
   },
   methods: {
@@ -63,7 +69,7 @@ export default {
     }
   },
   mounted() {
-    this.activeCategory = this.categories[0]
+    this.activeCategory = 'all'
   }
 }
 </script>
@@ -88,12 +94,22 @@ export default {
 }
 
 .qa {
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 
   .question {
     font-weight: bold;
     padding: 0 0 0.5rem;
     font-size: 18px;
+  }
+
+  .link a {
+    color: $gray;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      color: $base;
+    }
   }
 }
 
@@ -108,7 +124,7 @@ export default {
 
   li {
     position: relative;
-    padding: 15px 20px;
+    padding: 5px 20px;
     text-transform: uppercase;
     font-weight: bold;
     color: $gray;
@@ -117,12 +133,12 @@ export default {
     &:hover,
     &.active {
       color: $base;
-      background: $light-blue-bg;
+      background: $primary;
     }
 
     &.active:after {
       content: '';
-      background: $light-blue-bg url('/images/cheveron.svg') no-repeat center right;
+      background: url('/images/cheveron.svg') no-repeat center right;
       width: 10px;
       height: 12px;
       position: absolute;

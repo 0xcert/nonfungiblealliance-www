@@ -190,6 +190,7 @@ export default {
   }
 
   .page-members &,
+  .page-resources &,
   .page-resources-tag &,
   .page-subscriptions-subscribe & {
     background-color: $base;
