@@ -1,0 +1,134 @@
+$white: #fff;
+$red: #d3304b;
+$base: #2B2525;
+$primary: #00E5F3;
+$primary-lighter: #27AB9E;
+$secondary: #0971FF;
+$light-blue: #EBF5F7;
+$light-blue-bg: #F7FBFC;
+$gray: #7D8285;
+$gray-light: lighten($gray, 30%);
+$grey-bg: #F5F6F8;
+$shadow: #1A1B23;
+$border: #E4E4E7;
+
+$gutter: 1rem;
+$primary-font: 'Overpass mono', monospace;
+$secondary-font: 'Overpass', sans-serif;
+$ease: cubic-bezier(.32,.23,.49,.95) 300ms;
+$transition-quick: ease-in-out .2s;
+$box-shadow-strong: 0 2px 8px 0 $gray-light;
+$box-shadow-light: 0 5px 12px 0 rgba(125,130,133,0.1);
+
+/**
+/** Foundation configuration
+**/
+
+$global-width: rem-calc(1240);
+$global-radius: rem-calc(0);
+$topbar-background: transparent;
+
+/**
+/** Links
+**/
+
+$anchor-color: $base;
+$anchor-color-hover: $primary;
+$anchor-text-decoration-hover: underline;
+
+/**
+/** Xy Grid
+**/
+
+$grid-container: $global-width;
+$grid-columns: 12;
+$grid-margin-gutters: ( small: 30px, large: 26px);
+$breakpoints: ( small: 0px, medium: 640px, large: 1024px, xlarge: 1200px, xxlarge: 1440px, );
+$grid-padding-gutters: $grid-margin-gutters;
+$grid-container-padding: $grid-padding-gutters;
+$grid-container-max: $global-width;
+$xy-block-grid-max: 8;
+
+/**
+/**  Background color of the body.
+**/
+
+$body-background: $white;
+
+/**
+/**  Mixins
+**/
+
+@mixin stripe-shadow($offset: -1.5rem, $color: $gray-light) {
+  &:before {
+    background: linear-gradient(-45deg, $color 10%, transparent 10%, transparent 50%, $color 50%, $color 60%, transparent 60%);
+    background-size: 7px 7px;
+    position: absolute;
+    content: '';
+    left: $offset;
+    top: $offset;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+}
+
+@mixin placeholder-color($color) {
+  &::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: $color;
+  }
+  &:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: $color;
+  }
+  &::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: $color;
+  }
+}
+
+
+// Customisable spacing units. these can be changed and new ones added
+$spacing-units: (
+  1: 1rem,
+  2: 2rem,
+  3: 3rem,
+  4: 4rem,
+  5: 5rem,
+  6: 6rem,
+  7: 7rem
+);
+
+// These will not change this is just to help generate the classes with the correct naming
+$spacing-naming: (
+  top: t,
+  right: r,
+  bottom: b,
+  left: l
+);
+
+@each $key, $value in $spacing-units {
+  
+  @each $keyq, $valueq in $spacing-naming {
+    .m#{$valueq}-#{$key} {
+      margin-#{$keyq}: $value;
+    }
+  }
+  @each $keyq, $valueq in $spacing-naming {
+    .p#{$valueq}-#{$key} {
+      padding-#{$keyq}: $value;
+    }
+  }
+  .pa-#{$key} {
+    padding: $value;
+  }
+  .ma-#{$key} {
+    padding: $value;
+  }
+  
+}

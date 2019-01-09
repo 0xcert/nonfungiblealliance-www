@@ -1,0 +1,64 @@
+.layout-enter-active, .layout-leave-active {
+  transition: opacity .3s ease-out;
+}
+
+.layout-enter, .layout-leave-to {
+  opacity: 0;
+}
+
+// Slide fade transition
+
+.slide-fade-enter-active {
+  transition: all .4s ease;
+}
+
+.slide-fade-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+
+.slide-fade-enter, 
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+
+// Modal 
+
+.modal-enter {
+  opacity: 0;
+}
+
+.modal-leave-active {
+  opacity: 0;
+}
+
+.modal-enter .modal-container,
+.modal-leave-active .modal-container {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+// Images
+
+.v-lazy-image {
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.v-lazy-image-loaded {
+  opacity: 1;
+}
+
+// Drop down menu
+
+.fadeHeight-enter-active,
+.fadeHeight-leave-active {
+  transition: all $ease;
+  max-height: 250px;
+}
+
+.fadeHeight-enter,
+.fadeHeight-leave-to {
+  opacity: 0;
+  max-height: 0;
+}

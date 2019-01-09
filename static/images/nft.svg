@@ -1,0 +1,25 @@
+<svg width="88" height="114" viewBox="0 0 88 114" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>
+        FE54A40B-6D81-4FCE-BB4E-7742ECC5DBF2
+    </title>
+    <defs>
+        <path id="a" d="M0 .01h14.887v13.933H0z"/>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="c">
+            <stop stop-color="#A900FF" offset="0%"/>
+            <stop stop-color="#7000FF" offset="100%"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M-15 6H94v109H-15z"/>
+        <g transform="translate(14 23)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path d="M14.36.01h-1.442L5.58 6.878l1.066.998a.163.163 0 0 1 0 .241L5.09 9.573a.191.191 0 0 1-.258 0L2.148 7.061a.285.285 0 0 1 .002-.423L9.358.01H5.44l1.115 1.072a.163.163 0 0 1-.005.242L4.951 2.763a.191.191 0 0 1-.256-.002L1.717.01H.527C.237.01 0 .233 0 .504V13.45c0 .271.237.493.527.493h1.357l7.422-6.946L8.24 6a.163.163 0 0 1 0-.242l1.557-1.457a.191.191 0 0 1 .258 0l2.684 2.512a.285.285 0 0 1-.002.424l-7.295 6.706h4.149l-1.145-1.101a.163.163 0 0 1 .005-.243l1.598-1.438a.191.191 0 0 1 .256.003l3.002 2.772 1.053.007c.29 0 .527-.222.527-.493V.504c0-.271-.237-.493-.527-.493" fill="#3D8CFF" mask="url(#b)"/>
+        </g>
+        <path d="M10 7.982V4.63C10 2.663 11.588 1 13.566 1h55.316c.94 0 1.378.403 2.046 1.058l15.004 14.724c.68.668 1.068 1.284 1.068 2.236V101" stroke="#B0C8D3" stroke-width="2" fill="#FFF" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M78 109.383c0 1.974-1.603 3.617-3.585 3.617H4.565C2.589 113 1 111.357 1 109.383v-96.74C1 10.669 2.588 9 4.566 9h55.316c.94 0 1.378.404 2.046 1.062l15.004 14.78c.68.67 1.068 1.29 1.068 2.245v82.296z" stroke="#B0C8D3" stroke-width="2" fill="#FFF" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M39.805 62.368l6.7 2.544v2.76L37 63.435v-2.192l9.505-4.224v2.76l-6.7 2.588zm12.154 8.585h-2.17L56.297 53h2.17l-6.507 17.953zm17.138-8.641l-7.017-2.578V57.02l9.81 4.224v2.192l-9.81 4.224v-2.714l7.017-2.634z" fill="url(#c)" transform="translate(-15 1)"/>
+        <path stroke="#B0C8D3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M60 9v18h18"/>
+    </g>
+</svg>

@@ -1,0 +1,10 @@
+.nuxt
+.DS_Store
+npm-debug.log
+node_modules
+dist
+yarn.lock
+
+# Infrastructure and build artifacts
+infra-params-secrets.json
+infra/temp

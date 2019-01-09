@@ -1,0 +1,97 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+  text-transform: inherit;
+  line-height: 1;
+  border-radius: 4px;
+  margin: 0 0 1px 0;
+  vertical-align: top;
+  overflow: hidden;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 0 0 $primary-lighter;
+  transition: transform ease .2s, background-color ease .2s, box-shadow ease .1s;
+  cursor: pointer;
+
+  @include breakpoint(medium) {
+    padding: 16px 2rem;
+  }
+
+  &:hover:enabled {
+    text-decoration: none;
+    transform: translate(0, 1px);
+    box-shadow: 0 0 0 0 $shadow;
+  }
+}
+
+.primary {
+  background-color: $primary;
+  color: $base;
+
+  &:hover:enabled {
+    color: $base !important; 
+    background-color: lighten($primary, 10%);
+  }
+
+  &:disabled {
+    background-color: lighten($primary, 20%);
+    cursor: default;
+  }
+
+  &:focus {
+    color: $base;
+    text-decoration: none;
+  }
+}
+
+.secondary {
+  background-color: #EBF5F7;
+  color: $black;
+  
+  &:hover {
+    background-color: lighten(#EBF5F7, 2%);
+  }
+}
+
+.hollow {
+  border: 1px solid $base;
+  padding: 0.7rem 1rem;
+  box-shadow: none;
+
+  &.nuxt-link-exact-active {
+    cursor: default;  
+  }
+
+  &:hover:enabled,
+  &.nuxt-link-exact-active {
+    border-color: $primary;
+    color: $white;
+    background-color: $primary
+  }
+}
+
+.hollow.white {
+  border: 1px solid $white;
+  color: $white;
+
+  &:hover:enabled {
+    border-color: $primary;
+    color: $base;
+    background-color: $primary
+  }
+}
+
+.button.centered {
+  margin: 0 auto;
+  display: block;
+  padding: 1rem 4rem;
+}
+
+.button.large {
+  padding: 1rem 3rem;
+}
+
+.anchor {
+  font-weight: bold;
+  color: $primary;
+} 
