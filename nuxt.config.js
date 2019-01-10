@@ -61,9 +61,6 @@ export default {
   },
   plugins,
   modules,
-  env: {
-    API_BASE_URL: process.env.API_BASE_URL
-  },
   axios: {
     baseURL: process.env.API_BASE_URL
   },
