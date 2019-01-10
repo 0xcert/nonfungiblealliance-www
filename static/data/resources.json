@@ -1,7 +1,7 @@
 [{
     "link": "https://knownorigin.io/",
     "description": "KnownOrigin",
-    "tag": ["art"],
+    "tag": ["art", "marketplace"],
     "published": true
   },
   {
@@ -43,7 +43,7 @@
   {
     "link": "http://verifiedcollection.com/",
     "description": "Verrified Collection",
-    "tag": ["branding"],
+    "tag": ["branding", "licensing"],
     "published": true
   },
   {
@@ -73,13 +73,13 @@
   {
     "link": "https://cryptokaiju.io/",
     "description": "CryptoKaiju",
-    "tag": ["collectible"],
+    "tag": ["collectible", "physical asset"],
     "published": true
   },
   {
     "link": "https://www.ecomi.com/",
     "description": "Ecomi",
-    "tag": ["collectible"],
+    "tag": ["collectible", "licensing"],
     "published": true
   },
   {
@@ -187,13 +187,13 @@
   {
     "link": "dclblogger.com",
     "description": "Blog about Decentraland",
-    "tag": ["decentraland", "resources"],
+    "tag": ["decentraland", "news"],
     "published": true
   },
   {
     "link": "dclplazas.com",
     "description": "Blog about Decentraland",
-    "tag": ["decentraland", "resources"],
+    "tag": ["decentraland", "news"],
     "published": true
   },
   {
@@ -205,7 +205,7 @@
   {
     "link": "DiVinoVineyards.com",
     "description": "DiVinoVineyards.com",
-    "tag": ["decentraland", "wine"],
+    "tag": ["decentraland", "physical asset"],
     "published": true
   },
   {
@@ -217,7 +217,7 @@
   {
     "link": "https://kette.io/",
     "description": "Kette",
-    "tag": ["development studio"],
+    "tag": ["development studio", "physical asset"],
     "published": true
   },
   {
@@ -299,12 +299,6 @@
     "published": true
   },
   {
-    "link": "godsunchained.com",
-    "description": "Gods Unchained",
-    "tag": ["game"],
-    "published": true
-  },
-  {
     "link": "https://eth.town/",
     "description": "ETH.town",
     "tag": ["game"],
@@ -343,25 +337,25 @@
   {
     "link": "https://sorare.com/",
     "description": "Sorare",
-    "tag": ["game"],
+    "tag": ["game", "collectible"],
     "published": true
   },
   {
     "link": "https://www.etheremon.com/",
     "description": "Etheremon",
-    "tag": ["game"],
+    "tag": ["game", "collectible"],
     "published": true
   },
   {
     "link": "https://cryptocrystal.io/",
     "description": "CryptoCrystal",
-    "tag": ["game"],
+    "tag": ["game", "collectible"],
     "published": true
   },
   {
     "link": "https://www.cryptobeasties.com/",
     "description": "Crypto Beasties",
-    "tag": ["game"],
+    "tag": ["game", "collectible"],
     "published": true
   },
   {
@@ -439,7 +433,7 @@
   {
     "link": "https://po8.io",
     "description": "PO8",
-    "tag": ["marketplace", "marine archeology"],
+    "tag": ["marketplace", "physical asset"],
     "published": true
   },
   {
@@ -547,25 +541,25 @@
   {
     "link": "https://farsightpodcast.com/",
     "description": "Farsight podcast",
-    "tag": ["podcast"],
+    "tag": ["podcast", "news"],
     "published": true
   },
   {
     "link": "https://propy.com/",
     "description": "Propy",
-    "tag": ["real Estate"],
+    "tag": ["physical asset"],
     "published": true
   },
   {
     "link": "https://realestatedoc.io/",
     "description": "RealEstateDoc",
-    "tag": ["real Estate"],
+    "tag": ["physical asset"],
     "published": true
   },
   {
     "link": "http://bit.ly/coingeckoQ32018",
     "description": "Cryptocurrency Q3 2018 Report featuring NFT by Non-Fungibles.com",
-    "tag": ["report"],
+    "tag": ["resources"],
     "published": true
   },
   {
@@ -617,18 +611,6 @@
     "published": true
   },
   {
-    "link": "https://dappradar.com/",
-    "description": "DappRadar",
-    "tag": ["resources"],
-    "published": true
-  },
-  {
-    "link": "https://www.dapp.com/",
-    "description": "dapp.com",
-    "tag": ["resources"],
-    "published": true
-  },
-  {
     "link": "https://www.stateofthedapps.com/",
     "description": "State of the dapps",
     "tag": ["resources"],
@@ -673,7 +655,7 @@
   {
     "link": "https://github.com/unicoeos/eosio.nft",
     "description": "Github EOS NFT",
-    "tag": ["standard"],
+    "tag": ["standard", "eos"],
     "published": true
   },
   {
@@ -739,7 +721,7 @@
   {
     "link": "https://bitski.com",
     "description": "Bitski",
-    "tag": ["wallet", "SDK"],
+    "tag": ["wallet",],
     "published": true
   }
 ]
