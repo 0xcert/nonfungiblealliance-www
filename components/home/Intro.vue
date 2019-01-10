@@ -19,7 +19,6 @@
               <li>Exposure of your project</li>
               <li>Early access to NFT solutions</li>
               <li>Large community and network</li>
-
             </ul>
           </div>
           <nuxt-link 

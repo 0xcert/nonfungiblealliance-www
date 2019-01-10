@@ -3,14 +3,14 @@
     <partners 
       :title="'Members'" 
       :limit="1000"
-      class="mt-7"/>
-    <onboard/>
-    <subscription/>
+      class="mt-7"
+    />
+    <onboard />
+    <subscription />
   </div>
 </template>
 
 <script>
-import Form from '~/components/Form'
 import Subscription from '~/components/Subscription'
 import Partners from '~/components/home/Partners'
 import Onboard from '~/components/home/Onboard'
@@ -20,7 +20,6 @@ export default {
   components: {
     Subscription,
     Partners,
-    Form,
     Onboard
   }
 }

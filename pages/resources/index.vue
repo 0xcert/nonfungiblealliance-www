@@ -1,5 +1,5 @@
 <template>
-  <div class="faq grid-container">
+  <div class="resources grid-container">
     <div class="grid-x grid-padding-x offset-top">
       <h1 class="small-12 cell">Resources</h1>
       <div class="small-12 medium-4 large-3 cell">
@@ -7,7 +7,7 @@
           <li 
             v-for="(category, index) in categories" 
             :class="{active : category == activeCategory}"
-            :key="category.id"
+            :key="index"
             @click="toggle(categories[index])">
             {{ category }}
           </li>
@@ -21,7 +21,7 @@
             tag="div">
             <div 
               v-for="(item, index) in resources" 
-              :key="index"
+              :key="`resource-${index}`"
               v-show="item.tag.includes(activeCategory) || activeCategory == 'all'"
               :class="'qa'">
               <div class="question">{{ item.description }}</div>
