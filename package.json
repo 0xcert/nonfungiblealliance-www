@@ -35,6 +35,7 @@
     "eslint-loader": "^2.1.1",
     "eslint-plugin-vue": "^5.1.0",
     "foundation-sites": "^6.5.1",
+    "js-yaml-loader": "^1.0.1",
     "markdown-it-attrs": "^2.3.2",
     "markdown-it-block-embed": "0.0.3",
     "markdown-it-container": "^2.0.0",

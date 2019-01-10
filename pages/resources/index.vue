@@ -2,7 +2,11 @@
   <div class="resources grid-container">
     <div class="grid-x grid-padding-x offset-top">
       <h1 class="small-12 cell">Resources</h1>
-      <div class="small-12 medium-4 large-3 cell">
+      <p class="small-12 cell mb-2 intro">
+        A list of useful non-fungible resources. The page is being constantly updated. <br/>
+        Feel free to contribute yourself too and <a href="https://github.com/0xcert/nonfungiblealliance-www/edit/master/static/data/resources.yml" target="_blank">help us improve this page</a> even more.
+      </p>
+      <div class="small-12 medium-4 large-3 cell"> 
         <ul class="menu">
           <li 
             v-for="(category, index) in categories" 
@@ -42,7 +46,7 @@
 </template>
 
 <script>
-import resources from '~/static/data/resources.json'
+import resources from '~/static/data/resources.yml'
 import Subscription from '~/components/Subscription'
 
 export default {
@@ -76,19 +80,25 @@ export default {
 
 <style lang="scss" scoped>
 .body {
+  padding-top: 5px;
+
   a {
     color: $primary;
     text-decoration: underline;
   }
 }
 
+.intro a {
+  text-decoration: underline;
+}
+
 @include breakpoint(medium) {
   h1 {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .body {
-    padding: 0 2rem;
+    padding: 6px 2rem;
     min-height: 600px;
   }
 }
