@@ -3,8 +3,7 @@
     <div class="grid-x grid-padding-x offset-top">
       <h1 class="small-12 cell">Resources</h1>
       <p class="small-12 cell mb-2 intro">
-        A list of useful non-fungible resources. The page is being constantly updated. <br/>
-        Feel free to contribute yourself too and <a href="https://github.com/0xcert/nonfungiblealliance-www/edit/master/static/data/resources.yml" target="_blank">help us improve this page</a> even more.
+        This is a curated list of resources to easily navigate the world of non-fungible tokens. We include anything from simple collectibles to advanced development frameworks. If you think that something is missing, feel free to    <a href="https://github.com/0xcert/nonfungiblealliance-www/edit/master/static/data/resources.yml" target="_blank">contribute and help improve this page.</a>
       </p>
       <div class="small-12 medium-4 large-3 cell"> 
         <ul class="menu">
