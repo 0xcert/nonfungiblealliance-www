@@ -585,6 +585,33 @@
   description: Kauku Network
   tag:
   - supply chain
+  
+- link: https://www.nft.nyc/
+  description NFT.NYC
+  tag:
+  - event
+  
+- link: https://brave.com/
+  description: Brave Browser 
+  tag:
+  - browser
+  
+- link: https://decentraland.org/
+  description: Decentraland
+  tag:
+  - decentraland
+  
+- link: https://eosknights.io/
+  description: EOS Knights
+  tag:
+  - EOS
+  - game
+  - collectible
+  
+- link: https://loomx.io/
+  description: Loom Network
+  tag:
+  - scaling solution
 
 - link: https://twitter.com/GianniDalerta/lists/nft
   description: Gianni Dalerta NFT Twitter list
@@ -623,5 +650,10 @@
 
 - link: https://bitski.com
   description: Bitski
+  tag:
+  - wallet
+
+- link: https://mint.enjin.io/products/create-tokens
+  description: Enjin token minter
   tag:
   - wallet
