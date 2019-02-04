@@ -9,6 +9,6 @@ git commit -m "Deploy website"
 git push -f git@github.com:0xcert/nonfungiblealliance-www.git master:gh-pages
 cd -
 echo ''
-echo '----------------------------------------------'
-echo '  Deployment complete. Keep on awesome work!  '
-echo '----------------------------------------------'
+echo '-------------------------------------------------'
+echo '  Deployment complete. Keep on an awesome work!  '
+echo '-------------------------------------------------'
