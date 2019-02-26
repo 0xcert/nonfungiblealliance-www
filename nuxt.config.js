@@ -7,8 +7,8 @@ const meta = {
 const modules = [
   '@nuxtjs/axios',
   '@nuxtjs/workbox',
-  'nuxt-sass-resources-loader',
   '@nuxtjs/markdownit',
+  '@nuxtjs/style-resources',
   'nuxt-mq'
 ]
 
@@ -48,10 +48,12 @@ export default {
     { src: '~/assets/css/animations.scss' }, 
     { src: '~/assets/css/styles.scss' }
   ],
-  sassResources: [
-    'foundation-sites/scss/foundation.scss', 
-    '@/assets/css/config/_variables.scss'
-  ],
+  styleResources: {
+    scss: [
+      './node_modules/foundation-sites/scss/foundation.scss',
+      './assets/css/config/_variables.scss'
+    ]
+  },
   transition: {
     name: 'layout',
     mode: 'out-in'

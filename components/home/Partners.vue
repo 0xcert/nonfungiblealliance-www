@@ -3,15 +3,21 @@
     <a 
       id="partners" 
       name="partners" 
-      class="anchor"/>
+      class="anchor"
+    />
     <div class="partners grid-container">
       <h2>{{ title }}</h2>
       <div class="logos grid-x align-center grid-margin-x grid-margin-y">
         <div 
-          v-for="partner in partners.slice(0, limit)" 
+          v-for="partner in filteredPartners.slice(0, limit)" 
           :key="partner.id" 
-          class="logo small-6 medium-4 large-3 cell align-self-middle">
-          <img :src="`/partners/${partner.logo}`">
+          class="logo small-6 text-center medium-4 large-3 cell align-self-middle"
+        >
+          <img 
+            v-if="partner.logo"
+            :src="`/partners/${partner.logo}`"
+            :alt="partner.name"
+          >
         </div>
       </div>
     </div>
@@ -29,11 +35,20 @@ export default {
     limit: {
       default: 16,
       type: Number
+    },
+    detailed: {
+      type: Boolean,
+      default: false
     }
   },
   data() {
     return {
       partners
+    }
+  },
+  computed: {
+    filteredPartners() {
+      return this.partners.slice().reverse()
     }
   }
 }

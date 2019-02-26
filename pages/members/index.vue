@@ -3,6 +3,7 @@
     <partners 
       :title="'Members'" 
       :limit="1000"
+      detailed
       class="mt-7"
     />
     <onboard />

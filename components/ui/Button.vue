@@ -1,8 +1,9 @@
 <template>
   <a 
     class="button" 
-    :class="type">
-    <slot/>
+    :class="type"
+  >
+    <slot />
   </a>
 </template>
 

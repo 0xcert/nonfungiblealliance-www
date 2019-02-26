@@ -10,7 +10,10 @@
           </p>
           <nuxt-link 
             to="/members/apply" 
-            class="button primary mt-2">Become a member</nuxt-link>
+            class="button primary mt-2"
+          >
+            Become a member
+          </nuxt-link>
         </div>
       </div>
     </div>

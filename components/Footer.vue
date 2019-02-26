@@ -8,7 +8,8 @@
             :key="item.id" 
             :to="item.url" 
             v-html="item.name" 
-            class="link pl-1 pr-1" />
+            class="link pl-1 pr-1"
+          />
         </div>
         <div class="small-12 text-center medium-4 cell mb-2">
           Powered by 0xcert
@@ -19,10 +20,12 @@
       </div>
       <a 
         class="go-up" 
-        v-scroll-to="{el: '#__nuxt' }">
+        v-scroll-to="{el: '#__nuxt' }"
+      >
         <img 
           src="/images/up.svg" 
-          alt="Back to the top">
+          alt="Back to the top"
+        >
       </a>
     </div>
   </footer>

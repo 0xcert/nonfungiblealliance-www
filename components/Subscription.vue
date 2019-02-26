@@ -3,7 +3,7 @@
     <section class="subscription">
       <div class="grid-x align-center">
         <div class="form small-11 medium-9 large-5 cell">
-          <Form/>
+          <Form />
         </div>
       </div>
     </section>

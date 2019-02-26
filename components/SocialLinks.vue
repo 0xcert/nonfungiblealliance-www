@@ -3,27 +3,33 @@
     <a 
       :href="social.telegram" 
       target="_blank" 
-      title="0xcert on Telegram"><svgTelegram :class="'icon-color'"/></a>
+      title="0xcert on Telegram"
+    ><svgTelegram :class="'icon-color'" /></a>
     <a 
       :href="social.twitter" 
       target="_blank" 
-      title="0xcert on Twitter"><svgTwitter :class="'icon-color'"/></a>
+      title="0xcert on Twitter"
+    ><svgTwitter :class="'icon-color'" /></a>
     <a 
       :href="social.medium" 
       target="_blank" 
-      title="0xcert on Medium"><svgMedium :class="'icon-color'"/></a>
+      title="0xcert on Medium"
+    ><svgMedium :class="'icon-color'" /></a>
     <a 
       :href="social.facebook" 
       target="_blank" 
-      title="0xcert on Facebook"><svgFacebook :class="'icon-color'"/></a>
+      title="0xcert on Facebook"
+    ><svgFacebook :class="'icon-color'" /></a>
     <a 
       :href="social.linkedin" 
       target="_blank" 
-      title="0xcert on LinkedIm"><svgLinkedin :class="'icon-color'"/></a>
+      title="0xcert on LinkedIm"
+    ><svgLinkedin :class="'icon-color'" /></a>
     <a 
       :href="social.youtube" 
       target="_blank" 
-      title="0xcert on Youtube"><svgYoutube :class="'icon-color'"/></a>
+      title="0xcert on Youtube"
+    ><svgYoutube :class="'icon-color'" /></a>
   </div>
 </template>
 

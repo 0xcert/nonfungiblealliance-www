@@ -1,16 +1,19 @@
 <template>
   <div class="landing">
-    <intro/>
-    <benefits/>
-    <forwho/>
-    <partners/>
+    <intro />
+    <benefits />
+    <forwho />
+    <partners />
     <div class="text-center mb-4">
       <nuxt-link 
         to="/members" 
-        class="button primary">See all members</nuxt-link>
+        class="button primary"
+      >
+        See all members
+      </nuxt-link>
     </div>
-    <onboard/>
-    <subscription/>
+    <onboard />
+    <subscription />
   </div>
 </template>
 

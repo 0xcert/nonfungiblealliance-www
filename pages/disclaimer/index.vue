@@ -1,7 +1,8 @@
 <template>
   <div 
     v-html="content" 
-    class="markdown"/>
+    class="markdown"
+  />
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div class="square-spin">
-    <div/>
+    <div />
   </div>
 </template>
 

@@ -8,7 +8,8 @@
       </div>
       <div 
         v-if="state == 1" 
-        class="text-center">
+        class="text-center"
+      >
         <h2>
           Congratulations!
         </h2>
@@ -20,13 +21,17 @@
         <p>
           <nuxt-link 
             to="/" 
-            class="button primary margin-top-3">Back to home page </nuxt-link>
+            class="button primary margin-top-3"
+          >
+            Back to home page
+          </nuxt-link>
         </p>
       </div>
 
       <div 
         v-if="state == 2" 
-        class="text-center">
+        class="text-center"
+      >
         <h2>
           Invalid confirmation link
         </h2>
@@ -37,7 +42,10 @@
         <p>
           <nuxt-link 
             to="/" 
-            class="button primary margin-top-3">Back to home page </nuxt-link>
+            class="button primary margin-top-3"
+          >
+            Back to home page
+          </nuxt-link>
         </p>
       </div>
     </div>

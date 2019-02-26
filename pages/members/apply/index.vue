@@ -1,8 +1,8 @@
 <template>
   <div class="landing">
-    <apply/>
-    <benefits short/>
-    <subscription/>
+    <apply />
+    <benefits short />
+    <subscription />
   </div>
 </template>
 
