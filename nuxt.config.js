@@ -7,7 +7,6 @@ const meta = {
 const modules = [
   '@nuxtjs/axios',
   '@nuxtjs/workbox',
-  '@nuxtjs/markdownit',
   '@nuxtjs/style-resources',
   'nuxt-mq'
 ]
@@ -90,14 +89,6 @@ export default {
       md: 1250,
       lg: Infinity
     }
-  },
-  markdownit: {
-    preset: 'default',
-    linkify: false,
-    breaks: false,
-    injected: true,
-    html: true,
-    use: [['markdown-it-block-embed']]
   },
   build: {    
     extend(config, ctx) {
