@@ -11,11 +11,9 @@
             class="link pl-1 pr-1"
           />
         </div>
-        <div class="small-12 text-center medium-4 cell mb-2">
-          Powered by 0xcert
-        </div>
+        <div class="small-12 text-center medium-4 cell mb-2" />
         <div class="small-12 social text-right medium-4 cell mb-2">
-          <!-- <SocialLinks :color="'dark'"/> -->
+          Powered by <a href="https://0xcert.org">0xcert</a>
         </div>
       </div>
       <a 
@@ -35,7 +33,11 @@
 export default {
   data() {
     return {
-      menu: [{ name: 'Home', url: '/#top' }, { name: 'Members', url: '/members' }]
+      menu: [
+       { name: 'Home', url: '/#top' },
+       { name: 'Resources', url: '/recources' },
+       { name: 'Members', url: '/members' }
+      ]
     }
   },
   computed: {
