@@ -749,7 +749,7 @@
     medium: 
     logo: coin-kred.svg
 
--   name: "Crypto Space Commander "
+-   name: "Crypto Baseball"
     status: won
     website: "https://www.mlbcryptobaseball.com"
     description: "MLB Crypto Baseball is a blockchain-based sports game that anyone can play using their very own crypto figures!"
@@ -759,7 +759,7 @@
     medium: 
     logo: crypto-baseball.png
 
--   name: "Crypto Baseball"
+-   name: "Crypto Space Commander"
     status: won
     website: "http://www.csc-game.com"
     description: "Crypto Space Commander (CSC) is a sandbox space MMO that operates in a completely real-time, player-controlled economy. Players can travel to different star systems, mine stellar bodies for resources, craft items and ships to sell, battle pirates and other players while commanding their very own starship! CSC is the first blockchain-based space exploration game built in Unity3D. CSC utilizes the Ethereum blockchain to secure game assets, enforce P2P contract actions, and run the game economy."
