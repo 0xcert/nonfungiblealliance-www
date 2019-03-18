@@ -2,22 +2,26 @@
   <div 
     :class="'page-' + this.$route.name" 
     class="inner" 
-    :key="'dynamic-content'">
+    :key="'dynamic-content'"
+  >
     <a 
       class="anchor" 
-      id="top"/>
-    <Navigation/>
+      id="top"
+    />
+    <Navigation />
     <div class="grid-container">
-      <nuxt/>
+      <nuxt />
     </div>
-    <Subscription/>
-    <Footer/>
+    <Subscription />
+    <Footer />
     <no-ssr>
       <cookie-law theme="0xcert">
         <div slot="message">
           This website uses cookies to ensure you get 
           the best experience on our website. 
-          For more information, <nuxt-link to="/cookie-policy">click here</nuxt-link>
+          For more information, <nuxt-link to="/cookie-policy">
+            click here
+          </nuxt-link>
         </div>
       </cookie-law> 
     </no-ssr>

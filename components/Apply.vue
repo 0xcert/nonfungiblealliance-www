@@ -13,11 +13,13 @@
         <div class="small-12 medium-6 large-5 cell">
           <transition 
             mode="out-in" 
-            name="layout">
+            name="layout"
+          >
             <div v-if="state === 'form'">
               <form 
                 @submit.prevent="submit()" 
-                novalidate>
+                novalidate
+              >
                 <div class="grid-x grid-margin-x">
                   <label class="small-12 medium-auto cell">First name
                     <input 
@@ -26,10 +28,12 @@
                       :class="{'input': true, 'is-invalid-input': errors.has('firstName') }"
                       name="firstName" 
                       data-vv-as="First name"
-                      type="text">
+                      type="text"
+                    >
                     <span 
                       class="alert" 
-                      v-show="errors.has('firstName')">{{ errors.first('firstName') }}</span>
+                      v-show="errors.has('firstName')"
+                    >{{ errors.first('firstName') }}</span>
                   </label>
 
                   <label class="small-12 medium-auto cell">Last name
@@ -39,10 +43,12 @@
                       :class="{'input': true, 'is-invalid-input': errors.has('lastName') }"
                       name="lastName" 
                       data-vv-as="Last name"
-                      type="text">
+                      type="text"
+                    >
                     <span 
                       class="alert" 
-                      v-show="errors.has('lastName')">{{ errors.first('lastName') }}</span>
+                      v-show="errors.has('lastName')"
+                    >{{ errors.first('lastName') }}</span>
                   </label>
                 </div>
 
@@ -54,10 +60,12 @@
                       :class="{'input': true, 'is-invalid-input': errors.has('company') }"
                       name="company" 
                       data-vv-as="Company"
-                      type="text">
+                      type="text"
+                    >
                     <span 
                       class="alert" 
-                      v-show="errors.has('company')">{{ errors.first('company') }}</span>
+                      v-show="errors.has('company')"
+                    >{{ errors.first('company') }}</span>
                   </label>
 
                   <label class="small-12 medium-auto cell">Position
@@ -67,10 +75,12 @@
                       :class="{'input': true, 'is-invalid-input': errors.has('position') }"
                       name="position" 
                       data-vv-as="Position"
-                      type="text">
+                      type="text"
+                    >
                     <span 
                       class="alert" 
-                      v-show="errors.has('position')">{{ errors.first('position') }}</span>
+                      v-show="errors.has('position')"
+                    >{{ errors.first('position') }}</span>
                   </label>
                 </div> 
 
@@ -82,10 +92,12 @@
                     name="email" 
                     autocomplete="email"
                     data-vv-as="E-mail"
-                    type="text" >
+                    type="text"
+                  >
                   <span 
                     class="alert" 
-                    v-show="errors.has('email')">{{ errors.first('email') }}</span>
+                    v-show="errors.has('email')"
+                  >{{ errors.first('email') }}</span>
                 </label>
 
                 <label for="reason">Reason to join
@@ -96,40 +108,53 @@
                     name="reason" 
                     autocomplete="reason"
                     data-vv-as="Reaso to join"
-                    type="text" >
+                    type="text"
+                  >
                   <span 
                     class="alert" 
-                    v-show="errors.has('reason')">{{ errors.first('reason') }}</span>
+                    v-show="errors.has('reason')"
+                  >{{ errors.first('reason') }}</span>
                 </label>
                 <button 
                   type="submit" 
                   href="#" 
-                  class="button primary large mt-2">Sign up</button>
+                  class="button primary large mt-2"
+                >
+                  Sign up
+                </button>
               </form>
             </div>
 
             <div 
               v-if="state === 'success' " 
               class="mb-7 mt-2" 
-              key="confirm">
-              <h3 class="">Thank you for applying!</h3>
+              key="confirm"
+            >
+              <h3 class="">
+                Thank you for applying!
+              </h3>
               
-              <p>Please check your inbox and <strong>click a confirmation link,</strong>
-                <br >to complete your registration.
+              <p>
+                Please check your inbox and <strong>click a confirmation link,</strong>
+                <br>to complete your registration.
               </p>
             </div>
 
             <div 
               v-if="state === 'error'" 
               class="mb-7 mt-2" 
-              key="error">
+              key="error"
+            >
               <h3>Dang!</h3>
-              <p>Something went wrong. Try again later or contact us on: 
-              <a href="mailto:info@nonfungiblealliance.org">info@nonfungiblealliance.org</a></p>
+              <p>
+                Something went wrong. Try again later or contact us on: 
+                <a href="mailto:info@nonfungiblealliance.org">info@nonfungiblealliance.org</a>
+              </p>
               <p>{{ errors.first('response') }}</p>
               <a 
                 @click="state = 'form'" 
-                class="button hollow white"> &larr; Go back</a>
+                class="button hollow white"
+              > &larr; Go back</a>
             </div>
           </transition>
         </div>
@@ -138,7 +163,8 @@
           <img 
             class="illustration" 
             src="/images/top-illustration.svg" 
-            alt="">
+            alt=""
+          >
         </div>
       </div>
     </div>

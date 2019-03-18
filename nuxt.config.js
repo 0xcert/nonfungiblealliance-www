@@ -4,7 +4,22 @@ const meta = {
   image: 'https://nonfungiblealliance.org/meta-card.jpg'
 }
 
-module.exports = {
+const modules = [
+  '@nuxtjs/axios',
+  '@nuxtjs/workbox',
+  '@nuxtjs/style-resources',
+  'nuxt-mq'
+]
+
+const plugins = [
+  { src: '~plugins/ga.js', ssr: false },
+  { src: '~plugins/scroll-to.js' },
+  { src: '~plugins/vee-validate.js' },
+  { src: '~plugins/core-components.js' },
+  { src: '~plugins/vue-social-share.js', ssr: true }
+]
+
+export default {
   head: {
     title: meta.title,
     meta: [
@@ -28,8 +43,16 @@ module.exports = {
     ],
     link: [{ rel: 'icon', type: 'image/png', href: '/favicon.png' }]
   },
-  css: [{ src: '~/assets/css/animations.scss' }, { src: '~/assets/css/styles.scss' }],
-  sassResources: ['foundation-sites/scss/foundation.scss', '@/assets/css/config/_variables.scss'],
+  css: [
+    { src: '~/assets/css/animations.scss' }, 
+    { src: '~/assets/css/styles.scss' }
+  ],
+  styleResources: {
+    scss: [
+      './node_modules/foundation-sites/scss/foundation.scss',
+      './assets/css/config/_variables.scss'
+    ]
+  },
   transition: {
     name: 'layout',
     mode: 'out-in'
@@ -37,23 +60,8 @@ module.exports = {
   loading: {
     color: '#00E5F3'
   },
-  plugins: [
-    { src: '~plugins/ga.js', ssr: false },
-    { src: '~plugins/scroll-to.js' },
-    { src: '~plugins/vee-validate.js' },
-    { src: '~plugins/core-components.js' },
-    { src: '~plugins/vue-social-share.js', ssr: true }
-  ],
-  modules: [
-    '@nuxtjs/axios',
-    '@nuxtjs/workbox',
-    'nuxt-sass-resources-loader',
-    '@nuxtjs/markdownit',
-    'nuxt-mq'
-  ],
-  env: {
-    API_BASE_URL: process.env.API_BASE_URL
-  },
+  plugins,
+  modules,
   axios: {
     baseURL: process.env.API_BASE_URL
   },
@@ -82,35 +90,21 @@ module.exports = {
       lg: Infinity
     }
   },
-  markdownit: {
-    preset: 'default',
-    linkify: false,
-    breaks: false,
-    injected: true,
-    html: true,
-    use: [['markdown-it-block-embed']]
-  },
-  build: {
-    vendor: ['axios', 'vee-validate', 'vue-cookie-law', 'vue-scrollto', 'vue-social-sharing'],
+  build: {    
     extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.ya?ml$/,
+        use: 'js-yaml-loader',
+      })
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
-          enforce: 'pre',
+          enforce: "pre",
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+          loader: "eslint-loader",
           exclude: /(node_modules)/,
-          options: {
-            fix: true
-          }
+          options: { fix: true }
         })
       }
-      const urlLoader = config.module.rules.find(rule => rule.loader === 'url-loader')
-      urlLoader.test = /\.(png|jpe?g|gif)$/
-      config.module.rules.push({
-        test: /\.svg$/,
-        loader: 'vue-svg-loader',
-        exclude: /node_modules/
-      })
     }
   }
 }

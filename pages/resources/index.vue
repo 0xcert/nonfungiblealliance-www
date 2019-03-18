@@ -1,14 +1,23 @@
 <template>
-  <div class="faq grid-container">
+  <div class="resources grid-container">
     <div class="grid-x grid-padding-x offset-top">
-      <h1 class="small-12 cell">Resources</h1>
-      <div class="small-12 medium-4 large-3 cell">
+      <h1 class="small-12 cell">
+        Resources
+      </h1>
+      <p class="small-12 cell mb-2 intro">
+        This is a curated list of resources to easily navigate the world of non-fungible tokens. We include anything from simple collectibles to advanced development frameworks. If you think that something is missing, feel free to    <a
+          href="https://github.com/0xcert/nonfungiblealliance-www/edit/master/static/data/resources.yml"
+          target="_blank"
+        >contribute and help improve this page.</a>
+      </p>
+      <div class="small-12 medium-4 large-3 cell"> 
         <ul class="menu">
           <li 
             v-for="(category, index) in categories" 
             :class="{active : category == activeCategory}"
-            :key="category.id"
-            @click="toggle(categories[index])">
+            :key="index"
+            @click="toggle(categories[index])"
+          >
             {{ category }}
           </li>
         </ul>
@@ -18,17 +27,22 @@
           <transition-group 
             name="slide-fade" 
             mode="out-in" 
-            tag="div">
+            tag="div"
+          >
             <div 
               v-for="(item, index) in resources" 
-              :key="index"
+              :key="`resource-${index}`"
               v-show="item.tag.includes(activeCategory) || activeCategory == 'all'"
-              :class="'qa'">
-              <div class="question">{{ item.description }}</div>
+              :class="'qa'"
+            >
+              <div class="question">
+                {{ item.description }}
+              </div>
               <div class="link">
                 <a 
                   :href="item.link" 
-                  target="_blank">
+                  target="_blank"
+                >
                   {{ item.link }}
                 </a>
               </div>
@@ -37,12 +51,12 @@
         </div>
       </div>
     </div>
-    <Subscription/>
+    <Subscription />
   </div>
 </template>
 
 <script>
-import resources from '~/static/data/resources.json'
+import resources from '~/static/data/resources.yml'
 import Subscription from '~/components/Subscription'
 
 export default {
@@ -76,19 +90,25 @@ export default {
 
 <style lang="scss" scoped>
 .body {
+  padding-top: 5px;
+
   a {
     color: $primary;
     text-decoration: underline;
   }
 }
 
+.intro a {
+  text-decoration: underline;
+}
+
 @include breakpoint(medium) {
   h1 {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .body {
-    padding: 0 2rem;
+    padding: 6px 2rem;
     min-height: 600px;
   }
 }

@@ -1,19 +1,23 @@
 <template>
   <div class="for-who">
     <div class="grid-container">
-      <h2 class="text-center mb-6">Who is it for?</h2>
+      <h2 class="text-center mb-6">
+        Who is it for?
+      </h2>
 
       <div class="grid-x grid-margin-x grid-margin-y">
         <div 
           v-for="item in data" 
           :key="item.id" 
-          class="cell small-12 medium-6 large-4 box">
+          class="cell small-12 medium-6 large-4 box"
+        >
           <img 
             class="icon" 
             :src="`/images/${item.icon}`" 
-            :alt="item.title">
+            :alt="item.title"
+          >
           <h4>{{ item.title }}</h4>
-          <p v-html="item.body"/>
+          <p v-html="item.body" />
         </div>
       </div>
     </div>

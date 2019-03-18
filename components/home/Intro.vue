@@ -19,19 +19,22 @@
               <li>Exposure of your project</li>
               <li>Early access to NFT solutions</li>
               <li>Large community and network</li>
-
             </ul>
           </div>
           <nuxt-link 
             to="/members/apply" 
-            class="button primary large mt-1">Become a member</nuxt-link>
+            class="button primary large mt-1"
+          >
+            Become a member
+          </nuxt-link>
         </div>
 
         <div class="cell show-for-medium large-6 medium-6 align-bottom position-relative">
           <img 
             class="illustration" 
             src="/images/top-illustration.svg" 
-            alt="">
+            alt=""
+          >
         </div>
       </div>
     </div>

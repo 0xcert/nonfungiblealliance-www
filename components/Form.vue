@@ -1,38 +1,52 @@
 <template lang="html">
   <div class="newsletter">
-
     <transition 
       mode="out-in" 
-      name="layout">
+      name="layout"
+    >
       <div 
         v-if="state === 1" 
         class="confirm" 
-        key="confirm">
-        <h3 class="text-center">Thank you for applying!</h3>
+        key="confirm"
+      >
+        <h3 class="text-center">
+          Thank you for applying!
+        </h3>
         
-        <p class="text-center">Please check your inbox and <strong>click a confirmation link,</strong>
-          <br >to complete your registration.
+        <p class="text-center">
+          Please check your inbox and <strong>click a confirmation link,</strong>
+          <br>to complete your registration.
         </p>
       </div>
 
       <div 
         v-if="state === 2" 
         class="confirm" 
-        key="error">
-        <h3 class="text-center">Ooops!</h3>
-        <p class="text-center">Something went wrong. Try again later.</p>
+        key="error"
+      >
+        <h3 class="text-center">
+          Ooops!
+        </h3>
+        <p class="text-center">
+          Something went wrong. Try again later.
+        </p>
         <p><a @click="state = 0"> &larr; Go back</a></p>
       </div>
       
       <div 
         v-if="state === 0" 
-        key="form">
+        key="form"
+      >
         <h3 
           v-if="!noTitle" 
-          class="text-center">Sign up for newsletter</h3>
+          class="text-center"
+        >
+          Sign up for newsletter
+        </h3>
         <form 
           @submit.prevent="submit" 
-          novalidate>
+          novalidate
+        >
           <div class="field-group">
             <input 
               v-model="data.email" 
@@ -42,33 +56,39 @@
               autocomplete="email"
               placeholder="Your email"
               data-vv-as="E-mail"
-              type="text" >
+              type="text"
+            >
       
             <button 
               class="button primary" 
               type="submit" 
-              :disabled="!privacy">Subscribe</button>
+              :disabled="!privacy"
+            >
+              Subscribe
+            </button>
           </div>
           <span 
             class="alert" 
-            v-show="errors.has('email')">{{ errors.first('email') }}</span>
+            v-show="errors.has('email')"
+          >{{ errors.first('email') }}</span>
           <div class="agreements">
             <div class="checkbox">
               <input 
                 v-model="privacy" 
                 id="privacy" 
                 name="privacy" 
-                type="checkbox" >
+                type="checkbox"
+              >
               <label for="privacy">
                 I accept <a 
                   href="privacypolicy.pdf" 
-                  target="_blank">Privacy Policy</a> 
+                  target="_blank"
+                >Privacy Policy</a> 
               </label>
             </div>
           </div>
         </form>
       </div>
-
     </transition>
   </div>
 </template>

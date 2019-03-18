@@ -1,0 +1,659 @@
+---
+- link: https://knownorigin.io/
+  description: KnownOrigin
+  tag:
+  - art
+  - marketplace
+
+- link: https://digitalartchain.com/
+  description: Digital Art Chain
+  tag:
+  - art
+
+- link: https://www.codexprotocol.com/
+  description: Codex
+  tag:
+  - art
+
+- link: https://www.artchain.world/
+  description: ArtChain Global
+  tag:
+  - art
+
+- link: https://cryptographics.app/
+  description: Cryptographics
+  tag:
+  - art
+
+- link: https://superrare.co/
+  description: SuperRare
+  tag:
+  - art
+
+- link: https://portion.io/
+  description: Portion
+  tag:
+  - art
+
+- link: http://verifiedcollection.com/
+  description: Verrified Collection
+  tag:
+  - branding
+  - licensing
+
+- link: https://www.opera.com/crypto
+  description: Opera crypto browser
+  tag:
+  - browser
+  - wallet
+
+- link: MLBcryptobaseball.com
+  description: MLB Crypto
+  tag:
+  - collectible
+
+- link: https://tenthousandsu.com/
+  description: SuSquares
+  tag:
+  - collectible
+
+- link: https://www.larvalabs.com/cryptopunks
+  description: Crypto Punks
+  tag:
+  - collectible
+
+- link: https://cryptokaiju.io/
+  description: CryptoKaiju
+  tag:
+  - collectible
+  - physical asset
+
+- link: https://www.ecomi.com/
+  description: Ecomi
+  tag:
+  - collectible
+  - licensing
+
+- link: https://www.cryptokitties.co/
+  description: CryptoKitties
+  tag:
+  - collectible
+
+- link: https://cryptocelebrities.co/
+  description: Crypto Celebrities
+  tag:
+  - collectible
+
+- link: https://hashletes.com/
+  description: Hashlets
+  tag:
+  - collectible
+
+- link: https://www.hedgie.io/
+  description: Hedgie
+  tag:
+  - collectible
+
+- link: https://gitcoin.co/kudos/
+  description: Kudos
+  tag:
+  - collectible
+
+- link: https://playertokens.co/
+  description: Playertokens
+  tag:
+  - collectible
+
+- link: https://www.cryptostrikers.com/
+  description: Crypto Strikers
+  tag:
+  - collectible
+
+- link: https://ethertulips.com/
+  description: Ether Tulips
+  tag:
+  - collectible
+
+- link: http://rarepepedirectory.com/
+  description: Rare Pepe
+  tag:
+  - collectible
+
+- link: https://discord.gg/gNSWat
+  description: Nifty Magicians Discord
+  tag:
+  - community
+
+- link: https://tokntalk.club/
+  description: Tok'n Talk
+  tag:
+  - community
+
+- link: https://www.linkedin.com/company/blockchainacademyid/about/
+  description: Indonesia Blockchain Academy
+  tag:
+  - community
+
+- link: https://streamersconnected.tv/
+  description: Streamers Connected
+  tag:
+  - community
+
+- link: https://blockchainslovakia.sk/
+  description: Blockchain Slovakia
+  tag:
+  - community
+
+- link: https://nonfungiblealliance.org/
+  description: The Non-fungible Alliance
+  tag:
+  - community
+
+- link: https://www.decentralanddaily.com/
+  description: Decentraland Daily
+  tag:
+  - decentraland
+  - news
+
+- link: My-DCL.com
+  description: Decentraland Market Data
+  tag:
+  - decentraland
+  - resources
+
+- link: dclblogger.com
+  description: Blog about Decentraland
+  tag:
+  - decentraland
+  - news
+
+- link: dclplazas.com
+  description: Blog about Decentraland
+  tag:
+  - decentraland
+  - news
+
+- link: dclmap.com
+  description: DCL data visualization
+  tag:
+  - decentraland
+  - resources
+
+- link: DiVinoVineyards.com
+  description: DiVinoVineyards.com
+  tag:
+  - decentraland
+  - physical asset
+
+- link: http://www.blockrocket.tech/
+  description: Blockrocket
+  tag:
+  - development studio
+
+- link: https://kette.io/
+  description: Kette
+  tag:
+  - development studio
+  - physical asset
+
+- link: https://demystify-tech.com/
+  description: Demystify
+  tag:
+  - development studio
+
+- link: http://block3.co/
+  description: block3
+  tag:
+  - development studio
+
+- link: https://www.blocha.ch
+  description: Blocha
+  tag:
+  - development studio
+
+- link: https://horizongames.net/
+  description: Horizon Games
+  tag:
+  - development studio
+
+- link: https://metaps.com/en/
+  description: Metaps
+  tag:
+  - development studio
+
+- link: https://www.decenter.com
+  description: Decenter
+  tag:
+  - development studio
+
+- link: http://blockade.games/
+  description: Blockade Games
+  tag:
+  - development studio
+
+- link: https://www.dapperlabs.com/
+  description: Dapper
+  tag:
+  - development studio
+
+- link: https://www.nifty.gg/
+  description: NFT Hackaton, news
+  tag:
+  - event
+
+- link: https://ethlend.io/#/main
+  description: EthLend
+  tag:
+  - finance
+
+- link: etheremon.com
+  description: Etheremon
+  tag:
+  - game
+
+- link: chainbreakers.io
+  description: Chainbreakers
+  tag:
+  - game
+
+- link: socouch.com
+  description: Ember Sword
+  tag:
+  - game
+
+- link: https://eth.town/
+  description: ETH.town
+  tag:
+  - game
+
+- link: https://cryptocarz.io/
+  description: CryptoCarz
+  tag:
+  - game
+
+- link: https://hyperdragons.alfakingdom.com
+  description: Hyper Dragons
+  tag:
+  - game
+
+- link: https://godsunchained.com/
+  description: Gods Unchained
+  tag:
+  - game
+
+- link: https://0x.games/
+  description: 0xGames (0x Universe)
+  tag:
+  - game
+
+- link: https://www.cryptocup.io/
+  description: Cryptocup
+  tag:
+  - game
+
+- link: https://sorare.com/
+  description: Sorare
+  tag:
+  - game
+  - collectible
+
+- link: https://www.etheremon.com/
+  description: Etheremon
+  tag:
+  - game
+  - collectible
+
+- link: https://cryptocrystal.io/
+  description: CryptoCrystal
+  tag:
+  - game
+  - collectible
+
+- link: https://www.cryptobeasties.com/
+  description: Crypto Beasties
+  tag:
+  - game
+  - collectible
+
+- link: https://imps.me/
+  description: Ether Kingdoms
+  tag:
+  - game
+
+- link: https://www.cubego.io/
+  description: Cubego
+  tag:
+  - game
+
+- link: https://tradestars.app
+  description: Trade Stars
+  tag:
+  - game
+
+- link: https://cryptage.co/
+  description: Cryptage
+  tag:
+  - game
+
+- link: https://neondistrict.io/
+  description: Neon District
+  tag:
+  - game
+
+- link: https://www.cryptorome.io/
+  description: Crypto Rome
+  tag:
+  - game
+  - composables
+
+- link: http://hashmark.io/
+  description: Hashmark
+  tag:
+  - marketing agency
+
+- link: Opensea.io
+  description: NFT Marketplace
+  tag:
+  - marketplace
+
+- link: http://rarebits.io/
+  description: RareBits
+  tag:
+  - marketplace
+
+- link: https://www.auctionity.com/
+  description: Auctionity
+  tag:
+  - marketplace
+
+- link: https://niftygateway.com/
+  description: Nifty Gateway
+  tag:
+  - marketplace
+
+- link: https://ensnifty.com/
+  description: ENS Nifty
+  tag:
+  - marketplace
+
+- link: https://po8.io
+  description: PO8
+  tag:
+  - marketplace
+  - physical asset
+
+- link: https://mintable.app
+  description: Mintable
+  tag:
+  - minter
+
+- link: https://mokens.io
+  description: Mokens
+  tag:
+  - minter
+  - composables
+
+- link: Decentralanddaily.com
+  description: news about Decentraland
+  tag:
+  - news
+
+- link: https://medium.com/nfty-news
+  description: Nifty News by Brian Flynn
+  tag:
+  - news
+
+- link: https://thecryptocollectors.com/
+  description: They Crypto Collectors
+  tag:
+  - news
+
+- link: https://cryptobitgames.com/
+  description: CrypotBit Games
+  tag:
+  - news
+
+- link: https://blockchaingamer.net/
+  description: Blockchaingamer.net
+  tag:
+  - news
+
+- link: https://spring.wetrust.io
+  description: Spring by WeTrust
+  tag:
+  - philanthropy
+
+- link: https://cryptocorals.co/
+  description: Crypto Corals
+  tag:
+  - philanthropy
+
+- link: https://phantasma.io/
+  description: Phantasma protocol
+  tag:
+  - platform
+
+- link: https://pixura.io
+  description: Pixura
+  tag:
+  - platform
+
+- link: https://www.unik-name.com/
+  description: unik-name
+  tag:
+  - platform
+
+- link: https://wax.io/
+  description: WAX
+  tag:
+  - platform
+
+- link: https://www.enjin.com/
+  description: Enjin
+  tag:
+  - platform
+
+- link: https://0xcert.org/
+  description: 0xcert
+  tag:
+  - platform
+
+- link: https://district0x.io/
+  description: District0x
+  tag:
+  - platform
+
+- link: https://www.unico.global/
+  description: Unico
+  tag:
+  - platform
+  - eos
+
+- link: https://farsightpodcast.com/
+  description: Farsight podcast
+  tag:
+  - podcast
+  - news
+
+- link: https://propy.com/
+  description: Propy
+  tag:
+  - physical asset
+
+- link: https://realestatedoc.io/
+  description: RealEstateDoc
+  tag:
+  - physical asset
+
+- link: https://bit.ly/2S4UnDM
+  description: Cryptocurrency 2018 Annual CryptoCurrency Report featuring NFT by NonFungible.com
+  tag:
+  - resources
+
+- link: NonFungible.com
+  description: NFT Market Data
+  tag:
+  - resources
+
+- link: Cryptodecks.co
+  description: NFT Market Data
+  tag:
+  - resources
+
+- link: https://www.dapp.com/
+  description: dapp.com
+  tag:
+  - resources
+
+- link: https://cryptodecks.co/
+  description: CryptoDecks
+  tag:
+  - resources
+
+- link: https://www.coingecko.com/en
+  description: CoinGecko
+  tag:
+  - resources
+
+- link: https://www.covalenthq.com
+  description: Covalent
+  tag:
+  - resources
+
+- link: mintingcoins.com
+  description: mintingcoins.com
+  tag:
+  - resources
+
+- link: https://dappradar.com/
+  description: DappRadar
+  tag:
+  - resources
+
+- link: https://www.stateofthedapps.com/
+  description: State of the dapps
+  tag:
+  - resources
+
+- link: https://etherscan.io/
+  description: Etherscan
+  tag:
+  - resources
+
+- link: https://matic.network/
+  description: Matic Network
+  tag:
+  - scaling solution
+
+- link: https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md
+  description: Github EIP 721
+  tag:
+  - standard
+
+- link: https://github.com/loomnetwork/erc721x
+  description: Github ERC 721x
+  tag:
+  - standard
+
+- link: https://github.com/ethereum/EIPs/issues/998
+  description: Github EIP 998
+  tag:
+  - standard
+
+- link: https://github.com/ethereum/eips/issues/1155
+  description: Github EIP 1155
+  tag:
+  - standard
+
+- link: https://github.com/unicoeos/eosio.nft
+  description: Github EOS NFT
+  tag:
+  - standard
+  - eos
+
+- link: https://github.com/neo-project/proposals/pull/41/files
+  description: Github NEO NFT
+  tag:
+  - standard
+
+- link: https://github.com/qtumproject/QRC721Token
+  description: Github QTUM NFT
+  tag:
+  - standard
+
+- link: http://kauku.io/
+  description: Kauku Network
+  tag:
+  - supply chain
+  
+- link: https://www.nft.nyc/
+  description: NFT.NYC
+  tag:
+  - event
+  
+- link: https://brave.com/
+  description: Brave Browser 
+  tag:
+  - browser
+  
+- link: https://decentraland.org/
+  description: Decentraland
+  tag:
+  - decentraland
+  
+- link: https://eosknights.io/
+  description: EOS Knights
+  tag:
+  - EOS
+  - game
+  - collectible
+  
+- link: https://loomx.io/
+  description: Loom Network
+  tag:
+  - scaling solution
+
+- link: https://twitter.com/GianniDalerta/lists/nft
+  description: Gianni Dalerta NFT Twitter list
+  tag:
+  - twitter
+
+- link: https://twitter.com/0xcert/lists/non-fungible-alliance
+  description: The Non-fungible Alliance Twitter list
+  tag:
+  - twitter
+
+- link: https://trustwalletapp.com/
+  description: Trust wallet
+  tag:
+  - wallet
+
+- link: https://lumiwallet.com/
+  description: Lumi wallet
+  tag:
+  - wallet
+
+- link: http://www.toshi.org/
+  description: Toshi wallet
+  tag:
+  - wallet
+
+- link: https://enjinwallet.io/
+  description: Enjin wallet
+  tag:
+  - wallet
+
+- link: https://vault.io/
+  description: Vault wallet
+  tag:
+  - wallet
+
+- link: https://bitski.com
+  description: Bitski
+  tag:
+  - wallet
+
+- link: https://mint.enjin.io/products/create-tokens
+  description: Enjin token minter
+  tag:
+  - wallet

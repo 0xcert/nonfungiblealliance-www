@@ -1,0 +1,901 @@
+---
+-   name: "0xcert"
+    status: won
+    website: "https://0xcert.org"
+    description: "0xcert Protocol aims to provide a foundation for trustless, non-fungible tokens on the blockchain, and to unify the community to its fullest."
+    twitter: "https://twitter.com/0xcert"
+    facebook:  https://www.facebook.com/0xcert/notifications/
+    github: "https://github.com/0xcert"
+    medium: 
+    logo: 0xcert.svg
+
+-   name: "SoCouch"
+    status: won
+    website: "https://socouch.com"
+    description: "Developer and publisher of blockchain-enhanced games creating better and fairer gameplay experiences for MMO gamers."
+    twitter: "https://twitter.com/PlayEmberSword"
+    facebook:  https://www.facebook.com/PlayEmberSword
+    github: 
+    medium: 
+    logo: socouch.png
+
+-   name: "Doctrina"
+    status: won
+    website: "https://si.doctrina.biz"
+    description: "Doctrina’s mission is to deliver high-quality online education to pharmacists, specialist retailers, and other healthcare professionals through effective interactive video courses."
+    twitter: ""
+    facebook:  
+    github: 
+    medium: 
+    logo: doctrina.svg
+
+-   name: "Cryptoverse (Tok 'n Talk)"
+    status: won
+    website: "https://tokntalk.club"
+    description: "Tok’n’talk is a social platform for token owners. Explore token oriented communities. Grow your characters and earn rewards from your supporters."
+    twitter: "https://twitter.com/tokntalkclub"
+    facebook: 
+    github: 
+    medium: 
+    logo: tokntok.svg
+
+-   name: "ETH.town"
+    status: won
+    website: "https://eth.town"
+    description: "In ETH.TOWN you are a real estate investor working with the Crypto Tower. Buy low, sell high, get bonuses and grow your share in the whole crypto enterprise. Out-wit! Out-play! Out-strategise!"
+    twitter: "https://twitter.com/eth_town"
+    facebook:  https://facebook.com/eth.town
+    github: 
+    medium: 
+    logo: eth-town.png
+
+-   name: "Blockrocket"
+    status: won
+    website: "http://www.blockrocket.tech"
+    description: "Block Rocket is the development studio behind KnownOrigin and many other projects. Services range from consultancy, customer engagement to delivering non-fungible token solutions.  "
+    twitter: "https://twitter.com/BlockRocketTech"
+    facebook: 
+    github: 
+    medium: 
+    logo: block-rocket.png
+
+-   name: "KnownOrigin"
+    status: won
+    website: "https://knownorigin.io"
+    description: "Empowering artists & collectors to create, discover and own rare assets on the most respected Ethereum marketplace"
+    twitter: "https://twitter.com/knownorigin_io"
+    facebook: 
+    github: 
+    medium: 
+    logo: known-origin.png
+
+-   name: "dapp.com"
+    status: won
+    website: "https://www.dapp.com"
+    description: "Dapp.com is a space where everyone can learn about what decaentralized technology is and how it can transform the world. We help you understand, create and enjoy this exciting new technology with confidence. Developers can gain the tools and knowledge to bring their innovative decentralized tech ideas to market. Dapps can be showcased to and reviewed by users around the world. Users can discover high quality, reliable dapps which will add value and ease to their lives."
+    twitter: "https://twitter.com/DApp_com"
+    facebook:  https://www.facebook.com/dappdotcom
+    github: 
+    medium: 
+    logo: dapp.png
+
+-   name: "Digital Art Chain"
+    status: won
+    website: "https://digitalartchain.com"
+    description: "Publish your own digital art on the blockchain. Digital Art is published on IPFS - InterPlanetary File System and associated to Ethereum ERC721 token which enables you own/sell/purchase published Digital Art."
+    twitter: "https://twitter.com/ookimaki_JP"
+    facebook: 
+    github: 
+    medium: 
+    logo: artchain.png
+
+-   name: "OpenSea"
+    status: won
+    website: "https://opensea.io"
+    description: "Founded in November 2017, OpenSea is proud to remain the largest general marketplace for crypto collectibles, with the broadest set of categories (50 and growing), the most items (over 1.2 million), and the best prices. We’re doing this through a community of passionate users and developers. We partner with game developers to create customizable storefronts for users to automatically buy and sell their crypto collectibles."
+    twitter: "https://twitter.com/projectopensea"
+    facebook: 
+    github: 
+    medium: 
+    logo: opensea.png
+
+-   name: "Mokens"
+    status: won
+    website: "https://mokens.io"
+    description: "The mokens website provides a simple way for you to design and create your own crypto-collectibles. Each crypto-collectible that is made is a moken. They are stored on the ethereum blockchain. Each moken is unique. It is not possible to have two mokens with the same name. A moken with a similar name as an existing one and that is about the same thing will be labeled as a forgery and a link to the original will be provided. You can create mokens about many different things. It is your choice."
+    twitter: "https://twitter.com/mokens_io"
+    facebook: 
+    github: 
+    medium: 
+    logo: mokens.png
+
+-   name: "Kette"
+    status: won
+    website: "https://kette.io"
+    description: "Securing the most valuable assets of people and organizations"
+    twitter: "https://twitter.com/KETTE_IO"
+    facebook: 
+    github: 
+    medium: 
+    logo: kette.png
+
+-   name: "SuSquares"
+    status: won
+    website: "https://tenthousandsu.com"
+    description: "Su Squares are cute little blocks which you can purchase and then attach a picture and website link to."
+    twitter: "https://twitter.com/susquares"
+    facebook: 
+    github: 
+    medium: 
+    logo: su-squares.png
+
+-   name: "CryptoCarz"
+    status: won
+    website: "https://cryptocarz.io"
+    description: "CryptoCarz is a multiplayer, VR enabled racing experience, powerd by blockchain technology, allowing you to build and drive your own ride online where our racetracks will let you test your skills."
+    twitter: "https://twitter.com/cryptocarz"
+    facebook: https://www.facebook.com/cryptocarz
+    github: 
+    medium: 
+    logo: crypto-carz.png
+
+-   name: "CryptoDecks"
+    status: won
+    website: "https://cryptodecks.co"
+    description: "Cryptodecks is an NFT tracker and a market explorer built with collectors and NFT traders in mind. We aggregate and visualize NFT transactions and help you make sense of the data. CryptoDecks is part of D1 Labs, a new product lab company focused on crypto."
+    twitter: "https://twitter.com/CryptoDecksHQ"
+    facebook: 
+    github: 
+    medium: 
+    logo: crypto-decks.png
+
+-   name: "Unico"
+    status: won
+    website: "https://www.unico.global"
+    description: "UNICO is building enterprise-grade NFT solutions on the EOS blockchain. Our goal is to enable companies to add value to existing and new products by using EOS NFT technology. Having pioneered this technology, we are best placed to deliver turnkey, consumer-ready business solutions which integrate the whole product technology stack (Android/iOS mobile apps, web interfaces, smart contracts)."
+    twitter: "https://twitter.com/unico_global"
+    facebook:  https://www.facebook.com/unico.fans
+    github: 
+    medium: 
+    logo: unico.png
+
+-   name: "Codex"
+    status: won
+    website: "https://www.codexprotocol.com"
+    description: "Codex Protocol is a decentralized registry for unique assets backed by an industry consortium representing 5,000 auction houses. Codex is initially focused on the $2 trillion Art & Collectibles asset class (art, wine, jewelry, watches, collectible cars, etc.), where the need for a registry is greatest because no centralized title registry exists. For unique assets, provenance (the identity, chain of ownership, and other metadata about an item) is fundamental to value. Verifying this critical information is a constant challenge that creates costly friction in the ecosystem."
+    twitter: "https://twitter.com/CodexProtocol"
+    facebook: 
+    github: 
+    medium: 
+    logo: codex.png
+
+-   name: "NonFungible"
+    status: won
+    website: "https://nonfungible.com"
+    description: "Market discovery and analysis for non-fungible tokens."
+    twitter: "https://twitter.com/nonfungibles"
+    facebook:  https://www.facebook.com/NonFungibles/
+    github: 
+    medium: 
+    logo: non-fungible.png
+
+-   name: "Vault"
+    status: won
+    website: "https://vault.io"
+    description: "'Blockchain infrastructure has set the stage for a new generation of distributed applications that are valuable to everyone, not just asset traders. From financial microtransactions to easy-to-audit contracts to entire digital worlds powered by secure, portable ownership, dApps are making real the trust-economics of consensus ledger technology. We''re on a mission to give everyone in the world access to the decentralized future.'"
+    twitter: "https://twitter.com/vaultio"
+    facebook:  https://facebook.com/vaultio
+    github: 
+    medium: 
+    logo: vault.png
+
+-   name: "Doctrina"
+    status: won
+    website: "https://si.doctrina.biz/farmacevti"
+    description: "'Doctrina’s mission is to deliver high-quality online education to pharmacists, specialist retailers, and other healthcare professionals through effective interactive video courses. We believe that professional development is crucial. That''s why we make the latest information available to pharmaceutical companies, pharmacies and healthcare professionals anytime and anywhere.'"
+    twitter:
+    facebook:
+    github: 
+    medium: 
+    logo: doctrina.svg
+
+-   name: "Hashmark"
+    status: won
+    website: "http://hashmark.io"
+    description: "We create brands, raise funds, plan strategies and establish partnerships for long-term growth through tailor-made services. Our world-class team and a global network of partners are determined to help your business co-create the new era of the internet."
+    twitter: "https://twitter.com/HashMark_io"
+    facebook: 
+    github: 
+    medium: 
+    logo: hashmark.png
+
+-   name: "Hyper Dragons"
+    status: won
+    website: "https://hyperdragons.alfakingdom.com"
+    description: "HyperDragons is a digital collectible game built on the Ethereum blockchain."
+    twitter: "https://twitter.com/MixHyperDragons"
+    facebook:  https://www.facebook.com/MixHyperDragons/
+    github: 
+    medium: 
+    logo: hyperdragons.png
+
+-   name: "Auctionity"
+    status: won
+    website: "https://www.auctionity.com"
+    description: "'The world''s largest blockchain auction house for cryptocollectibles. Dapp on Ethereum blockchain to auction NFTs in ether.'"
+    twitter: "https://twitter.com/auctionity"
+    facebook: 
+    github: 
+    medium: 
+    logo: auctionity.png
+
+-   name: "Fuel Games (Gods Unchained)"
+    status: won
+    website: "https://godsunchained.com"
+    description: "'A TCG on the Ethereum blockchain that uses NFT''s to bring real ownership to in-game assets.'"
+    twitter: "https://twitter.com/godsunchained"
+    facebook: 
+    github: 
+    medium: 
+    logo: gods-unchained.png
+
+-   name: "EthLend"
+    status: won
+    website: "https://ethlend.io/#/main"
+    description: "ETHLend is a decentralized lending application (DAPP) running on the Ethereum Network that offers secure, peer to peer lending Smart Contracts."
+    twitter: "https://twitter.com/AaveAave"
+    facebook:  https://twitter.com/AaveAave
+    github: 
+    medium: 
+    logo: aave.png
+
+-   name: "Demystify"
+    status: won
+    website: "https://demystify-tech.com"
+    description: "'Your World''s First: Dedicated Platform for Crypto Gift Cards & TRUE ASIC-resistant Proof-of-CAPTCHA'"
+    twitter: "https://twitter.com/Demystify_Tech"
+    facebook:  https://www.facebook.com/DemystifyBlockchain
+    github: 
+    medium: 
+    logo: demystify.png
+
+-   name: "0xGames (0x Universe)"
+    status: won
+    website: "https://0x.games"
+    description: "We create revolutionary blockchain games."
+    twitter: "https://twitter.com/0xUniverse"
+    facebook:  https://www.facebook.com/0xGames
+    github: 
+    medium: 
+    logo: 0xgame.png
+
+-   name: "block3"
+    status: won
+    website: "http://block3.co"
+    description: "block 3 strategise, design, engineer, market and launch your blockchain business."
+    twitter: "https://twitter.com/block3_co"
+    facebook:  https://www.facebook.com/block3.co/
+    github: 
+    medium: 
+    logo: block3.png
+
+-   name: "Cryptocup"
+    status: won
+    website: "https://www.cryptocup.io"
+    description: "CryptoCup provides a new way of betting in the sports industry through a Smart Contract which runs in the Ethereum Blockchain."
+    twitter: "https://twitter.com/cryptocup_io"
+    facebook:  https://www.facebook.com/Cryptocup
+    github: 
+    medium: 
+    logo: webp.png
+
+-   name: "Sorare"
+    status: won
+    website: "https://sorare.com"
+    description: "Buy rare trading cards of your favourite players. Get access to games with big crypto rewards."
+    twitter: "https://twitter.com/SorareHQ"
+    facebook:  https://www.facebook.com/SorareFoot/
+    github: 
+    medium: 
+    logo: sorare.png
+
+-   name: "District0x"
+    status: won
+    website: "https://district0x.io"
+    description: "A network of decentralized markets and communities. Create, operate, and govern. Powered by Ethereum, Aragon, and IPFS."
+    twitter: "https://twitter.com/district0x"
+    facebook: 
+    github: 
+    medium: 
+    logo: d0x.png
+
+-   name: "Blockchaingamer.net"
+    status: won
+    website: "https://blockchaingamer.net"
+    description: "Blockchain Game DApp News & Market Community"
+    twitter: "https://twitter.com/blockchaingamr"
+    facebook: 
+    github: 
+    medium: 
+    logo: blockchaingamernet.png
+
+-   name: "CoinGecko"
+    status: won
+    website: "https://www.coingecko.com/en"
+    description: "CoinGecko is a coin market ranking chart app that ranks digital currencies by developer activity, community, and liquidity."
+    twitter: "https://twitter.com/coingecko"
+    facebook:  https://www.facebook.com/coingecko
+    github: 
+    medium: 
+    logo: coingecko.png
+
+-   name: "Matic Network"
+    status: won
+    website: "https://matic.network"
+    description: "Matic Network brings massive scale to Ethereum using an adapted version of Plasma with PoS based side chains."
+    twitter: "https://twitter.com/maticnetwork"
+    facebook: 
+    github: 
+    medium: 
+    logo: matic.png
+
+-   name: "DiVinoVineyards.com"
+    status: won
+    website: "DiVinoVineyards.com"
+    description: "Coming soon"
+    twitter:
+    facebook:
+    github: 
+     medium: 
+    logo: divino.png
+
+-   name: "Verrified Collection"
+    status: won
+    website: "http://verifiedcollection.com"
+    description: "Verified Collection™ is building a connected world where consumers have True Ownership of the physical and digital assets they collect."
+    twitter: "https://twitter.com/VECX_HQ"
+    facebook:  https://www.facebook.com/verifiedcollection/
+    github: 
+    medium: 
+    logo: verified-collection.png
+
+-   name: "Etheremon"
+    status: won
+    website: "https://www.etheremon.com"
+    description: "Etheremon is the first game opening an era of Game 3.0. It creates a world of Mons (Etheremons) where you can capture, train, transform, and trade them with others."
+    twitter: "https://twitter.com/myetheremon"
+    facebook:  https://www.facebook.com/etheremon
+    github: 
+    medium: 
+    logo: etheremon.png
+
+-   name: "Crypto Punks (Larva Labs)"
+    status: won
+    website: "https://www.larvalabs.com/cryptopunks"
+    description: "10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain. The project that inspired the modern CryptoArt movement."
+    twitter: "https://twitter.com/larvalabs"
+    facebook:  
+    github: 
+    medium: 
+    logo: larva-labs.svg
+
+-   name: "Invented4"
+    status: won
+    website: "https://inventedfor.com/en"
+    description: "Crowd-sourcing platform, where inventors can easily cash in their product idea without any financial input or public disclosure."
+    twitter:
+    facebook: "https://www.facebook.com/inventedfor?fref=ts"
+    github: 
+    medium: 
+    logo: invented4.png
+
+-   name: "Lumi Wallet"
+    status: won
+    website: "https://lumiwallet.com"
+    description: "Secure and easycrypto wallet & exchange for mobile Buy, store and exchange Bitcoin,Bitcoin cash, Ethereum and tokens in one wallet."
+    twitter: "https://twitter.com/Lumi_wallet"
+    facebook:  https://www.facebook.com/lumiwallet
+    github: 
+    medium: 
+    logo: lumi-collect.png
+
+-   name: "CryptoCrystal"
+    status: won
+    website: "https://cryptocrystal.io"
+    description: "CryptoCrystal are sentient Shiny Crystals that have personalities similar to human while being overly cute like pet animals."
+    twitter: "https://twitter.com/_cryptocrystal"
+    facebook: 
+    github: 
+    medium: 
+    logo: cryptocrystal.png
+
+-   name: "Nifty Gateway"
+    status: won
+    website: "https://niftygateway.com/#/home"
+    description: "Nifty GatewayBuy and sell Crypto Collectibles with USD."
+    twitter: "https://twitter.com/niftygateway"
+    facebook: 
+    github: 
+    medium: 
+    logo: nifty-gateway.png
+
+-   name: "Blocha"
+    status: won
+    website: "https://www.blocha.ch"
+    description: "Blocha GmbH is a Swiss-based blockchain startup working on a ecosystem based on the ethereum protocol. Important documents such as a whitepaper, project plan and more will be released in Q4 2018."
+    twitter: "https://twitter.com/Blocha_ch"
+    facebook: 
+    github: 
+    medium: 
+    logo: bloch.png
+
+-   name: "PlayStakes (Crypto Beasties)"
+    status: won
+    website: "https://www.cryptobeasties.com"
+    description: "CryptoBeasties is a blockchain-backed Trading Card Game."
+    twitter: "https://twitter.com/CryptoBeasties"
+    facebook:  https://www.facebook.com/cryptobeasties/
+    github: 
+    medium: 
+    logo: cryptobeasties.png
+
+-   name: "CryptoKaiju"
+    status: won
+    website: "https://cryptokaiju.io"
+    description: "Collectible Vinyl Toys Powered by the Ethereum Blockchain"
+    twitter: "https://twitter.com/CryptoKaijuIO"
+    facebook:  https://facebook.com/CryptoKaiju
+    github: 
+    medium: 
+    logo: crypto-kaiju.png
+
+-   name: "Covalent"
+    status: won
+    website: "https://www.covalenthq.com"
+    description: "Covalent is a Smart Contract Data Intelligence Platform that is empowering decentralized application (dApp) developers to understand the usage of their smart contracts with granular insights."
+    twitter: "https://twitter.com/covatoken"
+    facebook:  https://facebook.com/CovalentHq/
+    github: 
+    medium: 
+    logo: covalent.png
+
+-   name: "mintingcoins.com"
+    status: won
+    website: "mintingcoins.com"
+    description: "Minting Coins® is your top source for Bitcoin & Blockchain Technology News, & Education."
+    twitter: "https://twitter.com/mintingcoins"
+    facebook:  https://www.facebook.com/MintingCoins
+    github: 
+    medium: 
+    logo: minting-coins.png
+
+-   name: "Indonesia Blockchain Academy"
+    status: won
+    website: "https://www.linkedin.com/company/blockchainacademyid/about"
+    description: "Indonesia Blockchain Academy is an initiative to proliferate the usage of blockchain in Indonesia."
+    twitter: ""
+    facebook: 
+    github: 
+    medium: 
+    logo: iba.png
+
+-   name: "Horizon Games"
+    status: won
+    website: "https://horizongames.net"
+    description: "'Horizon makes blockchain-powered video games for dreamers, futurists, and digital citizens. We''re pioneering a new dimension of gaming that belongs to its players.'"
+    twitter: "https://twitter.com/0xHorizonGames"
+    facebook: 
+    github: 
+    medium: 
+    logo: horizon.png
+
+-   name: "Farsight podcast"
+    status: won
+    website: "https://farsightpodcast.com"
+    description: "Bitcoin, Crypto Games, NFTs"
+    twitter: "https://twitter.com/farsight_series"
+    facebook: 
+    github: 
+    medium: 
+    logo: farsight-podcast.png
+
+-   name: "Ether Kingdoms (Imp token)"
+    status: won
+    website: "https://imps.me"
+    description: "First cryptocurrency game with Proof Of Stake mining! Not literally POS. But literally mining!"
+    twitter: "https://twitter.com/imptoken"
+    facebook:  https://www.facebook.com/imptoken/
+    github: 
+    medium: 
+    logo: ether-kingdom.jpg
+
+-   name: "Decentraland Daily"
+    status: won
+    website: "https://www.decentralanddaily.com"
+    description: "Fresh news from #Decentraland everyday!"
+    twitter: "https://twitter.com/DCLDaily"
+    facebook:  http://www.facebook.com/DCLDaily
+    github: 
+    medium: 
+    logo: decentralanddaily.png
+
+-   name: "Ecomi"
+    status: won
+    website: "https://www.ecomi.com"
+    description: "We’re bringing Premium Licensed Digital Collectibles to the Blockchain"
+    twitter: "https://twitter.com/ecomi_"
+    facebook:  https://www.facebook.com/ecomi.ecosystem
+    github: 
+    medium: 
+    logo: ecomi.png
+
+-   name: "Cubego"
+    status: won
+    website: "https://www.cubego.io"
+    description: "A world built of Cubegoes, 3D cubes that enhance your creativity. Build your unique character (Cubegon) and have its copyright; then you can trade your Cubegon for tokens or join the battle for amazing rewards."
+    twitter: "https://twitter.com/cubego_io"
+    facebook:  https://www.facebook.com/cubego.io/
+    github: 
+    medium: 
+    logo: cubego.png
+
+-   name: "Kauku Network"
+    status: won
+    website: "http://kauku.io"
+    description: "Coming soon"
+    twitter:
+    facebook:
+    github: 
+    medium: 
+    logo: kauku.png
+
+-   name: "Trade Stars"
+    status: won
+    website: "https://tradestars.app"
+    description: "'The world''s #1 blockchain fantasy sports game'"
+    twitter:
+    facebook:
+    github: 
+    medium: 
+    logo: trade-stars.png
+
+-   name: "DappRadar"
+    status: won
+    website: "https://dappradar.com"
+    description: "DappRadar provides information and insights about all the existing dapps! At the tap of your finger, find the most successful and used decentralized games, casinos, and marketplaces, among others."
+    twitter: "https://twitter.com/dappradar"
+    facebook:  https://facebook.com/dappradar
+    github: 
+    medium: 
+    logo: dapp-radar.png
+
+-   name: "WeTrust (Spring)"
+    status: won
+    website: "https://spring.wetrust.io"
+    description: "WeTrust aims to provide decentralized financial services and create a more inclusive financial system which allows capital to reach those in need without bias, discrimination, or unnecessary hurdles."
+    twitter: "https://twitter.com/wetrustplatform"
+    facebook:  https://www.facebook.com/wetrustplatform
+    github: 
+    medium: 
+    logo: wetrust.png
+
+-   name: "ArtChain Global"
+    status: won
+    website: "https://www.artchain.world"
+    description: "ArtChain Global, ACG is a revolution in registration, tracking, protection and accountability for artwork."
+    twitter: "https://twitter.com/artchainglobal"
+    facebook:  https://www.facebook.com/artchain.world
+    github: 
+    medium: 
+    logo: artchain.png
+
+-   name: "Metaps"
+    status: won
+    website: "https://metaps.com/en"
+    description: "Change the future of money and economy"
+    twitter: "https://twitter.com/Metaps_PR"
+    facebook:  https://www.facebook.com/metaps.jp
+    github: 
+    medium: 
+    logo: metaps.png
+
+-   name: "PO8"
+    status: won
+    website: "https://po8.io"
+    description: "Marine Archaeology on the Blockchain. Leveraging blockchain technology to recover and reshape ownership of sunken artifacts from our ocean floors."
+    twitter: "https://twitter.com/PO8Coin"
+    facebook:  https://www.facebook.com/po8tech/
+    github: 
+    medium: 
+    logo: po8.png
+
+-   name: "Pixura"
+    status: won
+    website: "https://pixura.io"
+    description: "'Pixura is a platform for creating, tracking, and exchanging crypto collectibles. We offer GUI tools for non-technical users and expose powerful APIs for developers, as well as custom integrations. Our smart contracts leverage Open Zepplin''s ERC 721 standard solidity contracts.'"
+    twitter: "https://twitter.com/pixura_io"
+    facebook: 
+    github: 
+    medium: 
+    logo: pixura.png
+
+-   name: "Decenter (Cryptographics)"
+    status: won
+    website: "https://www.decenter.com"
+    description: "Decenter is an R&D center and project incubator focused primarily on building on the Ethereum platform. Our passion is building a more decentralized Internet by utilizing leading-edge technologies."
+    twitter: "https://twitter.com/DecenterTeam"
+    facebook: 
+    github: 
+    medium: 
+    logo: decenter.png
+
+-   name: "Mintable"
+    status: won
+    website: "https://mintable.app"
+    description: "Easily Mint, Manage, and Browse ERC-721 items on the Ethereum blockchain"
+    twitter: "https://twitter.com/MintableApp"
+    facebook: 
+    github: 
+    medium: 
+    logo: mintable.png
+
+-   name: "Bitski"
+    status: won
+    website: "https://bitski.com"
+    description: "Build Usable Blockchain Apps - Bitski is a hosted wallet SDK for apps using the blockchain. "
+    twitter: "https://twitter.com/bitski"
+    facebook: 
+    github: 
+    medium: 
+    logo: bitski.png
+
+-   name: "Streamers Connected"
+    status: won
+    website: "https://streamersconnected.tv"
+    description: "Streamers Connected, a community 'For Streamers by Streamers' to bring together content creators, developers, artists, company reps and even viewers and fans."
+    twitter: "https://twitter.com/STRECONN"
+    facebook: "https://www.facebook.com/STRECONN"
+    github: 
+    medium: 
+    logo: streamers-connected.png
+
+-   name: "DCL Plazas"
+    status: won
+    website: "https://dclplazas.com"
+    description: "DCL Plazas is an independent news, blog and events website dedicated to the expansion and success of the Decentraland project. The future is Decentralized."
+    twitter: "https://twitter.com/dcl_plazas"
+    facebook: "https://www.facebook.com/dclplazas"
+    github: 
+    medium: 
+    logo: dcl-plazas.png
+
+-   name: "unik-name"
+    status: won
+    website: "https://www.unik-name.com"
+    description: "Universal naming protocol relying on secure digital identifiers. We build the Universal Naming System, a protocol to deploy on every Web and Crypto app for users to have one single, simple and secure digital identifier to use and to share."
+    twitter: "https://twitter.com/UnikName_UNS"
+    facebook:  
+    github: 
+    medium: 
+    logo: unik-name.png
+
+-   name: "Phantasma protocol"
+    status: won
+    website: "https://phantasma.io"
+    description: "Phantasma introduces a decentralized content distribution system running on the blockchain, with strong emphasis on privacy and security. Phantasma is a platform where users control their own content instead of relying on third party entities to host, secure and manage it for them"
+    twitter: "https://twitter.com/phantasmachain"
+    facebook:  
+    github: 
+    medium: 
+    logo: phantasma.png
+
+-   name: "Blockade Games"
+    status: won
+    website: "http://blockade.games"
+    description: "Blockade Games specializes in integrating blockchain and alternate reality components into puzzles and games to create experiences that transcend the digital world. Our first fully featured game, Neon District, is a crafting strategy RPG set in a tech-noir landscape."
+    twitter: "https://twitter.com/neondistrictRPG"
+    facebook:  https://www.facebook.com/neondistrictRPG/
+    github: 
+    medium: 
+    logo: neon-district.png
+
+-   name: "Blockchain Slovakia"
+    status: won
+    website: "https://blockchainslovakia.sk"
+    description: "We are a civic association that brings together researchers, developers, entrepreneurs, regulators, investors and the public to support blockchain technology in Slovakia."
+    twitter: "https://twitter.com/BlockchainSK"
+    facebook:  https://www.facebook.com/blockchainslovakia/
+    github: 
+    medium: 
+    logo: blockchain-slovakia.png
+
+-   name: "Block Base"
+    status: won
+    website: "https://block-base.co"
+    description: "Consulting business for blockchain related technology. Planning and development of products utilizing blockchain technology, prototyping products quickly and repeatedly searching for really useful blockchain use cases."
+    twitter: ""
+    facebook:  
+    github: 
+    medium: 
+    logo: block-base.svg
+
+-   name: "Arnold Waldstein (honorary membership)"
+    status: won
+    website: "http://arnoldwaldstein.com"
+    description: "Arnold Waldstein is a well-known market strategist, philanthropist, and activist who promotes the world of NFTs and applies them to his admirable causes has recently joined the Non-fungible Alliance as an honorary member."
+    twitter: "https://twitter.com/awaldstein"
+    facebook:  
+    github: 
+    medium: 
+    logo: arnold.png
+
+-   name: "NeonDistrict"
+    status: won
+    website: "https://neondistrict.io"
+    description: "Neon District is a cyberpunk RPG with player owned game assets. Neon District represents the next wave of cryptogames where blockchain and traditional game play are seamlessly merged into an intuitive, immersive experience for the player. Neon District is a multiplatform game currently being developed for desktop, iOS, and Android. "
+    twitter: "https://twitter.com/neondistrictRPG"
+    facebook:  https://www.facebook.com/neondistrictRPG
+    github: 
+    medium: 
+    logo: neon-district.png
+
+-   name: "CoinKred"
+    status: won
+    website: "https://www.coin.kred"
+    description: "Kred Coin is a new class of digital asset for sharing and connecting, powered by Blockchain and SocialOS. Together with the Kred Coins application, it is designed for giving, tracking and playing. It is based on: ERC20 Protocol CƘr unit of value - they are a precursor for storing CƘr on minted Coins Minted Ƙred Coins that use the ERC721 Protocol and are stored on either the Stellar or Ethereum distributed ledgers"
+    twitter: "https://twitter.com/Kred"
+    facebook:  https://www.facebook.com/dotKred/
+    github: 
+    medium: 
+    logo: coin-kred.svg
+
+-   name: "Crypto Baseball"
+    status: won
+    website: "https://www.mlbcryptobaseball.com"
+    description: "MLB Crypto Baseball is a blockchain-based sports game that anyone can play using their very own crypto figures!"
+    twitter: "https://twitter.com/MLBCrypto"
+    facebook:  https://www.facebook.com/MLBCrypto/
+    github: 
+    medium: 
+    logo: crypto-baseball.png
+
+-   name: "Crypto Space Commander"
+    status: won
+    website: "http://www.csc-game.com"
+    description: "Crypto Space Commander (CSC) is a sandbox space MMO that operates in a completely real-time, player-controlled economy. Players can travel to different star systems, mine stellar bodies for resources, craft items and ships to sell, battle pirates and other players while commanding their very own starship! CSC is the first blockchain-based space exploration game built in Unity3D. CSC utilizes the Ethereum blockchain to secure game assets, enforce P2P contract actions, and run the game economy."
+    twitter: "https://twitter.com/CS_Commander"
+    facebook:  https://www.facebook.com/CSCommander/
+    github: 
+    medium: 
+    logo: crypto-space-commander.png
+
+-   name: "Lucid Sight"
+    status: won
+    website: "https://www.lucidsight.com"
+    description: "Lucid Sight is a game developer based out of Los Angeles California that focuses on frontier gaming and its supporting technologies. They work with major brands to create True Digital Ownership of items in games secured by the Ethereum Blockchain."
+    twitter: "https://twitter.com/LucidsightInc"
+    facebook:  https://www.facebook.com/LucidSightGames/
+    github: 
+    medium: 
+    logo: lucid-sight.png
+
+-   name: "CANDY"
+    status: won
+    website: "http://candy.cat"
+    description: "The world loves CANDY."
+    twitter: "https://twitter.com/realcandycat"
+    facebook:  https://www.facebook.com/realcandycat/
+    github: 
+    medium: 
+    logo: candycat.png
+
+-   name: "Dataharvest"
+    status: won
+    website: "http://dataharvest.co"
+    description: "Blockchain for the food supply chain realized. A collaborative project designed to create an immutable record of actions from point or origin to the consumer and back"
+    twitter: "https://twitter.com/dataharvest"
+    facebook:  https://www.facebook.com/DataHarvest.co/
+    github: 
+    medium: 
+    logo: data-harvest.png
+
+-   name: "The Creative Crypto magazine"
+    status: won
+    website: "https://thecreativecrypto.com"
+    description: "The Creative Crypto is the first magazine powered by blockchain technology, dedicated to all things creative within the cryptocurrency world."
+    twitter: "https://twitter.com/creative_crypto"
+    facebook:  https://www.facebook.com/creativecrypto/
+    github: 
+    medium: 
+    logo: the_creative_crypto.png
+
+-   name: "Squared Capital"
+    status: won
+    website: "http://www.isquaredcapital.com"
+    description: "I Squared Capital is an independent global infrastructure investment manager focusing on energy, utilities, telecom and transport in the Americas, Europe and Asia."
+    twitter: "https://twitter.com/ISquaredCapital"
+    facebook:  
+    github: 
+    medium: 
+    logo: squared_capital.png
+
+-   name: "InCrypto"
+    status: won
+    website: "https://incrypto.io"
+    description: "Blockchain Software Development. We are focused on complex systems development using blockchain technology."
+    twitter: "https://twitter.com/InCrypto_"
+    facebook:  https://www.facebook.com/InCrypto1/
+    github: 
+    medium: 
+    logo: incrypto.jpg
+
+-   name: "Open University"
+    status: won
+    website: "http://www.open.ac.uk"
+    description: "Open to people, places, methods and ideas. The Open University provides high-quality university education to all."
+    twitter: "https://twitter.com/OpenUniversity"
+    facebook:  https://www.facebook.com/theopenuniversity/
+    github: 
+    medium: 
+    logo: open-blockchain.png
+
+-   name: "Theta"
+    status: won
+    website: "https://www.thetatoken.org"
+    description: "Next generation video delivery powered by you."
+    twitter: "https://twitter.com/Theta_Network"
+    facebook:  https://www.facebook.com/ThetaNetwork/
+    github: 
+    medium: 
+    logo: theta.png
+
+-   name: "Dibs"
+    status: won
+    website: "https://dibs.co"
+    description: "Dibs unlocks incremental revenue for artists so they capture the true value of their work"
+    twitter: ""
+    facebook:  
+    github: 
+    medium: 
+    logo: dibs.png
+
+-   name: "CoinDreams"
+    status: won
+    website: "https://coindreams.io"
+    description: "CoinDreams offers you the latest and best airdrops, giveaways, bounties and many more promotions made by projects based on blockchain technology."
+    twitter: "https://twitter.com/CoinDreams_io"
+    facebook:  
+    github: 
+    medium: 
+    logo: coindream.png
+
+-   name: "Ethereum Japan"
+    status: won
+    website: "https://ethereum-japan.jp"
+    description: "We provide α place and an opportunity to Ethereum-based projects in order to create meaningful moment for both the projects and the Japanese. Communicating face-to-face is the best way to learn and understand why, how and what each project does and what we get from them. Not limited to startups, developers, investors, we welcome all of those who have interest in Ethereum. We embrace all as a member of Ethereum Japan."
+    twitter: "https://twitter.com/ETH_Japan"
+    facebook:  
+    github: 
+    medium: 
+    logo: ethereum_japan.png
+	    
+-   name: "Finturi"
+    status: won
+    website: "https://www.finturi.com/"
+    description: "Finturi is a Dutch startup that brings to the market - a new way of invoice financing. Finturi connects businesses with financiers and helps businesses borrow money against invoices. It provides Financiers with a platform where they can lend money to businesses and earn honest returns in short term. Finturi uses technologies like blockchain, artificial intelligence and machine learning to make invoice financing secure, low-cost, quick and easy."
+    twitter: "https://twitter.com/Finturibv"
+    facebook:  
+    github: 
+    linkedin: "https://www.linkedin.com/company/finturi"  
+    medium: "https://medium.com/@finturi"
+    logo: finturi.png
+
+-   name: "GO!WALLET"
+    status: won
+    website: "https://www.go-wallet.app"
+    description: "GO!WALLET is a revolutionary application that you can enjoy block chain games such as My crypto Heroes, DApps app, manage Ethereum tokens, participate in ICO only with smartphones."
+    twitter: "https://twitter.com/gowallet_app_"
+    facebook:  
+    github: 
+    medium: https://medium.com/go-wallet
+    logo: go_wallet.jpg

@@ -5,31 +5,42 @@
         <div class="small-12 medium-6 large-5 cell">
           <transition 
             mode="out-in" 
-            name="layout">
+            name="layout"
+          >
             <div 
               v-if="state === 'loading'" 
-              class="mb-7">
+              class="mb-7"
+            >
               <p>Subscribing, just a moment ...</p>
             </div>
 
             <div 
               v-if="state === 'success' " 
               class="mb-7" 
-              key="confirm">
-              <h3 class="">Thank you for applying!</h3>
+              key="confirm"
+            >
+              <h3 class="">
+                Thank you for applying!
+              </h3>
               <p>We will be in touch soon.</p>
             </div>
 
             <div 
               v-if="state === 'error'" 
               class="mb-7" 
-              key="error">
+              key="error"
+            >
               <h3>Dang!</h3>
-              <p>Something went wrong. Try again later or contact us on: 
-              <a href="mailto:info@nonfungiblealliance.org">info@nonfungiblealliance.org</a></p>
+              <p>
+                Something went wrong. Try again later or contact us on: 
+                <a href="mailto:info@nonfungiblealliance.org">info@nonfungiblealliance.org</a>
+              </p>
               <nuxt-link 
                 to="/members/apply" 
-                class="button hollow white"> &larr; Try again</nuxt-link>
+                class="button hollow white"
+              >
+                &larr; Try again
+              </nuxt-link>
             </div>
           </transition>
         </div>
@@ -38,7 +49,8 @@
           <img 
             class="illustration" 
             src="/images/top-illustration.svg" 
-            alt="">
+            alt=""
+          >
         </div>
       </div>
     </div>
