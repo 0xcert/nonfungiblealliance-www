@@ -899,3 +899,13 @@
     github: 
     medium: https://medium.com/go-wallet
     logo: go_wallet.jpg
+    
+-   name: "Fabrx"
+    status: won
+    website: "https://app.fabrx.io"
+    description: "Fabrx is your bridge to building on the decentralized web. Access untapped web3 analytics for your application, issue non-fungible tokens as a rewards program, or integrate open finance into your platform today, with little or no code required."
+    twitter: "https://twitter.com/FabrxBlockchain?s=09"
+    facebook:  
+    github: 
+    slack: "https://fabrx-blockchain.slack.com"
+    logo: fabrx.png
