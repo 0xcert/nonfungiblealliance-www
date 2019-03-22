@@ -909,3 +909,24 @@
     github: 
     slack: "https://fabrx-blockchain.slack.com"
     logo: fabrx.png
+    
+-   name: "Odyssy"
+    status: won
+    website: "https://odyssy.io"
+    description: "Odyssy is a decentralized collective delivering product design and development to the blockchain and beyond."
+    twitter: "https://twitter.com/odyssyautomaton"
+    facebook:  
+    github: 
+    medium: "https://medium.com/odyssy"
+    logo: odyssy.png
+    
+-   name: "Gittron"
+    status: won
+    website: "https://gittron.me"
+    description: "Gittron uses NFTs as a gamified funding mechanism to support Open Source Software (OSS). Any Open Source repo on Github can register at Gittron.me and generate a Prime Bot NFT (ERC721) which acts as an autonomous fundraiser for the Open Source project."
+    twitter: "https://twitter.com/Gittron_"
+    facebook:  
+    github: 
+    medium: "https://medium.com/odyssy/hail-open-source-hail-gittron-ae50db8e7031"
+    logo: gittron.png
+
