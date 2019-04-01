@@ -950,7 +950,7 @@
     medium: 
     logo: stardust.png
 
--   name: "dragonereum"
+-   name: "Dragonereum"
     status: won
     website: "https://dragonereum.io"
     description: "Built on the Ethereum blockchain, Dragonereum is a cryptocollectible game with PvP battles, advanced breeding, in-game trading, rewards and achievements. You have complete control of the destiny of your dragons. Will you dominate the skies?"
@@ -960,3 +960,11 @@
     medium: "https://medium.com/@dragonereum"
     logo: dragonereum.png
 
+-   name: "Mergecommit"
+    status: won
+    website: "https://www.mergecommit.com"
+    description: "We develop, customize, launch, maintain and operate blockchain-based platforms for companies around theworld."
+    twitter: "https://twitter.com/mergecommit"
+    facebook: "https://www.facebook.com/mergecommit" 
+    linkedin: "https://www.linkedin.com/company/mergecommit"
+    logo: mergecommit.svg
