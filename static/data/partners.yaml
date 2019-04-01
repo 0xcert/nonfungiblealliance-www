@@ -930,3 +930,41 @@
     medium: "https://medium.com/odyssy/hail-open-source-hail-gittron-ae50db8e7031"
     logo: gittron.png
 
+-   name: "Pressland"
+    status: won
+    website: "https://pressland.com"
+    description: "Pressland is the first map of the global media supply chain. Our radically transparent, “farm-to-table" accountability platform will help restore public trust in the media."
+    twitter: "https://twitter.com/presslandhq"
+    facebook:  
+    github: "https://github.com/pressland"
+    linkedin: "https://www.linkedin.com/company/pressland"
+    logo: pressland.png
+
+-   name: "Stardust"
+    status: won
+    website: "https://stardust.gg/"
+    description: "The Stardust Platform is a full-featured API and marketplace allowing game developers and publishers to easily integrate blockchain into their new and existing games, providing increased revenue and a better game experience"
+    twitter: 
+    facebook:  
+    github: 
+    medium: 
+    logo: stardust.png
+
+-   name: "Dragonereum"
+    status: won
+    website: "https://dragonereum.io"
+    description: "Built on the Ethereum blockchain, Dragonereum is a cryptocollectible game with PvP battles, advanced breeding, in-game trading, rewards and achievements. You have complete control of the destiny of your dragons. Will you dominate the skies?"
+    twitter: "https://www.twitter.com/dragonereum"
+    telegram: "https://t.me/dragonereum" 
+    instagram: "https://www.instagram.com/dragonereum" 
+    medium: "https://medium.com/@dragonereum"
+    logo: dragonereum.png
+
+-   name: "Mergecommit"
+    status: won
+    website: "https://www.mergecommit.com"
+    description: "We develop, customize, launch, maintain and operate blockchain-based platforms for companies around theworld."
+    twitter: "https://twitter.com/mergecommit"
+    facebook: "https://www.facebook.com/mergecommit" 
+    linkedin: "https://www.linkedin.com/company/mergecommit"
+    logo: mergecommit.svg
