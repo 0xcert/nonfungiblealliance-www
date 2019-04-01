@@ -933,7 +933,7 @@
 -   name: "Pressland"
     status: won
     website: "https://pressland.com"
-    description: "Pressland is the first map of the global media supply chain. Our radically transparent, “farm-to-table" accountability platform will help restore public trust in the media."
+    description: 'Pressland is the first map of the global media supply chain. Our radically transparent, "farm-to-table" accountability platform will help restore public trust in the media.'
     twitter: "https://twitter.com/presslandhq"
     facebook:  
     github: "https://github.com/pressland"
