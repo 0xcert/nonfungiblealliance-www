@@ -968,3 +968,12 @@
     facebook: "https://www.facebook.com/mergecommit" 
     linkedin: "https://www.linkedin.com/company/mergecommit"
     logo: mergecommit.svg
+    
+-   name: "Hoard"
+    status: won
+    website: "http://www.hoard.exchange/"
+    description: "Hoard is about to change the future of the video gaming industry  by facilitating True Ownership of game assets on the blockchain. Hoard’s platform offers a unique value-proposition to game makers and gamers alike; enabling real-world economies in games with true-ownership of virtual items, game-interoperability and new models of financing for the development of games."
+    twitter: "https://twitter.com/@hoardexchange"
+    facebook: "https://www.facebook.com/hoardexchange" 
+    medium: "https://blog.hoard.exchange/"
+    logo: mergecommit.svg
