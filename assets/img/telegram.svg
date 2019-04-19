@@ -1,3 +1,6 @@
-<svg width="29" height="26" viewBox="0 0 30 26" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-    <path d="M11.284 23.638l.469-7.033L24.545 5.064c.561-.498-.123-.741-.868-.289l-15.788 9.96-6.819-2.129c-1.473-.451-1.483-1.463.331-2.19L27.975.166c1.213-.551 2.385.292 1.921 2.15l-4.525 21.325c-.316 1.515-1.232 1.878-2.5 1.178l-6.894-5.093-3.314 3.222c-.384.376-.69.69-1.379.69z" fill-rule="nonzero"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"
+aria-label="Telegram" role="img"
+viewBox="0 0 512 512"><rect
+width="512" height="512"
+rx="15%"
+fill="#37aee2"/><path fill="#c8daea" d="M199 404c-11 0-10-4-13-14l-32-105 245-144"/><path fill="#a9c9dd" d="M199 404c7 0 11-4 16-8l45-43-56-34"/><path fill="#f6fbfe" d="M204 319l135 99c14 9 26 4 30-14l55-258c5-22-9-32-24-25L79 245c-21 8-21 21-4 26l83 26 190-121c9-5 17-3 11 4"/></svg>

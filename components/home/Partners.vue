@@ -61,6 +61,30 @@
                 :alt="`${partner.name} on Facebook`"
               ></a>
               <a
+                v-if="partner.telegram"
+                :href="partner.telegram"
+                target="_blank"
+              ><img
+                src="/icons/telegram.svg"
+                :alt="`${partner.name} on Telegram`"
+              ></a>
+              <a
+                v-if="partner.linkedin"
+                :href="partner.linkedin"
+                target="_blank"
+              ><img
+                src="/icons/linkedin.svg"
+                :alt="`${partner.name} on LinkedIn`"
+              ></a>
+              <a
+                v-if="partner.instagram"
+                :href="partner.instagram"
+                target="_blank"
+              ><img
+                src="/icons/instagram.svg"
+                :alt="`${partner.name} on Instagram`"
+              ></a>
+              <a
                 v-if="partner.medium"
                 :href="partner.medium"
                 target="_blank"
