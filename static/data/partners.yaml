@@ -992,3 +992,11 @@
     twitter: "https://twitter.com/TercetN"
     telegram: "https://t.me/TercetN"
     logo: tercet.png
+
+-   name: "Ether Legends"
+    status: won
+    website: "https://www.etherlegends.io/"
+    description: "Ethereum based collectible trading card game focused on merging of physical trading cards one-time redemption to the Blockchain utilizing QR codes. Players have the benefit of owning digital content through ERC non-fungible crypto-collectibles. Create your own crypto-collectibles through a smart contract function called “forging” ELET or Elementeum token (ERC20) can be obtained to craft your very own unique crypto-collectibles, an Ether Legends in-game currency."
+    twitter: "https://twitter.com/etherlegends"
+    telegram: "https://t.me/etherlegends"
+    logo: etherlegends.jpeg
