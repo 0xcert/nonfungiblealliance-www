@@ -4,4 +4,4 @@ npm-debug.log
 node_modules
 dist
 yarn.lock
-static/sw.js
+sw.js
