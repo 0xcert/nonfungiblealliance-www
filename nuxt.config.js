@@ -53,7 +53,7 @@ export default {
       './assets/css/config/_variables.scss'
     ]
   },
-  transition: {
+  pageTransition: {
     name: 'layout',
     mode: 'out-in'
   },
