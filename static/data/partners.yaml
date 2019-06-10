@@ -1000,3 +1000,22 @@
     twitter: "https://twitter.com/etherlegends"
     telegram: "https://t.me/etherlegends"
     logo: elementeum.jpeg
+    
+-   name: "Fieldcoin"
+    status: won
+    website: "https://www.fieldcoin.io"
+    description: "Fieldcoin is decentralizing physical land properties and tracing digital ownership on the blockchain using non-fungible tokens. More than a cadaster 2.0, the Fieldcoin platform allow users to buy, sell or rent lands on the marketplace, crowdfund agricultural projects and manage their properties at a distance."
+    twitter: "https://twitter.com/Fieldcoin"
+    Facebook: "https://www.facebook.com/fieldcoin"
+    telegram: "https://t.me/fieldcoin"
+    linkedin: "https://www.linkedin.com/company/11339899"
+    logo: fieldcoin.jpeg
+    
+-   name: "Quillhash"
+    status: won
+    website: "https://www.quillhash.com"
+    description: "QuillHash Technologies is an Enterprise Blockchain Solutions Studio offering solutions on Private and Public Blockchain platforms, blockchain security audits, smart contracts development and decentralized exchange development. QuillAudits, Quillhash's smart contract security audits platform offers advanced Ethereum and EOS smart contract audit, blockchain protocol security and formal verification to ensure your platform’s integrity - https://audits.quillhash.com/smart-contract-audit . QuillChakra is an ecosystem built by Quillhash as a tool for developers and startups to create customised contracts, perform contracts audit, deploy contracts in live environment and also monitor contracts by creating customised alerts."
+    twitter: "https://twitter.com/QuillHash"
+    Facebook: "https://www.facebook.com/quillhash"
+    linkedin: "https://www.linkedin.com/company/quillhash"
+    logo: quillhash.png
