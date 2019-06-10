@@ -1006,16 +1006,26 @@
     website: "https://www.fieldcoin.io"
     description: "Fieldcoin is decentralizing physical land properties and tracing digital ownership on the blockchain using non-fungible tokens. More than a cadaster 2.0, the Fieldcoin platform allow users to buy, sell or rent lands on the marketplace, crowdfund agricultural projects and manage their properties at a distance."
     twitter: "https://twitter.com/Fieldcoin"
-    Facebook: "https://www.facebook.com/fieldcoin"
+    facebook: "https://www.facebook.com/fieldcoin"
     telegram: "https://t.me/fieldcoin"
     linkedin: "https://www.linkedin.com/company/11339899"
-    logo: fieldcoin.jpeg
+    logo: fieldcoin.jpg
     
 -   name: "Quillhash"
     status: won
     website: "https://www.quillhash.com"
     description: "QuillHash Technologies is an Enterprise Blockchain Solutions Studio offering solutions on Private and Public Blockchain platforms, blockchain security audits, smart contracts development and decentralized exchange development. QuillAudits, Quillhash's smart contract security audits platform offers advanced Ethereum and EOS smart contract audit, blockchain protocol security and formal verification to ensure your platform’s integrity - https://audits.quillhash.com/smart-contract-audit . QuillChakra is an ecosystem built by Quillhash as a tool for developers and startups to create customised contracts, perform contracts audit, deploy contracts in live environment and also monitor contracts by creating customised alerts."
     twitter: "https://twitter.com/QuillHash"
-    Facebook: "https://www.facebook.com/quillhash"
+    facebook: "https://www.facebook.com/quillhash"
     linkedin: "https://www.linkedin.com/company/quillhash"
     logo: quillhash.png
+    
+-   name: "Arianee"
+    status: won
+    website: "https://www.arianee.org"
+    description: "The Arianee protocol offers an augmented digital identity to every single valuable object in the world, whether they are connected or not. From personal luxury products, such as watches or handbags to musical instruments and your finest wines & spirits."
+    twitter: "https://twitter.com/ArianeeProject?lang=en"
+    telegram: "http://telegram.me/arianeeproject"
+    github: "https://github.com/Arianee"
+    instagram: "https://www.instagram.com/arianee_project/?hl=en"
+    logo: arianee.svg
