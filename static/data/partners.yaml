@@ -868,16 +868,6 @@
     github: 
     medium: 
     logo: coindream.png
-
--   name: "Ethereum Japan"
-    status: won
-    website: "https://ethereum-japan.jp"
-    description: "We provide α place and an opportunity to Ethereum-based projects in order to create meaningful moment for both the projects and the Japanese. Communicating face-to-face is the best way to learn and understand why, how and what each project does and what we get from them. Not limited to startups, developers, investors, we welcome all of those who have interest in Ethereum. We embrace all as a member of Ethereum Japan."
-    twitter: "https://twitter.com/ETH_Japan"
-    facebook:  
-    github: 
-    medium: 
-    logo: ethereum_japan.png
 	    
 -   name: "Finturi"
     status: won
