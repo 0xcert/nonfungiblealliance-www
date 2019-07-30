@@ -1031,4 +1031,21 @@
     instagram: "https://www.instagram.com/cryptoskullys"
     logo: skullys.png
     
+-   name: "NFT.NYC"
+    status: won
+    website: "https://www.nft.nyc"
+    description: "NFT.NYC is the leading annual Non-Fungible Token Event. NFT.NYC 2019 brought over 450 attendees from 15 countries to the PlayStation Theater in New York City's Times Square, where 85 speakers discussed the past, present and future of the NFT Ecosystem."
+    twitter: "https://twitter.com/NFT_NYC"
+    facebook: "https://www.facebook.com/events/279246006074437/"
+    instagram: "https://www.instagram.com/nft_nyc/"
+    linkedin: "https://www.linkedin.com/company/nft-nyc/"
+    youtube: "https://www.youtube.com/channel/UCtY7p3DPyrPSEhAJ-d9BmEA"
+    logo: nftnyc.svg
     
+-   name: "NFT.Kred"
+    status: won
+    website: "https://www.nft.kred"
+    description: "NFT.Kred is the platform for creating custom, actionable Non-Fungible Tokens with social engagement. It is used by Brands and communities to create reward and loyalty tokens that are redeemable for offers and discounts; Events to create virtual NFT Swag that drives traffic to sponsors' and partners' physical and virtual properties; and Influencers and individuals to tokenize their digital assets and share them with friends."
+    twitter: "https://twitter.com/Kred"
+    facebook: "https://www.facebook.com/dotKred/?__tn__=%2Cd%2CP-R&eid=ARCA3HA3dQ8f1FBXb7A4eEtsYwW98bHsXjBpmsD1E3lagNp4-M7SgtUfx0bzZtzqAAhI7LE8rG2mns-p"
+    logo: nftkred.svg
