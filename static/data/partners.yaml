@@ -1089,4 +1089,19 @@
     gitter: "https://gitter.im/wandevs/community"
     facebook: "https://www.facebook.com/wanchainfoundation/"
     logo: wanchain.png
+    
+-   name: "Galaxia"
+    status: won
+    website: "https://galaxia.one/"
+    description: "A blockchain collectable game focused on managing a galactic corporation and exploring the (un)known universe."
+    twitter: "https://twitter.com/GalaxiaOne"
+    medium: "https://medium.com/@galaxiaoneproject"
+    logo: galaxia.svg
+
+-   name: "ComeTogether"
+    status: won
+    website: "https://cometogether.network/"
+    description: "A social network, powered by an EOS Blockchain protocol, enabling a collaborative economy for events. It facilitates an all-in-one event marketplace, with crowdfunding and even crowd-investing, connecting individuals and businesses, to easily organise, host, provide services at, sponsor, invest in, or simply attend events. All financial transactions between those event stakeholders are handled by smart contracts, eliminating the need for trust between them. Moreover, its blockchain ticketing engine eliminates ticket fraud and scalping (only allows resales with the rules that the organiser has set)."
+    logo: cometogether.png
+
 
