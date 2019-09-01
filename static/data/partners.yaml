@@ -871,7 +871,7 @@
 	    
 -   name: "Finturi"
     status: won
-    website: "https://www.finturi.com/"
+    website: "https://www.finturi.com"
     description: "Finturi is a Dutch startup that brings to the market - a new way of invoice financing. Finturi connects businesses with financiers and helps businesses borrow money against invoices. It provides Financiers with a platform where they can lend money to businesses and earn honest returns in short term. Finturi uses technologies like blockchain, artificial intelligence and machine learning to make invoice financing secure, low-cost, quick and easy."
     twitter: "https://twitter.com/Finturibv"
     facebook:  
@@ -932,7 +932,7 @@
 
 -   name: "Stardust"
     status: won
-    website: "https://stardust.gg/"
+    website: "https://stardust.gg"
     description: "The Stardust Platform is a full-featured API and marketplace allowing game developers and publishers to easily integrate blockchain into their new and existing games, providing increased revenue and a better game experience"
     twitter: 
     facebook:  
@@ -977,7 +977,7 @@
     
 -   name: "Tercet Network"
     status: won
-    website: "https://tercet.network/"
+    website: "https://tercet.network"
     description: "Tercet Network is an incentivised ads and game monetization platform. We incentivise gamers with both TCNX and Non-fungible token for intracting with in-game ads. Creating a far superior gaming experience for gamers and higher monetization for publishers."
     twitter: "https://twitter.com/TercetN"
     telegram: "https://t.me/TercetN"
@@ -1059,7 +1059,7 @@
     
 -   name: "egamers.io"
     status: won
-    website: "https://egamers.io/"
+    website: "https://egamers.io"
     description: "egamers.io represents the new era of gaming and innovative dapps. We write about Blockchain Games that actually reward you to play and for decentralized applications that change the world day by day, code by code, token by token. Brave enabled website."
     twitter: "https://twitter.com/egamers_io"
     facebook: "https://www.facebook.com/BlockchainGames"
@@ -1079,7 +1079,7 @@
     
 -   name: "Wanchain"
     status: won
-    website: "https://www.wanchain.org/"
+    website: "https://www.wanchain.org"
     description: "Wanchain is the infrastructure connecting the decentralized financial world. Wanchain’s live cross-blockchain solution is EVM-based, includes optional private transactions, and provides a decentralized, permissionless, and secure approach for interoperability."
     twitter: "https://twitter.com/wanchain_org"
     telegram: "https://t.me/WanchainCHAT"
@@ -1092,7 +1092,7 @@
     
 -   name: "Galaxia"
     status: won
-    website: "https://galaxia.one/"
+    website: "https://galaxia.one"
     description: "A blockchain collectable game focused on managing a galactic corporation and exploring the (un)known universe."
     twitter: "https://twitter.com/GalaxiaOne"
     medium: "https://medium.com/@galaxiaoneproject"
@@ -1103,5 +1103,25 @@
     website: "https://cometogether.network/"
     description: "A social network, powered by an EOS Blockchain protocol, enabling a collaborative economy for events. It facilitates an all-in-one event marketplace, with crowdfunding and even crowd-investing, connecting individuals and businesses, to easily organise, host, provide services at, sponsor, invest in, or simply attend events. All financial transactions between those event stakeholders are handled by smart contracts, eliminating the need for trust between them. Moreover, its blockchain ticketing engine eliminates ticket fraud and scalping (only allows resales with the rules that the organiser has set)."
     logo: cometogether.png
+
+-   name: "HB Wallet"
+    status: won
+    website: "https://www.hb-wallet.com"
+    description: "HB Wallet is an all-in-one Ethereum Wallet which is now available on iOS, Android, Mac and Windows. Users can use credit cards to purchase BTC, ETH, or XRP directly on HB Wallet in a few simple steps. There is also a built-in Decentralized Exchange to trade ERC-20 tokens to ETH and vice versa. Users can chat with each other, host a community, and send NFT Assets (ERC-721), ETH, or Tokens while chatting via HB Chat. An NFT Market is always accessible on both HB Wallet Desktop and Mobile. This is where users can sell their Assets in ERC-721 format; and many more awesome features are waiting for you to try."
+    twitter: "https://twitter.com/HBWallet_Ether"
+    facebook: "https://www.facebook.com/HBWalletETH/"
+    telegram: "https://t.me/hb_wallet"
+    discord: "https://discordapp.com/invite/VKW542G"
+    reddit: "https://www.reddit.com/r/hbwallet"
+    youtube: "https://www.youtube.com/hbwallet"
+    logo: hbwallet.png
+
+-   name: "Nagemon"
+    status: won
+    website: "https://nagemon.com"
+    description: "Nagemon is an NFT marketplace that built on the Ethereum Blockchain with advanced security measures. This unique marketplace supports users to trade NFT Assets (ERC-721 Tokens) which are identified as ‘BUY MON’ and ‘SELL MON’. Users can always check their balance in ‘MY MON’, or join ‘Gacha’ games as much as they want, or check high value assets in ‘VALUED MON’. Welcome to the next level of trading in Dapps Games!"
+    twitter: "https://twitter.com/Nagemon_Dapps"
+    twitter: "https://twitter.com/NagemonJP_Dapps"
+    logo: nagemon.png
 
 
