@@ -1076,3 +1076,17 @@
     twitter: "https://twitter.com/wildcards_world"
     telegram: "https://t.me/wildcardsworld"
     logo: wildcards.png
+    
+-   name: "Wanchain"
+    status: won
+    website: "https://www.wanchain.org/"
+    description: "Wanchain is the infrastructure connecting the decentralized financial world. Wanchain’s live cross-blockchain solution is EVM-based, includes optional private transactions, and provides a decentralized, permissionless, and secure approach for interoperability."
+    twitter: "https://twitter.com/wanchain_org"
+    telegram: "https://t.me/WanchainCHAT"
+    discord: "https://discord.gg/QkYNrqN"
+    medium: "https://medium.com/wanchain-foundation"
+    reddit: "https://www.reddit.com/r/wanchain"
+    gitter: "https://gitter.im/wandevs/community"
+    facebook: "https://www.facebook.com/wanchainfoundation/"
+    logo: wanchain.png
+
