@@ -53,6 +53,14 @@
                 :alt="`${partner.name} on Twitter`"
               ></a>
               <a
+                v-if="partner.twitter2"
+                :href="partner.twitter2"
+                target="_blank"
+              ><img
+                src="/icons/twitter.svg"
+                :alt="`${partner.name} on Twitter`"
+              ></a>
+              <a
                 v-if="partner.facebook"
                 :href="partner.facebook"
                 target="_blank"
