@@ -108,6 +108,14 @@
                 src="/icons/github.svg"
                 :alt="`${partner.name} on Github`"
               ></a>
+              <a
+                v-if="partner.discord"
+                :href="partner.discord"
+                target="_blank"
+              ><img
+                src="/icons/discord.svg"
+                :alt="`${partner.name} on Discord`"
+              ></a>
             </div>
           </div>
         </div>
@@ -221,6 +229,7 @@ export default {
 
   .links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: flex-end;    
 
