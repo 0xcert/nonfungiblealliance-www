@@ -13,14 +13,14 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@nuxtjs/google-tag-manager": "^2.2.1",
+    "@nuxtjs/google-tag-manager": "^2.3.0",
     "eslint-plugin-prettier": "^3.1.1",
-    "nuxt": "^2.9.2",
+    "nuxt": "^2.10.2",
     "vue-cookie-law": "^1.10.0",
     "vue-social-sharing": "^2.4.6"
   },
   "devDependencies": {
-    "@nuxtjs/axios": "^5.6.0",
+    "@nuxtjs/axios": "^5.7.0",
     "@nuxtjs/feed": "^1.1.0",
     "@nuxtjs/style-resources": "^1.0.0",
     "@nuxtjs/workbox": "^2.6.0",
