@@ -1,0 +1,64 @@
+<svg viewBox="0 0 888 546" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-miterlimit="10">
+    <path fill="none" d="M.5 0H888v545.685H.5z"/>
+    <clipPath id="a">
+        <path d="M.5 0H888v545.685H.5z"/>
+    </clipPath>
+    <g opacity=".203" clip-path="url(#a)">
+        <clipPath id="b">
+            <path clip-rule="nonzero" d="M-99.5 83.588h842v856h-842z"/>
+        </clipPath>
+        <g clip-path="url(#b)">
+            <path d="M178.82 296.588l54.68 31.531-132.348 72.022M-18.18 269.588l54.68 31.531-132.348 72.022M81.82 84.588l54.68 31.531L4.152 188.141M-50.18 460.588L4.5 492.119l-132.348 72.022m272.668-98.553l54.68 31.531-132.348 72.022M117 287.088l-154-84m165 324l-154-84m506 158l-134-76m146-74l-104-56m206 143l-104-56M127.5 280.486L73 251.088m-9.5-6.602L9 215.088m189 61l-93 57m79-66l-95 57m80-48l-13-8" fill="none" stroke="#fff"/>
+            <ellipse cx="151.5" cy="264.088" rx="7" ry="4.5" fill="none" stroke="#fff"/>
+            <ellipse cx="210.5" cy="259.088" rx="7" ry="4.5" fill="none" stroke="#fff"/>
+            <ellipse cx="-11.5" cy="158.088" rx="7" ry="4.5" fill="none" stroke="#fff"/>
+            <clipPath id="c">
+                <path d="M496.5 457.588c-3.866 0-7-2.015-7-4.5s3.134-4.5 7-4.5 7 2.015 7 4.5-3.134 4.5-7 4.5z"/>
+            </clipPath>
+            <g clip-path="url(#c)">
+                <path fill="#f7f7f7" d="M484.5 443.588h24v19h-24z"/>
+            </g>
+            <ellipse cx="496.5" cy="453.088" rx="7" ry="4.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+            <clipPath id="d">
+                <path d="M96.5 407.588c-3.866 0-7-2.015-7-4.5s3.134-4.5 7-4.5 7 2.015 7 4.5-3.134 4.5-7 4.5z"/>
+            </clipPath>
+            <g clip-path="url(#d)">
+                <path fill="#f7f7f7" d="M84.5 393.588h24v19h-24z"/>
+            </g>
+            <ellipse cx="96.5" cy="403.088" rx="7" ry="4.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+            <clipPath id="e">
+                <path d="M37.5 389.588c-3.866 0-7-2.015-7-4.5s3.134-4.5 7-4.5 7 2.015 7 4.5-3.134 4.5-7 4.5z"/>
+            </clipPath>
+            <g clip-path="url(#e)">
+                <path fill="#f7f7f7" d="M25.5 375.588h24v19h-24z"/>
+            </g>
+            <ellipse cx="37.5" cy="385.088" rx="7" ry="4.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+            <clipPath id="f">
+                <path d="M255.5 366.588c-3.866 0-7-2.015-7-4.5s3.134-4.5 7-4.5 7 2.015 7 4.5-3.134 4.5-7 4.5z"/>
+            </clipPath>
+            <g clip-path="url(#f)">
+                <path fill="#f7f7f7" d="M243.5 352.588h24v19h-24z"/>
+            </g>
+            <ellipse cx="255.5" cy="362.088" rx="7" ry="4.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+            <clipPath id="g">
+                <path d="M140.5 466.588c-3.866 0-7-2.015-7-4.5s3.134-4.5 7-4.5 7 2.015 7 4.5-3.134 4.5-7 4.5z"/>
+            </clipPath>
+            <g clip-path="url(#g)">
+                <path fill="#f7f7f7" d="M128.5 452.588h24v19h-24z"/>
+            </g>
+            <ellipse cx="140.5" cy="462.088" rx="7" ry="4.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+            <g fill="none" stroke="#fff">
+                <ellipse cx="475.5" cy="469.088" rx="7" ry="4.5"/>
+                <path d="M472 472.088l-44 27m-223-237l-29 18m311 252l-92-50m22.5-10.5l-184-100m130.5 49.5l-104-56m19 109l-104-56m-87 190l-104-56m176.5-52.5l-52-29m496 94l-52-29m-248-3.582v-15.915l-51.854-27.503M33 388.088l-53 29m67-291l-53 29"/>
+            </g>
+            <clipPath id="h">
+                <path d="M153.5 195.588c-3.866 0-7-2.015-7-4.5s3.134-4.5 7-4.5 7 2.015 7 4.5-3.134 4.5-7 4.5z"/>
+            </clipPath>
+            <g clip-path="url(#h)">
+                <path fill="#f7f7f7" d="M141.5 181.588h24v19h-24z"/>
+            </g>
+            <ellipse cx="153.5" cy="191.088" rx="7" ry="4.5" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M149 194.088l-53 29" fill="none" stroke="#fff"/>
+        </g>
+    </g>
+</svg>
