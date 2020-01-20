@@ -1143,4 +1143,41 @@
     description: "Blockchain-based digital artist, collector and early figure in the tokenized art movement known as Crypto Art."
     twitter: "https://twitter.com/conniedigital"
     logo: Connie.png
+
+-   name: "Thiess Consulting"
+    status: won
+    website: "https://www.thiess.consulting/"
+    description: "We utilize our vast background in marketing and blockchain-technology to consult companies on building and executing impactful marketing and content strategies. We are strong advocates for decentralization and its benefits for our society."
+    twitter: "https://twitter.com/MarcelThiess"
+    linkedin: "https://www.linkedin.com/company/thiessconsulting"
+    logo: Thiess.png
+
+-   name: "Wombat Wallet"
+    status: won
+    website: "https://www.getwombat.io/"
+    description: "Wombat is free, fun and easy to use. Jump into the blockchain world and enjoy the benefits of the new internet. We take care of the rest."
+    twitter: "https://twitter.com/adoptwombat"
+    telegram: "https://t.me/getwombat"
+    logo: Wombat.png
     
+-   name: "Chain Clash"
+    status: won
+    website: "https://www.chainclash.com/"
+    description: "Chain Clash is a free-to-play collectible and battle game. You can collect and train a variety of avatar fighters and join forces with like-minded people to form crypto clans."
+    twitter: "https://twitter.com/chainclash"
+    telegram: "https://t.me/chainclash"
+    instagram: "https://www.instagram.com/chain.clash/"
+    medium: "https://medium.com/chain-clash"
+    logo: ChainClash.png
+
+-   name: "NovaToken"
+    status: won
+    website: "https://www.novatoken.io"
+    description: "NovaToken is a platform for game developers to deliver blockchain in-game items within their games, with only a simple API call. The NovaToken RESTful API Suite allows for the simple creation of NFT’s, a Digital Asset Exchange to securely buy and sell NFT's, Engaging Rewards Delivery, a Fair Tournament Gaming System and more. NovaToken is also a platform for players to receive rewards from, and share in the success of their favorite games."
+    twitter: "https://twitter.com/NovaToken"
+    medium: "https://medium.com/@NovaToken/"
+    facebook: "https://facebook.com/NovaTokenPlatform/"
+    telegram: "https://t.me/NovaBlitz/"
+    github: "https://github.com/novatokenplatform"
+    logo: NovaToken.png
+
